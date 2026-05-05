@@ -1,0 +1,302 @@
+drug_id,drug_name,target_name,gene_symbol,organism
+DB00001,Lepirudin,Prothrombin,F2,Humans
+DB00002,Cetuximab,Epidermal growth factor receptor,EGFR,Humans
+DB00002,Cetuximab,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00002,Cetuximab,Complement C1q subcomponent subunit A,C1QA,Humans
+DB00002,Cetuximab,Complement C1q subcomponent subunit B,C1QB,Humans
+DB00002,Cetuximab,Complement C1q subcomponent subunit C,C1QC,Humans
+DB00002,Cetuximab,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00002,Cetuximab,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00002,Cetuximab,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00003,Dornase alfa,Deoxyribonuclease-1,DNASE1,Humans
+DB00004,Denileukin diftitox,Interleukin-2 receptor subunit alpha,IL2RA,Humans
+DB00004,Denileukin diftitox,Interleukin-2 receptor subunit beta,IL2RB,Humans
+DB00005,Etanercept,Tumor necrosis factor,TNF,Humans
+DB00005,Etanercept,Lymphotoxin-alpha,LTA,Humans
+DB00005,Etanercept,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00005,Etanercept,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00005,Etanercept,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00005,Etanercept,Low affinity immunoglobulin gamma Fc region receptor II-c,FCGR2C,Humans
+DB00005,Etanercept,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00005,Etanercept,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00005,Etanercept,Complement component 1q (C1q),C1QC,Humans
+DB00006,Bivalirudin,Prothrombin,F2,Humans
+DB00007,Leuprolide,Gonadotropin-releasing hormone receptor,GNRHR,Humans
+DB00007,Leuprolide,Progonadoliberin-1,GNRH1,Humans
+DB00008,Peginterferon alfa-2a,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00008,Peginterferon alfa-2a,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00008,Peginterferon alfa-2a,Interferon alpha-2,IFNA2,Humans
+DB00009,Alteplase,Plasminogen,PLG,Humans
+DB00009,Alteplase,Fibrinogen alpha chain,FGA,Humans
+DB00009,Alteplase,Fibrinogen gamma chain,FGG,Humans
+DB00009,Alteplase,Plasminogen activator inhibitor 1,SERPINE1,Humans
+DB00010,Sermorelin,Growth hormone-releasing hormone receptor,GHRHR,Humans
+DB00011,Interferon alfa-n1,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00011,Interferon alfa-n1,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00012,Darbepoetin alfa,Erythropoietin receptor,EPOR,Humans
+DB00013,Urokinase,Plasminogen,PLG,Humans
+DB00013,Urokinase,Urokinase plasminogen activator surface receptor,PLAUR,Humans
+DB00013,Urokinase,Plasminogen activator inhibitor 1,SERPINE1,Humans
+DB00013,Urokinase,Plasminogen activator inhibitor 2,SERPINB2,Humans
+DB00013,Urokinase,Urokinase-type plasminogen activator,PLAU,Humans
+DB00013,Urokinase,Plasma serine protease inhibitor,SERPINA5,Humans
+DB00013,Urokinase,Low-density lipoprotein receptor-related protein 2,LRP2,Humans
+DB00013,Urokinase,Suppressor of tumorigenicity 14 protein,ST14,Humans
+DB00013,Urokinase,Nidogen-1,NID1,Humans
+DB00014,Goserelin,Lutropin-choriogonadotropic hormone receptor,LHCGR,Humans
+DB00014,Goserelin,Gonadotropin-releasing hormone receptor,GNRHR,Humans
+DB00014,Goserelin,Progonadoliberin-1,GNRH1,Humans
+DB00015,Reteplase,Plasminogen,PLG,Humans
+DB00015,Reteplase,Fibrinogen alpha chain,FGA,Humans
+DB00015,Reteplase,Plasminogen activator inhibitor 1,SERPINE1,Humans
+DB00016,Erythropoietin,Erythropoietin receptor,EPOR,Humans
+DB00017,Salmon calcitonin,Calcitonin receptor,CALCR,Humans
+DB00018,Interferon alfa-n3,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00018,Interferon alfa-n3,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00019,Pegfilgrastim,Granulocyte colony-stimulating factor receptor,CSF3R,Humans
+DB00020,Sargramostim,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha,CSF2RA,Humans
+DB00020,Sargramostim,Interleukin-3 receptor subunit alpha,IL3RA,Humans
+DB00020,Sargramostim,Cytokine receptor common subunit beta,CSF2RB,Humans
+DB00020,Sargramostim,Syndecan-2,SDC2,Humans
+DB00022,Peginterferon alfa-2b,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00022,Peginterferon alfa-2b,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00022,Peginterferon alfa-2b,Interferon alpha-2,IFNA2,Humans
+DB00023,Asparaginase Escherichia coli,L-asparagine,,Humans
+DB00024,Thyrotropin alfa,Thyrotropin receptor,TSHR,Humans
+DB00025,"Antihemophilic factor, human recombinant",Coagulation factor X,F10,Humans
+DB00025,"Antihemophilic factor, human recombinant",Coagulation factor IX,F9,Humans
+DB00025,"Antihemophilic factor, human recombinant",von Willebrand factor,VWF,Humans
+DB00025,"Antihemophilic factor, human recombinant","Phytanoyl-CoA dioxygenase, peroxisomal",PHYH,Humans
+DB00025,"Antihemophilic factor, human recombinant",Asialoglycoprotein receptor 2,ASGR2,Humans
+DB00025,"Antihemophilic factor, human recombinant",Endoplasmic reticulum chaperone BiP,HSPA5,Humans
+DB00025,"Antihemophilic factor, human recombinant",Calreticulin,CALR,Humans
+DB00025,"Antihemophilic factor, human recombinant",Calnexin,CANX,Humans
+DB00025,"Antihemophilic factor, human recombinant",Protein ERGIC-53,LMAN1,Humans
+DB00025,"Antihemophilic factor, human recombinant",Prolow-density lipoprotein receptor-related protein 1,LRP1,Humans
+DB00025,"Antihemophilic factor, human recombinant",Multiple coagulation factor deficiency protein 2,MCFD2,Humans
+DB00026,Anakinra,Interleukin-1 receptor type 1,IL1R1,Humans
+DB00027,Gramicidin D,Dihydropteroate synthase,folP,Escherichia coli (strain K12)
+DB00028,Human immunoglobulin G,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00028,Human immunoglobulin G,Putative high affinity immunoglobulin gamma Fc receptor IB,FCGR1BP,Humans
+DB00028,Human immunoglobulin G,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00028,Human immunoglobulin G,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00028,Human immunoglobulin G,Low affinity immunoglobulin gamma Fc region receptor II-c,FCGR2C,Humans
+DB00028,Human immunoglobulin G,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00028,Human immunoglobulin G,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00028,Human immunoglobulin G,Complement C3,C3,Humans
+DB00028,Human immunoglobulin G,Complement C4-A,C4A,Humans
+DB00028,Human immunoglobulin G,Complement C4-B,C4B,Humans
+DB00028,Human immunoglobulin G,Complement C5,C5,Humans
+DB00029,Anistreplase,Plasminogen,PLG,Humans
+DB00029,Anistreplase,Fibrinogen alpha chain,FGA,Humans
+DB00029,Anistreplase,Plasminogen activator inhibitor 1,SERPINE1,Humans
+DB00030,Insulin human,Insulin receptor,INSR,Humans
+DB00030,Insulin human,Insulin-like growth factor 1 receptor,IGF1R,Humans
+DB00030,Insulin human,Carboxypeptidase E,CPE,Humans
+DB00030,Insulin human,CCN family member 3,CCN3,Humans
+DB00030,Insulin human,Low-density lipoprotein receptor-related protein 2,LRP2,Humans
+DB00030,Insulin human,Insulin-like growth factor-binding protein 7,IGFBP7,Humans
+DB00031,Tenecteplase,Plasminogen,PLG,Humans
+DB00032,Menotropins,Follicle-stimulating hormone receptor,FSHR,Humans
+DB00032,Menotropins,Lutropin-choriogonadotropic hormone receptor,LHCGR,Humans
+DB00033,Interferon gamma-1b,Interferon gamma receptor 1,IFNGR1,Humans
+DB00033,Interferon gamma-1b,Interferon gamma receptor 2,IFNGR2,Humans
+DB00034,Interferon alfa-2a,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00034,Interferon alfa-2a,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00035,Desmopressin,Vasopressin V2 receptor,AVPR2,Humans
+DB00035,Desmopressin,Vasopressin V1a receptor,AVPR1A,Humans
+DB00035,Desmopressin,Vasopressin V1b receptor,AVPR1B,Humans
+DB00035,Desmopressin,Oxytocin receptor,OXTR,Humans
+DB00036,Coagulation factor VIIa Recombinant Human,Coagulation factor X,F10,Humans
+DB00036,Coagulation factor VIIa Recombinant Human,Tissue factor,F3,Humans
+DB00038,Oprelvekin,Interleukin-11 receptor subunit alpha,IL11RA,Humans
+DB00039,Palifermin,Fibroblast growth factor receptor 2,FGFR2,Humans
+DB00039,Palifermin,Fibroblast growth factor receptor 1,FGFR1,Humans
+DB00039,Palifermin,Basement membrane-specific heparan sulfate proteoglycan core protein,HSPG2,Humans
+DB00040,Glucagon,Glucagon receptor,GCGR,Humans
+DB00040,Glucagon,Glucagon-like peptide 2 receptor,GLP2R,Humans
+DB00040,Glucagon,Glucagon-like peptide 1 receptor,GLP1R,Humans
+DB00041,Aldesleukin,Interleukin-2 receptor subunit beta,IL2RB,Humans
+DB00041,Aldesleukin,Interleukin-2 receptor subunit alpha,IL2RA,Humans
+DB00041,Aldesleukin,Cytokine receptor common subunit gamma,IL2RG,Humans
+DB00041,Aldesleukin,Interleukin-2,IL2,Humans
+DB00042,Botulinum toxin type B,Vesicle-associated membrane protein 2,VAMP2,Humans
+DB00042,Botulinum toxin type B,Vesicle-associated membrane protein 1,VAMP1,Humans
+DB00042,Botulinum toxin type B,Synaptotagmin-2,SYT2,Humans
+DB00043,Omalizumab,Immunoglobulin heavy constant epsilon,IGHE,Humans
+DB00043,Omalizumab,High affinity immunoglobulin epsilon receptor subunit gamma,FCER1G,Humans
+DB00044,Lutropin alfa,Lutropin-choriogonadotropic hormone receptor,LHCGR,Humans
+DB00045,Lyme disease vaccine (recombinant OspA),Toll-like receptor 2,TLR2,Humans
+DB00046,Insulin lispro,Insulin receptor,INSR,Humans
+DB00046,Insulin lispro,Insulin-like growth factor 1 receptor,IGF1R,Humans
+DB00047,Insulin glargine,Insulin receptor,INSR,Humans
+DB00047,Insulin glargine,Insulin,INS,Humans
+DB00047,Insulin glargine,Insulin-like growth factor 1 receptor,IGF1R,Humans
+DB00048,Collagenase clostridium histolyticum,Collagen alpha-1(I) chain,COL1A1,Humans
+DB00048,Collagenase clostridium histolyticum,Collagen alpha-1(II) chain,COL2A1,Humans
+DB00048,Collagenase clostridium histolyticum,Collagen alpha-1(III) chain,COL3A1,Humans
+DB00049,Rasburicase,Uric acid,,Humans
+DB00050,Cetrorelix,Gonadotropin-releasing hormone receptor,GNRHR,Humans
+DB00051,Adalimumab,Tumor necrosis factor,TNF,Humans
+DB00052,Somatotropin,Growth hormone receptor,GHR,Humans
+DB00052,Somatotropin,Prolactin receptor,PRLR,Humans
+DB00053,Imiglucerase,Glucocerebroside,,Humans
+DB00054,Abciximab,Integrin beta-3,ITGB3,Humans
+DB00054,Abciximab,Integrin alpha-IIb,ITGA2B,Humans
+DB00054,Abciximab,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00054,Abciximab,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00054,Abciximab,Vitronectin,VTN,Humans
+DB00055,Drotrecogin alfa,Coagulation factor VIII,F8,Humans
+DB00055,Drotrecogin alfa,Coagulation factor V,F5,Humans
+DB00055,Drotrecogin alfa,Plasminogen activator inhibitor 1,SERPINE1,Humans
+DB00055,Drotrecogin alfa,Thrombomodulin,THBD,Humans
+DB00055,Drotrecogin alfa,Vitamin K-dependent protein S,PROS1,Humans
+DB00055,Drotrecogin alfa,Prothrombin,F2,Humans
+DB00055,Drotrecogin alfa,Platelet factor 4,PF4,Humans
+DB00055,Drotrecogin alfa,Plasma serine protease inhibitor,SERPINA5,Humans
+DB00055,Drotrecogin alfa,Serpin B6,SERPINB6,Humans
+DB00055,Drotrecogin alfa,Endothelial protein C receptor,PROCR,Humans
+DB00056,Gemtuzumab ozogamicin,Myeloid cell surface antigen CD33,CD33,Humans
+DB00056,Gemtuzumab ozogamicin,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00056,Gemtuzumab ozogamicin,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00056,Gemtuzumab ozogamicin,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00057,Indium In-111 satumomab pendetide,Tumor-associated glycoprotein 72 (TAG-72),,Humans
+DB00058,Alpha-1-proteinase inhibitor,Neutrophil elastase,ELANE,Humans
+DB00059,Pegaspargase,L-asparagine,,Humans
+DB00060,Interferon beta-1a,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00060,Interferon beta-1a,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00060,Interferon beta-1a,Interferon beta,IFNB1,Humans
+DB00061,Pegademase,Adenosine,,Humans
+DB00061,Pegademase,Growth factor receptor-bound protein 2,GRB2,Humans
+DB00062,Albumin human,Nitric oxide,,Humans
+DB00063,Eptifibatide,Integrin beta-3,ITGB3,Humans
+DB00063,Eptifibatide,Integrin alpha-IIb,ITGA2B,Humans
+DB00063,Eptifibatide,Voltage-dependent N-type calcium channel,CACNA1B,Humans
+DB00065,Infliximab,Tumor necrosis factor,TNF,Humans
+DB00066,Follitropin,Follicle-stimulating hormone receptor,FSHR,Humans
+DB00067,Vasopressin,Vasopressin V2 receptor,AVPR2,Humans
+DB00067,Vasopressin,Vasopressin V1a receptor,AVPR1A,Humans
+DB00067,Vasopressin,Vasopressin V1b receptor,AVPR1B,Humans
+DB00067,Vasopressin,Oxytocin receptor,OXTR,Humans
+DB00068,Interferon beta-1b,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00068,Interferon beta-1b,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00069,Interferon alfacon-1,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00069,Interferon alfacon-1,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00070,Hyaluronidase (ovine),Transforming growth factor beta-1 proprotein,TGFB1,Humans
+DB00071,Insulin pork,Insulin receptor,INSR,Humans
+DB00071,Insulin pork,Insulin-like growth factor 1 receptor,IGF1R,Humans
+DB00072,Trastuzumab,Receptor tyrosine-protein kinase erbB-2,ERBB2,Humans
+DB00073,Rituximab,B-lymphocyte antigen CD20,MS4A1,Humans
+DB00074,Basiliximab,Interleukin-2 receptor subunit alpha,IL2RA,Humans
+DB00074,Basiliximab,Interleukin-2 receptor subunit beta,IL2RB,Humans
+DB00075,Muromonab,T-cell surface glycoprotein CD3 delta chain,CD3D,Humans
+DB00075,Muromonab,T-cell surface glycoprotein CD3 epsilon chain,CD3E,Humans
+DB00075,Muromonab,T-cell surface glycoprotein CD3 gamma chain,CD3G,Humans
+DB00075,Muromonab,T-cell surface glycoprotein CD3 zeta chain,CD247,Humans
+DB00075,Muromonab,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00076,Digoxin Immune Fab (Ovine),Digoxin,,Humans
+DB00078,Ibritumomab tiuxetan,B-lymphocyte antigen CD20,MS4A1,Humans
+DB00080,Daptomycin,Cytoplasmic membrane,,Bacteria
+DB00080,Daptomycin,Dihydropteroate synthase,folP,Escherichia coli (strain K12)
+DB00081,Tositumomab,B-lymphocyte antigen CD20,MS4A1,Humans
+DB00081,Tositumomab,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00082,Pegvisomant,Growth hormone receptor,GHR,Humans
+DB00083,Botulinum toxin type A,Synaptosomal-associated protein 25,SNAP25,Humans
+DB00083,Botulinum toxin type A,Rho-related GTP-binding protein RhoB,RHOB,Humans
+DB00085,Pancrelipase,Dietary fat,,Humans
+DB00085,Pancrelipase,Dietary protein,,Humans
+DB00085,Pancrelipase,Dietary starch,,Humans
+DB00086,Streptokinase,Plasminogen,PLG,Humans
+DB00086,Streptokinase,Proteinase-activated receptor 1,F2R,Humans
+DB00087,Alemtuzumab,CAMPATH-1 antigen,CD52,Humans
+DB00087,Alemtuzumab,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00087,Alemtuzumab,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00087,Alemtuzumab,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00087,Alemtuzumab,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00087,Alemtuzumab,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00087,Alemtuzumab,Low affinity immunoglobulin gamma Fc region receptor II-c,FCGR2C,Humans
+DB00088,Alglucerase,Glucocerebroside,,Humans
+DB00089,Capromab pendetide,Glutamate carboxypeptidase 2,FOLH1,Humans
+DB00090,Laronidase,Iduronic acid,,Humans
+DB00091,Cyclosporine,Guided entry of tail-anchored proteins factor CAMLG,CAMLG,Humans
+DB00091,Cyclosporine,Calcineurin subunit B type 2,PPP3R2,Humans
+DB00091,Cyclosporine,Peptidyl-prolyl cis-trans isomerase A,PPIA,Humans
+DB00091,Cyclosporine,"Peptidyl-prolyl cis-trans isomerase F, mitochondrial",PPIF,Humans
+DB00091,Cyclosporine,Protein phosphatase 3 catalytic subunit alpha,PPP3CA,Humans
+DB00092,Alefacept,T-cell surface antigen CD2,CD2,Humans
+DB00092,Alefacept,Lymphocyte function-associated antigen 3,CD58,Humans
+DB00092,Alefacept,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00092,Alefacept,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00093,Felypressin,Vasopressin V1a receptor,AVPR1A,Humans
+DB00094,Urofollitropin,Follicle-stimulating hormone receptor,FSHR,Humans
+DB00095,Efalizumab,Integrin alpha-X,ITGAX,Humans
+DB00095,Efalizumab,Integrin alpha-L,ITGAL,Humans
+DB00097,Choriogonadotropin alfa,Follicle-stimulating hormone receptor,FSHR,Humans
+DB00097,Choriogonadotropin alfa,Lutropin-choriogonadotropic hormone receptor,LHCGR,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),Major histocompatibility complex class I-related protein 1,MR1,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),T-lymphocyte activation antigen CD86,CD86,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),Integrin alpha-L,ITGAL,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),Integrin alpha-V,ITGAV,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),Integrin beta-1,ITGB1,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),Integrin beta-3,ITGB3,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),T-cell surface glycoprotein CD1a,CD1A,Humans
+DB00098,Antithymocyte immunoglobulin (rabbit),T-cell surface glycoprotein CD4,CD4,Humans
+DB00099,Filgrastim,Granulocyte colony-stimulating factor receptor,CSF3R,Humans
+DB00100,Coagulation Factor IX (Recombinant),Coagulation factor X,F10,Humans
+DB00100,Coagulation Factor IX (Recombinant),Coagulation factor XI,F11,Humans
+DB00100,Coagulation Factor IX (Recombinant),Coagulation factor VII,F7,Humans
+DB00100,Coagulation Factor IX (Recombinant),Coagulation factor VIII,F8,Humans
+DB00100,Coagulation Factor IX (Recombinant),Prolow-density lipoprotein receptor-related protein 1,LRP1,Humans
+DB00100,Coagulation Factor IX (Recombinant),Vitamin K-dependent gamma-carboxylase,GGCX,Humans
+DB00102,Becaplermin,Platelet-derived growth factor receptor beta,PDGFRB,Humans
+DB00102,Becaplermin,Platelet-derived growth factor receptor alpha,PDGFRA,Humans
+DB00102,Becaplermin,Alpha-2-macroglobulin,A2M,Humans
+DB00103,Agalsidase beta,Globotriaosylceramide,,Humans
+DB00104,Octreotide,Somatostatin receptor,,Humans
+DB00104,Octreotide,Somatostatin receptor type 2,SSTR2,Humans
+DB00105,Interferon alfa-2b,Interferon alpha/beta receptor 2,IFNAR2,Humans
+DB00105,Interferon alfa-2b,Interferon alpha/beta receptor 1,IFNAR1,Humans
+DB00105,Interferon alfa-2b,Interferon alpha-2,IFNA2,Humans
+DB00106,Abarelix,Gonadotropin-releasing hormone receptor,GNRHR,Humans
+DB00107,Oxytocin,Oxytocin receptor,OXTR,Humans
+DB00107,Oxytocin,Vasopressin V2 receptor,AVPR2,Humans
+DB00107,Oxytocin,Vasopressin V1b receptor,AVPR1B,Humans
+DB00107,Oxytocin,Vasopressin V1a receptor,AVPR1A,Humans
+DB00108,Natalizumab,Integrin alpha-4,ITGA4,Humans
+DB00108,Natalizumab,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00108,Natalizumab,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00108,Natalizumab,Intercellular adhesion molecule 1,ICAM1,Humans
+DB00109,Enfuvirtide,Env polyprotein,gp41,Human immunodeficiency virus 1
+DB00110,Palivizumab,Fusion glycoprotein F0,F,Human respiratory syncytial virus B (strain 18537)
+DB00110,Palivizumab,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00110,Palivizumab,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00110,Palivizumab,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00110,Palivizumab,Complement C1r subcomponent,C1R,Humans
+DB00110,Palivizumab,Complement C1q subcomponent subunit A,C1QA,Humans
+DB00110,Palivizumab,Complement C1q subcomponent subunit B,C1QB,Humans
+DB00110,Palivizumab,Complement C1q subcomponent subunit C,C1QC,Humans
+DB00110,Palivizumab,Fusion glycoprotein F0,F,Human respiratory syncytial virus A (strain A2)
+DB00110,Palivizumab,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00111,Daclizumab,Interleukin-2 receptor subunit alpha,IL2RA,Humans
+DB00111,Daclizumab,Interleukin-2 receptor subunit beta,IL2RB,Humans
+DB00111,Daclizumab,Low affinity immunoglobulin gamma Fc region receptor III-B,FCGR3B,Humans
+DB00111,Daclizumab,Complement C1r subcomponent,C1R,Humans
+DB00111,Daclizumab,Complement C1q subcomponent subunit A,C1QA,Humans
+DB00111,Daclizumab,Complement C1q subcomponent subunit B,C1QB,Humans
+DB00111,Daclizumab,Complement C1q subcomponent subunit C,C1QC,Humans
+DB00111,Daclizumab,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00111,Daclizumab,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00111,Daclizumab,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00111,Daclizumab,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00111,Daclizumab,Low affinity immunoglobulin gamma Fc region receptor II-c,FCGR2C,Humans
+DB00112,Bevacizumab,"Vascular endothelial growth factor A, long form",VEGFA,Humans
+DB00112,Bevacizumab,Complement C1q subcomponent subunit A,C1QA,Humans
+DB00112,Bevacizumab,Complement C1q subcomponent subunit B,C1QB,Humans
+DB00112,Bevacizumab,Complement C1q subcomponent subunit C,C1QC,Humans
+DB00112,Bevacizumab,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Humans
+DB00112,Bevacizumab,High affinity immunoglobulin gamma Fc receptor I,FCGR1A,Humans
+DB00112,Bevacizumab,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Humans
+DB00112,Bevacizumab,Low affinity immunoglobulin gamma Fc region receptor II-b,FCGR2B,Humans
+DB00112,Bevacizumab,Low affinity immunoglobulin gamma Fc region receptor II-c,FCGR2C,Humans
+DB00113,Technetium Tc-99m arcitumomab,Cell adhesion molecule CEACAM1,CEACAM1,Humans
