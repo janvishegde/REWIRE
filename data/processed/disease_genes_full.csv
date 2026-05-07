@@ -1,0 +1,136 @@
+disease,gene
+Parkinson disease,LRRK2
+Parkinson disease,SNCA
+Parkinson disease,PINK1
+Parkinson disease,PRKN
+Parkinson disease,ATP13A2
+Parkinson disease,DNAJC6
+Parkinson disease,PARK7
+Parkinson disease,FBXO7
+Parkinson disease,VPS35
+Parkinson disease,VPS13C
+Parkinson disease,PLA2G6
+Parkinson disease,GBA1
+Parkinson disease,MAPT
+Parkinson disease,GRIN1
+Parkinson disease,CHRM1
+Alzheimer disease,APP
+Alzheimer disease,PSEN1
+Alzheimer disease,PSEN2
+Alzheimer disease,APOE
+Alzheimer disease,GRIN1
+Alzheimer disease,SORL1
+Alzheimer disease,ADAM10
+Alzheimer disease,CDK5
+Alzheimer disease,GRIN3B
+Alzheimer disease,ACE
+Alzheimer disease,ACHE
+Alzheimer disease,GRIN2B
+Alzheimer disease,BCHE
+Alzheimer disease,GRIN2A
+Alzheimer disease,GRIN2D
+Breast cancer,BRCA2
+Breast cancer,BRCA1
+Breast cancer,PIK3CA
+Breast cancer,PALB2
+Breast cancer,CHEK2
+Breast cancer,TP53
+Breast cancer,ESR1
+Breast cancer,ATM
+Breast cancer,AKT1
+Breast cancer,ERBB2
+Breast cancer,RAD51C
+Breast cancer,BRIP1
+Breast cancer,CDH1
+Breast cancer,PTEN
+Breast cancer,RAD51D
+Lung cancer,EGFR
+Lung cancer,KRAS
+Lung cancer,ERBB2
+Lung cancer,ALK
+Lung cancer,ROS1
+Lung cancer,MET
+Lung cancer,TP53
+Lung cancer,BRAF
+Lung cancer,RB1
+Lung cancer,DICER1
+Lung cancer,PIK3CA
+Lung cancer,RET
+Lung cancer,ERBB4
+Lung cancer,EML4
+Lung cancer,CDKN2A
+Type 2 diabetes mellitus,KCNJ11
+Type 2 diabetes mellitus,ABCC8
+Type 2 diabetes mellitus,GCK
+Type 2 diabetes mellitus,PPARG
+Type 2 diabetes mellitus,INSR
+Type 2 diabetes mellitus,HNF1B
+Type 2 diabetes mellitus,HNF1A
+Type 2 diabetes mellitus,HNF4A
+Type 2 diabetes mellitus,WFS1
+Type 2 diabetes mellitus,GLP1R
+Type 2 diabetes mellitus,SLC2A2
+Type 2 diabetes mellitus,AKT2
+Type 2 diabetes mellitus,GPD2
+Type 2 diabetes mellitus,SLC30A8
+Type 2 diabetes mellitus,TCF7L2
+Asthma,IL4R
+Asthma,FLG
+Asthma,ADORA1
+Asthma,IL33
+Asthma,TSLP
+Asthma,PDE4D
+Asthma,IL13
+Asthma,IL5
+Asthma,ADRB2
+Asthma,CHRM2
+Asthma,NR3C1
+Asthma,IGHE
+Asthma,CYSLTR1
+Asthma,PDE4A
+Asthma,IL1RL1
+Schizophrenia,DRD2
+Schizophrenia,SHANK3
+Schizophrenia,RTN4R
+Schizophrenia,DRD3
+Schizophrenia,MTHFR
+Schizophrenia,HTR2A
+Schizophrenia,HTR1A
+Schizophrenia,DRD4
+Schizophrenia,HTR1B
+Schizophrenia,GRIN2A
+Schizophrenia,HTR2C
+Schizophrenia,HTR4
+Schizophrenia,HTR6
+Schizophrenia,GRM3
+Schizophrenia,HTR5A
+Glioblastoma,MSH2
+Glioblastoma,BRAF
+Glioblastoma,ATM
+Glioblastoma,C11orf65
+Glioblastoma,DNMT3A
+Glioblastoma,SOX2
+Glioblastoma,MAPK1
+Glioblastoma,MDM2
+Glioblastoma,STAG1
+Glioblastoma,MET
+Glioblastoma,DNM2
+Glioblastoma,CCND1
+Glioblastoma,CDK6
+Glioblastoma,RAC1
+Glioblastoma,SOX3
+Melanoma,BRCA2
+Melanoma,MSH2
+Melanoma,BRCA1
+Melanoma,TP53
+Melanoma,RET
+Melanoma,MSH6
+Melanoma,RB1
+Melanoma,KRAS
+Melanoma,EGFR
+Melanoma,MET
+Melanoma,PIK3CA
+Melanoma,ERBB2
+Melanoma,BRAF
+Melanoma,MLH1
+Melanoma,ATM
