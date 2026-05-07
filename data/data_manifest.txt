@@ -1,0 +1,116 @@
+REWIRE — Data Manifest
+==========================================
+
+1. ppi_genes.csv
+------------------------------------------
+Purpose:
+STRING protein-protein interaction network mapped to gene symbols.
+
+Columns:
+- gene1
+- gene2
+- weight
+
+Source:
+STRING database (human PPI)
+
+Approx size:
+~236k edges
+~16k nodes
+
+
+2. disease_genes.csv
+------------------------------------------
+Purpose:
+Disease-associated genes from OpenTargets.
+
+Columns:
+- disease
+- gene
+
+Diseases included:
+- Parkinson disease
+- Alzheimer disease
+- Breast cancer
+- Asthma
+- Type 2 diabetes mellitus
+
+
+3. drug_targets_small_molecule.csv
+------------------------------------------
+Purpose:
+DrugBank small-molecule drug targets.
+
+IMPORTANT:
+Biologics removed.
+Only intracellularly meaningful small molecules retained.
+
+Columns:
+- drug_name
+- gene_symbol
+
+Validation:
+96.3% overlap with STRING PPI graph.
+
+
+4. drug_50.csv
+------------------------------------------
+Purpose:
+Curated benchmark set of 50 biologically meaningful small molecules for RSV generation.
+
+Columns:
+- drug_name
+- target_gene
+
+
+5. drug_50_validated.csv
+------------------------------------------
+Purpose:
+Subset of drug_50.csv whose targets are confirmed to exist in STRING PPI graph.
+
+Columns:
+- drug_name
+- target_gene
+
+Used for:
+- RSV computation
+- graph perturbation
+- disease ranking
+
+
+6. ranked_candidates.csv
+------------------------------------------
+Purpose:
+Initial overlap-based drug ranking baseline.
+
+Columns:
+- disease
+- drug_name
+- score
+
+
+7. drug_disease_network_hits.csv
+------------------------------------------
+Purpose:
+Drug-disease overlaps through PPI neighbors.
+
+Columns:
+- drug_name
+- gene_symbol
+- disease
+- gene
+
+
+==========================================
+PIPELINE STATUS
+==========================================
+
+✔ DrugBank parsing complete
+✔ Small molecule filtering complete
+✔ STRING mapping complete
+✔ OpenTargets integration complete
+✔ PPI overlap validation complete
+✔ Curated drug benchmark complete
+
+Current focus:
+RSV computation + graph rewiring engine
