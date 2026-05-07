@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REWIRE — 12-Week Project Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#f8f7f5;color:#1a1a18;padding:2rem 1rem;line-height:1.5}
+.container{max-width:960px;margin:0 auto}
+.top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
+h1{font-size:22px;font-weight:600}
+.sub{font-size:13px;color:#888;margin-top:3px}
+.prog-wrap{display:flex;align-items:center;gap:10px}
+.prog-bar{width:160px;height:6px;background:#e0ddd6;border-radius:3px;overflow:hidden}
+.prog-fill{height:100%;background:#1D9E75;border-radius:3px;transition:width .4s}
+.prog-lbl{font-size:13px;color:#888}
+.people{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:1.5rem}
+.person{padding:10px;border-radius:10px;border:1px solid #e0ddd6;background:#fff;cursor:pointer;text-align:center;transition:all .15s;user-select:none}
+.person .pname{font-size:13px;font-weight:500}
+.person .prole{font-size:11px;color:#888;margin-top:2px}
+.person.p1.on{border-color:#185FA5;background:#E6F1FB}.person.p1.on .pname{color:#0C447C}
+.person.p2.on{border-color:#0F6E56;background:#E1F5EE}.person.p2.on .pname{color:#085041}
+.person.p3.on{border-color:#854F0B;background:#FAEEDA}.person.p3.on .pname{color:#633806}
+.person.p4.on{border-color:#534AB7;background:#EEEDFE}.person.p4.on .pname{color:#3C3489}
+.weeks{display:flex;flex-direction:column;gap:6px}
+.wcard{border:1px solid #e0ddd6;border-radius:12px;overflow:hidden;background:#fff}
+.wcard.current{border-color:#1D9E75;border-width:2px}
+.wheader{display:flex;align-items:center;gap:10px;padding:10px 14px;cursor:pointer;background:#f8f7f5;user-select:none}
+.wdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.wdot.done{background:#1D9E75}
+.wdot.current{background:#378ADD}
+.wdot.upcoming{background:#ccc}
+.wnum{font-size:12px;font-weight:500;color:#888;min-width:54px}
+.wtitle{font-size:13px;font-weight:500;flex:1}
+.wdate{font-size:11px;color:#aaa;text-align:right;min-width:88px}
+.mbadge{font-size:10px;padding:2px 8px;border-radius:20px;background:#faeeda;color:#854F0B;border:1px solid #EF9F27;white-space:nowrap}
+.chev{font-size:11px;color:#aaa;transition:transform .2s}
+.chev.open{transform:rotate(90deg)}
+.wbody{display:none;padding:12px 14px;border-top:1px solid #e0ddd6}
+.wbody.open{display:block}
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.tblock{padding:8px 10px;border-radius:8px;border-left:3px solid transparent}
+.tblock.p1{border-left-color:#378ADD;background:#E6F1FB}
+.tblock.p2{border-left-color:#1D9E75;background:#E1F5EE}
+.tblock.p3{border-left-color:#BA7517;background:#FAEEDA}
+.tblock.p4{border-left-color:#534AB7;background:#EEEDFE}
+.tblock.hidden{display:none}
+.tperson{font-size:11px;font-weight:600;margin-bottom:5px}
+.tblock.p1 .tperson{color:#0C447C}
+.tblock.p2 .tperson{color:#085041}
+.tblock.p3 .tperson{color:#633806}
+.tblock.p4 .tperson{color:#3C3489}
+.titems{list-style:none;display:flex;flex-direction:column;gap:4px}
+.titems li{font-size:12px;color:#555;display:flex;gap:6px;align-items:flex-start;line-height:1.4}
+.titems li::before{content:"";width:4px;height:4px;border-radius:50%;background:#bbb;flex-shrink:0;margin-top:5px}
+.cp{margin-top:8px;padding:8px 10px;border-radius:8px;background:#e1f5ee;font-size:12px;color:#085041}
+.cp strong{font-weight:600}
+.wknd{margin-top:6px;padding:8px 10px;border-radius:8px;background:#f8f7f5;border:1px solid #e0ddd6;font-size:12px;color:#555}
+.wknd strong{font-weight:600;color:#1a1a18}
+@media(max-width:600px){.tgrid{grid-template-columns:1fr}.people{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="top">
+  <div>
+    <h1>REWIRE — 12-week project tracker</h1>
+    <div class="sub">Apr 3 – Jun 22 &nbsp;·&nbsp; Team of 4 &nbsp;·&nbsp; Weekend check-ins every Sunday</div>
+  </div>
+  <div class="prog-wrap">
+    <div class="prog-bar"><div class="prog-fill" id="pf" style="width:8%"></div></div>
+    <span class="prog-lbl" id="pl">Week 1 of 12</span>
+  </div>
+</div>
+
+<div class="people">
+  <div class="person p1 on" onclick="fp(1,this)"><div class="pname">Person 1</div><div class="prole">Data + pipeline</div></div>
+  <div class="person p2 on" onclick="fp(2,this)"><div class="pname">Person 2</div><div class="prole">Graph builder</div></div>
+  <div class="person p3 on" onclick="fp(3,this)"><div class="pname">Person 3</div><div class="prole">RSV calculator</div></div>
+  <div class="person p4 on" onclick="fp(4,this)"><div class="pname">Person 4</div><div class="prole">Model + demo</div></div>
+</div>
+
+<div class="weeks" id="wg"></div>
+</div>
+
+<script>
+const W=[
+{n:1,t:"Environment setup + fake data modules",d:"Apr 3–6",s:"current",
+cp:"Integration test: simulate_binding() output feeds into compute_rsv() → 4 numbers, no crash",
+wk:"Share: GitHub repo live, all four folders seeded, fake data CSVs in Drive",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Apply DrugBank academic license — Day 1 (takes 2-3 days to approve)","Download STRING human PPI file from string-db.org, filter human proteins","Query OpenTargets API — pull 5 test diseases to verify connection","Write loader script: STRING CSV → Pandas → print node and edge count"]},
+{p:2,l:"Person 2 — Graph builder",items:["Create fake 20-node 50-edge protein CSV with made-up weights","Write ppi_graph.py: build_graph(filepath) and simulate_binding(G, targets, affinities)","Test deep copy — modifying G_drug must not change G₀","Define clean module interface so anyone can import it"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Write rsv_compute.py using two random NetworkX graphs as input","Implement: compute_betweenness_shift, compute_community_change, compute_spectral_gap, compute_entropy_delta","Combine into compute_rsv(G0, Gdrug, targets) returning list of 4 floats","Install python-louvain — test community.best_partition on small graph"]},
+{p:4,l:"Person 4 — Model + demo",items:["Set up PyTorch Geometric on Colab — do this Day 1, pip installs take time","Write gat_model.py: two-tower GAT using GATConv, input dim 4, hidden 32×4 heads, output 64","Train 5 epochs on random 4-dim dummy vectors — confirm no shape errors","Stub Streamlit app: text input box that prints placeholder ranked list"]}
+]},
+{n:2,t:"Real data plugs in",d:"Apr 7–13",s:"upcoming",
+cp:"RSV computed for Imatinib on real PPI graph — 4 non-zero numbers appear in terminal",
+wk:"Share: first real RSV vector. Confirm DrugBank XML parsed correctly.",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["DrugBank license arrives — parse XML, extract drug → target protein → Ki/Kd triples","Write disease_genes.py: query OpenTargets for 5 test diseases, save as CSV","Output three clean CSVs to shared Drive: ppi.csv, drug_targets.csv, disease_genes.csv","QC: print row counts and sample rows for each file"]},
+{p:2,l:"Person 2 — Graph builder",items:["Swap fake CSV for Person 1's real ppi.csv — confirm zero code changes needed","Verify node/edge counts match STRING's published human network stats","Run simulate_binding on Imatinib targets (ABL1, KIT, PDGFRA) — print before/after edge weights","Handle case where target protein is not in STRING graph — skip and warn"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Replace fake graphs with Person 2's real G₀ and G_drug output","Run all 4 metrics — note runtime for each, flag anything over 60 seconds","If betweenness is slow, switch to k=500 approximation immediately","Write to terminal: RSV for Imatinib = [x, x, x, x]"]},
+{p:4,l:"Person 4 — Model + demo",items:["Replace dummy vectors with real RSVs from Person 3 output","Confirm model forward pass works on 4-dim real input without errors","Write disease query skeleton: disease name → OpenTargets gene list → DRS vector","Test DRS on Parkinson's disease — produces 4-number vector"]}
+]},
+{n:3,t:"Batch RSV computation",d:"Apr 14–20",s:"upcoming",
+cp:"RSV matrix for 100 drugs computed and saved as .npy file. Load and confirm shape (100, 4).",
+wk:"Share: 100-drug RSV matrix loaded on screen. Estimate time for all 8000 drugs.",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Pull full DrugBank list — identify ~3500 drugs with quantitative Ki/Kd values","Write batch_drugs.py: loops all drugs, skips those with missing targets gracefully","Output drug_rsv_matrix.npy shape (N, 4) and drug_ids.txt for lookup","Add tqdm progress bar so team can see how far batch has run"]},
+{p:2,l:"Person 2 — Graph builder",items:["Wrap simulate_binding in multiprocessing.Pool — 8 workers","Test on 100 drugs — measure wall-clock time and extrapolate to full 8000","Confirm deep copy is safe across processes, no shared state mutation","Add checkpointing: save partial results every 500 drugs in case Colab disconnects"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Profile each metric function individually on real graph","Optimise slowest metric — likely betweenness, use Brandes k=500 sampling","Write unit tests: known perturbation → expected direction of each metric","Document: if betweenness goes up it means drug increases bottleneck effect"]},
+{p:4,l:"Person 4 — Model + demo",items:["Compute DRS for 5 test diseases — save as disease_drs.npy","Build cosine similarity baseline with no GNN: rank all 100 drugs by RSV·DRS dot product","Spot check: does the correct drug rank top-3 for at least 2 of 5 diseases?","Flag if baseline is no better than random — it should beat 0.5 easily"]}
+]},
+{n:4,t:"Full preprocessing complete",d:"Apr 21–27",s:"upcoming",
+cp:"All 7500 drugs and 50 diseases have RSV/DRS vectors. Full pipeline runs end-to-end without manual steps.",
+wk:"Share: pipeline runs in under 3 hours. Spot-check 5 RSVs and confirm they look sensible.",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Scale up to full DrugBank — run batch overnight on Colab Pro if needed","Collect 50 diseases: 10 neurological, 10 cancer, 10 metabolic, 20 others from OpenTargets","QC: flag any drugs or diseases with missing or all-zero vectors — investigate why","Write data_manifest.txt: lists every file, its shape, and what it contains"]},
+{p:2,l:"Person 2 — Graph builder",items:["Run full parallel simulation for all 7500 drugs — monitor for crashes","Log any drugs where simulation failed — store in failed_drugs.txt for investigation","Verify final drug_rsv_matrix.npy has correct number of rows","Run one final sanity check: Imatinib RSV in big matrix matches Week 2 standalone result"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Run compute_drs on all 50 disease graphs — store as disease_drs_matrix.npy","Print min, max, mean, std for each of 4 dimensions across all drugs","Flag any dimension with near-zero variance — that metric may not be discriminative","Write a one-page summary of what the RSV distribution looks like across drugs"]},
+{p:4,l:"Person 4 — Model + demo",items:["Assemble training pairs: DrugBank approved indications + RepoDB verified repurposing cases","Build train / val / test split: 70 / 10 / 20, stratified by disease category","Generate 1:5 negative samples by random drug-disease pairing","Store full training set as pairs.csv with columns: drug_id, disease_id, rsv, drs, label"]}
+]},
+{n:5,t:"GAT model — first real training run",d:"Apr 28–May 4",s:"upcoming",
+cp:"Model trains 100 epochs on real RSV/DRS pairs. Validation AUROC exceeds 0.70.",
+wk:"Share: training loss curve screenshot. Validation AUROC number. Confirm beats random (0.50).",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Write data_loader.py: PyTorch Dataset class wrapping (rsv, drs, label) triples","Confirm DataLoader batches correctly — each batch should be shape (128, 4)","Write lookup helper: DrugBank ID → drug name + original indication for results display"]},
+{p:2,l:"Person 2 — Graph builder",items:["Handle edge cases in simulate_binding: drug not in graph, drugs with zero targets","Write graph_utils.py: extract subgraph around target nodes for visualisation","Support Person 4 with any graph-to-tensor conversion issues that come up"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Run ablation study: compute cosine-sim AUROC with each metric removed one at a time","Output ablation table: full RSV, minus betweenness, minus community, minus spectral, minus entropy","This identifies which metric matters most — critical result for report Section 4.5"]},
+{p:4,l:"Person 4 — Model + demo",items:["First real training run: Adam lr=1e-3, BCE loss, 100 epochs, batch 128","Print loss and val AUROC every 10 epochs — watch for plateau or divergence","Save best model checkpoint based on val AUROC","If AUROC below 0.65 after 50 epochs — raise immediately at weekend meeting"]}
+]},
+{n:6,t:"Model tuning + results table",d:"May 5–11",s:"upcoming",
+cp:"AUROC above 0.80 on held-out test set. REWIRE beats both baselines in results table.",
+wk:"Share: completed results table — REWIRE vs chemical similarity vs DRKG. Screenshot for report.",m:"AUROC milestone",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Implement chemical fingerprint baseline: Morgan fingerprints via RDKit, Tanimoto similarity","Compute AUROC for chemical baseline on same 370-pair test set","Write result to baseline_chemical_auroc.txt — one clean number"]},
+{p:2,l:"Person 2 — Graph builder",items:["Implement DRKG embedding baseline: load pre-trained DRKG embeddings, cosine similarity","Compute AUROC for DRKG baseline on same test set","Write result to baseline_drkg_auroc.txt — one clean number for comparison table"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Run final ablation with the tuned model — confirm betweenness shift is top contributor","Compute Hits@10 and MRR alongside AUROC — all three metrics in one script","Write eval_metrics.py that outputs clean formatted results table ready for report"]},
+{p:4,l:"Person 4 — Model + demo",items:["Tune: experiment with hidden dims 32/64/128 and attention heads 2/4/8","Try label smoothing 0.1 to handle noisy negative labels","Lock best hyperparameters — save to config.yaml","Retrain final model on train+val combined — save as final_model.pt"]}
+]},
+{n:7,t:"Inference engine + web backend",d:"May 12–18",s:"upcoming",
+cp:"Type any disease name in terminal → ranked top 10 drugs with scores appear in under 10 seconds.",
+wk:"Share: live terminal demo. All 4 team members type a disease and see ranked output.",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Write disease_query.py: fuzzy-match disease name → OpenTargets gene list","Handle disease not found gracefully — return clear error message","Build lookup: DrugBank ID → human-readable drug name + original indication for output"]},
+{p:2,l:"Person 2 — Graph builder",items:["Write fast inference path: load G₀ once at startup, compute G_disease on demand","Cache: same disease queried twice returns stored DRS, no recomputation","Target: DRS computation for any disease completes in under 5 seconds"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Write inference.py: loads drug_rsv_matrix.npy, scores all drugs vs query DRS by cosine similarity","Output top-K ranked list: drug name, score, original indication","Add tag classifier: label each result VALIDATED / NOVEL / CANDIDATE based on DrugBank data"]},
+{p:4,l:"Person 4 — Model + demo",items:["Write Flask app.py with two routes: POST /query and GET /results","Connect inference.py output to Flask — disease in, JSON ranked list out","Test all 5 test diseases end-to-end through the API","Confirm every disease returns in under 10 seconds"]}
+]},
+{n:8,t:"Frontend — network visualisation",d:"May 19–25",s:"upcoming",
+cp:"Web UI renders correctly. Type disease, click run, see ranked list and animated network graph.",
+wk:"Share: 60-second screen recording of the working demo. This is the milestone moment.",m:"Demo milestone",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Write graph_export.py: exports top-50 node subgraph as JSON for Cytoscape.js","Include node metadata: protein name, centrality before and after, community ID","Keep subgraph to 50 nodes max — larger graphs slow the browser to a crawl"]},
+{p:2,l:"Person 2 — Graph builder",items:["Compute before/after centrality and community membership for any drug-disease pair","Highlight rewired nodes: flag top 10 proteins by betweenness change","Expose via Flask: GET /rewiring?drug=Imatinib&disease=Parkinsons returns JSON"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Build RSV radar chart data: normalise 4 metrics to [0,1] for browser display","Expose via GET /rsv_profile?drug=Imatinib endpoint","Test radar chart data renders without errors for 5 different drugs"]},
+{p:4,l:"Person 4 — Model + demo",items:["Build HTML/CSS frontend: disease text input, run button, ranked results panel, network canvas","Integrate Cytoscape.js: render before/after subgraph with colour-coded rewired nodes","Add RSV radar chart panel per selected drug — shows 4-metric profile","Style clean and readable — use REWIRE name and consistent colour scheme"]}
+]},
+{n:9,t:"Integration + full system test",d:"May 26–Jun 1",s:"upcoming",
+cp:"10 different diseases tested. All return valid results. No errors. UI loads on 3 browsers.",
+wk:"Share: all 4 team members run independently on their own machines. Report any bugs found.",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Run full data pipeline from scratch on a fresh Colab — confirm 100% reproducible","Document all file paths and expected output shapes in README.md","Verify all 50 diseases in the dataset return valid DRS vectors — no silent failures"]},
+{p:2,l:"Person 2 — Graph builder",items:["Stress test: run 20 simultaneous disease queries — no memory crashes or timeouts","Fix edge cases: diseases with fewer than 3 associated genes, drugs with no affinity data","Write integration_test.py: automated test of full pipeline on 5 diseases, pass/fail output"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Cross-check: Nilotinib and Imatinib must appear in top 5 for Parkinson's — published evidence exists","Run validation_table.py: 10 known repurposing pairs with their predicted rank by REWIRE","If any known pair ranks below top-20 — investigate and document in report as limitation"]},
+{p:4,l:"Person 4 — Model + demo",items:["Full UI test on Chrome, Firefox, Safari — fix any rendering differences","Add loading spinner while inference runs — UI must not appear frozen","Record 3-minute screen recording of complete demo flow for documentation"]}
+]},
+{n:10,t:"Report writing sprint",d:"Jun 2–8",s:"upcoming",
+cp:"All 5 chapters drafted. Abstract written. Results table finalised with exact numbers.",
+wk:"Share: draft report PDF. Each person reviews one chapter they did not write.",m:"Report milestone",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Write Chapter 2: Problem Analysis and Data Structure Selection","Write Section 3.1: Solution Architecture and data ingestion details","Compile all dataset statistics: exact node counts, edge counts, drug and disease coverage"]},
+{p:2,l:"Person 2 — Graph builder",items:["Write Sections 3.2 and 3.3: graph design, simulation implementation details","Write Section 4.3: edge cases and boundary condition handling","Embed methodology flowchart in report at correct position with proper caption"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Write Chapter 4: Testing, Results and Discussion — own the full results table","Write Section 2.5: time and space complexity table","Write ablation study subsection with metric contribution breakdown and interpretation"]},
+{p:4,l:"Person 4 — Model + demo",items:["Write Chapter 1: Introduction with full SDG 3 alignment and problem significance","Write Chapter 5: Applications, Conclusion, Future Scope","Write Abstract: 4 paragraphs matching RVCE template exactly — problem, methodology, results, conclusion"]}
+]},
+{n:11,t:"Polish — report and demo",d:"Jun 9–15",s:"upcoming",
+cp:"Report formatted to RVCE spec. Demo runs start-to-finish without any manual steps.",
+wk:"Share: final formatted PDF + demo link. Practice the 5-minute live demo together as a team.",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Format all figures and tables to RVCE spec: captions below figures, above tables","Compile reference list in IEEE citation order — check every [n] in text has a matching entry","Proofread Chapter 2 and all data sections for grammar and consistency"]},
+{p:2,l:"Person 2 — Graph builder",items:["Finalise README.md: installation steps, usage examples, how to run the demo","Clean all code: remove debug print statements, add docstrings to all public functions","Run full pipeline one final time — record exact runtime numbers for report Section 4.4"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Finalise results table with exact numbers from the final trained model — no estimated values","Double-check every AUROC, Hits@10, MRR number in the report matches eval_metrics.py output","Write Appendix A.2: sample input/output showing Parkinson's disease query and top 5 results"]},
+{p:4,l:"Person 4 — Model + demo",items:["Polish UI: fix rough edges, ensure consistent font and colour use throughout","Deploy Flask app so it is accessible via public URL, not just localhost","Prepare 5-minute demo script: exactly what to type, what to click, what to say"]}
+]},
+{n:12,t:"Final submission",d:"Jun 16–22",s:"upcoming",
+cp:"Report submitted. Prototype deployed and accessible. All 4 members signed declaration page.",
+wk:"DONE. Submit by June 22.",m:"Submission",
+tasks:[
+{p:1,l:"Person 1 — Data pipeline",items:["Final proofread of complete report — check all USNs, guide name, date, page numbers","Export report as PDF — open PDF and verify all figures and tables render correctly","Archive all raw data files to shared Drive with clear organised folder structure"]},
+{p:2,l:"Person 2 — Graph builder",items:["Final code freeze — tag GitHub repository v1.0","Confirm all code runs on a fresh Colab with no local file dependencies","Write final meaningful commit message summarising the complete project"]},
+{p:3,l:"Person 3 — RSV calculator",items:["Verify Appendix A.1 source code listings compile and match what is in the GitHub repo","Cross-check report page count, section numbering, and table of contents accuracy","Confirm all 4 team members have signed the declaration page"]},
+{p:4,l:"Person 4 — Model + demo",items:["Confirm demo URL is live and accessible on the day of submission","Do one final complete 5-minute run-through — time it, keep it under 5 minutes","Take screenshot of final working UI and save as evidence of working prototype"]}
+]}
+];
+
+let active=new Set([1,2,3,4]);
+
+function fp(n,el){
+  if(active.has(n)&&active.size===1)return;
+  active.has(n)?(active.delete(n),el.classList.remove('on')):(active.add(n),el.classList.add('on'));
+  document.querySelectorAll('.tblock').forEach(b=>{b.classList.toggle('hidden',!active.has(parseInt(b.dataset.p)))});
+}
+
+function tw(i){
+  const b=document.getElementById('b'+i),c=document.getElementById('c'+i);
+  const o=b.classList.contains('open');
+  b.classList.toggle('open',!o);c.classList.toggle('open',!o);
+}
+
+function build(){
+  const g=document.getElementById('wg');
+  W.forEach((w,i)=>{
+    const div=document.createElement('div');
+    div.className='wcard'+(w.s==='current'?' current':'');
+    const dc=w.s==='done'?'done':w.s==='current'?'current':'upcoming';
+    const mb=w.m?`<span class="mbadge">${w.m}</span>`:'';
+    div.innerHTML=`<div class="wheader" onclick="tw(${i})">
+      <div class="wdot ${dc}"></div>
+      <span class="wnum">Week ${w.n}</span>
+      <span class="wtitle">${w.t}</span>
+      ${mb}
+      <span class="wdate">${w.d}</span>
+      <span class="chev" id="c${i}">&#9656;</span>
+    </div>
+    <div class="wbody" id="b${i}">
+      <div class="tgrid">
+        ${w.tasks.map(t=>`<div class="tblock p${t.p}" data-p="${t.p}">
+          <div class="tperson">${t.l}</div>
+          <ul class="titems">${t.items.map(x=>`<li>${x}</li>`).join('')}</ul>
+        </div>`).join('')}
+      </div>
+      <div class="cp"><strong>Weekend checkpoint:</strong> ${w.cp}</div>
+      <div class="wknd"><strong>Meeting agenda:</strong> ${w.wk}</div>
+    </div>`;
+    g.appendChild(div);
+  });
+  tw(0);
+}
+build();
+</script>
+</body>
+</html>

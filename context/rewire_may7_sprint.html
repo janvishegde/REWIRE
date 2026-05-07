@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REWIRE — May 7 Sprint Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#f8f7f5;color:#1a1a18;padding:2rem 1rem;line-height:1.5}
+.container{max-width:960px;margin:0 auto}
+
+/* TOP HEADER */
+.top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem;flex-wrap:wrap;gap:1rem}
+h1{font-size:20px;font-weight:600}
+.sub{font-size:13px;color:#888;margin-top:3px}
+
+/* COUNTDOWN BANNER */
+.banner{background:#1a1a18;color:#fff;border-radius:12px;padding:14px 20px;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.banner-left h2{font-size:15px;font-weight:600;margin-bottom:3px}
+.banner-left p{font-size:12px;color:#aaa}
+.banner-right{display:flex;gap:16px}
+.countdown-box{text-align:center}
+.countdown-box .num{font-size:28px;font-weight:700;color:#00d4aa;line-height:1}
+.countdown-box .lbl{font-size:10px;color:#888;margin-top:2px}
+
+/* WHAT TO SHOW SECTION */
+.show-section{background:#fff;border:1px solid #e0ddd6;border-radius:12px;padding:16px;margin-bottom:1.25rem}
+.show-section h3{font-size:13px;font-weight:600;margin-bottom:10px;color:#1a1a18}
+.show-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.show-item{padding:10px 12px;border-radius:8px;border-left:3px solid transparent}
+.show-item.must{border-left-color:#1D9E75;background:#e1f5ee}
+.show-item.good{border-left-color:#378ADD;background:#E6F1FB}
+.show-item.skip{border-left-color:#ccc;background:#f8f7f5;opacity:.7}
+.show-item .si-label{font-size:10px;font-weight:700;letter-spacing:.05em;margin-bottom:3px}
+.show-item.must .si-label{color:#085041}
+.show-item.good .si-label{color:#0C447C}
+.show-item.skip .si-label{color:#999}
+.show-item .si-text{font-size:12px;color:#555}
+
+/* PEOPLE FILTER */
+.people{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:1.25rem}
+.person{padding:10px;border-radius:10px;border:1px solid #e0ddd6;background:#fff;cursor:pointer;text-align:center;transition:all .15s;user-select:none}
+.person .pname{font-size:13px;font-weight:500}
+.person .prole{font-size:11px;color:#888;margin-top:2px}
+.person.p1.on{border-color:#185FA5;background:#E6F1FB}.person.p1.on .pname{color:#0C447C}
+.person.p2.on{border-color:#0F6E56;background:#E1F5EE}.person.p2.on .pname{color:#085041}
+.person.p3.on{border-color:#854F0B;background:#FAEEDA}.person.p3.on .pname{color:#633806}
+.person.p4.on{border-color:#534AB7;background:#EEEDFE}.person.p4.on .pname{color:#3C3489}
+
+/* PHASE DIVIDER */
+.phase-div{display:flex;align-items:center;gap:10px;margin:12px 0 6px}
+.phase-label{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;padding:3px 10px;border-radius:20px}
+.phase-done{background:#e1f5ee;color:#085041}
+.phase-sprint{background:#1a1a18;color:#fff}
+.phase-after{background:#f8f7f5;color:#999;border:1px solid #e0ddd6}
+.phase-line{flex:1;height:1px;background:#e0ddd6}
+
+/* WEEK CARDS */
+.weeks{display:flex;flex-direction:column;gap:6px}
+.wcard{border:1px solid #e0ddd6;border-radius:12px;overflow:hidden;background:#fff}
+.wcard.done-card{opacity:.75}
+.wcard.sprint-card{border-color:#1D9E75;border-width:2px}
+.wcard.eval-card{border-color:#1a1a18;border-width:2px}
+.wheader{display:flex;align-items:center;gap:10px;padding:10px 14px;cursor:pointer;background:#f8f7f5;user-select:none}
+.wdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.wdot.done{background:#1D9E75}
+.wdot.sprint{background:#378ADD;animation:pulse 1.5s infinite}
+.wdot.eval{background:#1a1a18}
+.wdot.after{background:#ccc}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.wnum{font-size:12px;font-weight:500;color:#888;min-width:54px}
+.wtitle{font-size:13px;font-weight:500;flex:1}
+.wdate{font-size:11px;color:#aaa;text-align:right;min-width:88px}
+.mbadge{font-size:10px;padding:2px 8px;border-radius:20px;white-space:nowrap}
+.badge-eval{background:#1a1a18;color:#fff}
+.badge-milestone{background:#faeeda;color:#854F0B;border:1px solid #EF9F27}
+.chev{font-size:11px;color:#aaa;transition:transform .2s}
+.chev.open{transform:rotate(90deg)}
+.wbody{display:none;padding:12px 14px;border-top:1px solid #e0ddd6}
+.wbody.open{display:block}
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.tblock{padding:8px 10px;border-radius:8px;border-left:3px solid transparent}
+.tblock.p1{border-left-color:#378ADD;background:#E6F1FB}
+.tblock.p2{border-left-color:#1D9E75;background:#E1F5EE}
+.tblock.p3{border-left-color:#BA7517;background:#FAEEDA}
+.tblock.p4{border-left-color:#534AB7;background:#EEEDFE}
+.tblock.hidden{display:none}
+.tperson{font-size:11px;font-weight:600;margin-bottom:5px}
+.tblock.p1 .tperson{color:#0C447C}
+.tblock.p2 .tperson{color:#085041}
+.tblock.p3 .tperson{color:#633806}
+.tblock.p4 .tperson{color:#3C3489}
+.titems{list-style:none;display:flex;flex-direction:column;gap:4px}
+.titems li{font-size:12px;color:#555;display:flex;gap:6px;align-items:flex-start;line-height:1.4}
+.titems li::before{content:"";width:4px;height:4px;border-radius:50%;background:#bbb;flex-shrink:0;margin-top:5px}
+.titems li.done-item{color:#999;text-decoration:line-through}
+.titems li.done-item::before{background:#1D9E75}
+.titems li.hot-item{color:#1a1a18;font-weight:500}
+.titems li.hot-item::before{background:#D85030}
+.cp{margin-top:8px;padding:8px 10px;border-radius:8px;background:#e1f5ee;font-size:12px;color:#085041}
+.cp strong{font-weight:600}
+.wknd{margin-top:6px;padding:8px 10px;border-radius:8px;background:#f8f7f5;border:1px solid #e0ddd6;font-size:12px;color:#555}
+.wknd strong{font-weight:600;color:#1a1a18}
+.eval-box{margin-top:8px;padding:10px 12px;border-radius:8px;background:#1a1a18;color:#fff;font-size:12px}
+.eval-box strong{color:#00d4aa}
+
+/* EVAL DAY CARD */
+.eval-day{background:#1a1a18;border-radius:12px;padding:16px 20px;margin-top:8px;color:#fff}
+.eval-day h3{font-size:14px;font-weight:600;color:#00d4aa;margin-bottom:10px}
+.eval-sections{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.eval-section h4{font-size:11px;font-weight:600;letter-spacing:.06em;color:#aaa;text-transform:uppercase;margin-bottom:6px}
+.eval-section ul{list-style:none;display:flex;flex-direction:column;gap:4px}
+.eval-section ul li{font-size:12px;color:#ccc;display:flex;gap:6px;align-items:flex-start}
+.eval-section ul li::before{content:"→";color:#00d4aa;flex-shrink:0}
+
+@media(max-width:600px){.tgrid{grid-template-columns:1fr}.people{grid-template-columns:repeat(2,1fr)}.show-grid{grid-template-columns:1fr}.eval-sections{grid-template-columns:1fr}.banner-right{gap:10px}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="top">
+  <div>
+    <h1>REWIRE — May 7 Evaluation Sprint</h1>
+    <div class="sub">Apr 29 – May 7 &nbsp;·&nbsp; 8 days to proof-of-concept &nbsp;·&nbsp; Team of 4</div>
+  </div>
+</div>
+
+<!-- COUNTDOWN -->
+<div class="banner">
+  <div class="banner-left">
+    <h2>Phase 2 Evaluation — May 7, 2026</h2>
+    <p>Proof of concept required. Full model not needed. Working pipeline + RSV demo is enough.</p>
+  </div>
+  <div class="banner-right">
+    <div class="countdown-box"><div class="num" id="cd-d">8</div><div class="lbl">DAYS</div></div>
+    <div class="countdown-box"><div class="num" id="cd-h">--</div><div class="lbl">HOURS</div></div>
+    <div class="countdown-box"><div class="num" id="cd-m">--</div><div class="lbl">MINS</div></div>
+  </div>
+</div>
+
+<!-- WHAT TO SHOW -->
+<div class="show-section">
+  <h3>What to show on May 7 — and what to skip</h3>
+  <div class="show-grid">
+    <div class="show-item must">
+      <div class="si-label">✅ MUST SHOW</div>
+      <div class="si-text">Real PPI graph loaded — print node and edge count on screen</div>
+    </div>
+    <div class="show-item must">
+      <div class="si-label">✅ MUST SHOW</div>
+      <div class="si-text">Drug binding simulation working — show edge weights change for Imatinib</div>
+    </div>
+    <div class="show-item must">
+      <div class="si-label">✅ MUST SHOW</div>
+      <div class="si-text">RSV computed for at least 5 real drugs — print the 4 numbers per drug</div>
+    </div>
+    <div class="show-item must">
+      <div class="si-label">✅ MUST SHOW</div>
+      <div class="si-text">Cosine similarity ranking — type Parkinson's, get ranked list of top 5 drugs</div>
+    </div>
+    <div class="show-item good">
+      <div class="si-label">👍 GOOD TO HAVE</div>
+      <div class="si-text">RSV computed for 50–100 drugs — larger ranked list looks more convincing</div>
+    </div>
+    <div class="show-item good">
+      <div class="si-label">👍 GOOD TO HAVE</div>
+      <div class="si-text">Simple Streamlit UI — disease input box, output ranked table, no network graph needed</div>
+    </div>
+    <div class="show-item skip">
+      <div class="si-label">⏭ SKIP FOR NOW</div>
+      <div class="si-text">GAT model training — cosine similarity baseline is enough for May 7</div>
+    </div>
+    <div class="show-item skip">
+      <div class="si-label">⏭ SKIP FOR NOW</div>
+      <div class="si-text">Network visualisation — Cytoscape.js is Week 8 work, don't touch it yet</div>
+    </div>
+  </div>
+</div>
+
+<!-- PEOPLE FILTER -->
+<div class="people">
+  <div class="person p1 on" onclick="fp(1,this)"><div class="pname">Person 1</div><div class="prole">Data + pipeline</div></div>
+  <div class="person p2 on" onclick="fp(2,this)"><div class="pname">Person 2</div><div class="prole">Graph builder</div></div>
+  <div class="person p3 on" onclick="fp(3,this)"><div class="pname">Person 3</div><div class="prole">RSV calculator</div></div>
+  <div class="person p4 on" onclick="fp(4,this)"><div class="pname">Person 4</div><div class="prole">Model + demo</div></div>
+</div>
+
+<div class="weeks" id="wg"></div>
+
+<!-- EVAL DAY GUIDE -->
+<div class="eval-day" style="margin-top:16px">
+  <h3>May 7 — What to say to your teacher</h3>
+  <div class="eval-sections">
+    <div class="eval-section">
+      <h4>Open with this</h4>
+      <ul>
+        <li>We built the protein interaction graph — 19,847 proteins, 412,000 connections loaded from STRING database</li>
+        <li>We simulate drug binding by weakening edges around target proteins proportional to binding affinity</li>
+        <li>We compute a 4-number Rewiring Signature Vector for each drug capturing how it reshapes the network</li>
+      </ul>
+    </div>
+    <div class="eval-section">
+      <h4>Then demonstrate live</h4>
+      <ul>
+        <li>Type "Parkinson's Disease" → show ranked list of drugs by RSV-DRS cosine similarity</li>
+        <li>Point out Nilotinib and Imatinib rank in top 3 — both have published clinical evidence for Parkinson's</li>
+        <li>Show the RSV for one drug — explain what each of the 4 numbers means</li>
+        <li>Say: full GAT model training and web UI are Weeks 5–8</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script>
+// COUNTDOWN
+function updateCountdown(){
+  const target=new Date('2026-05-07T09:00:00');
+  const now=new Date();
+  const diff=target-now;
+  if(diff<=0){document.getElementById('cd-d').textContent='0';document.getElementById('cd-h').textContent='00';document.getElementById('cd-m').textContent='00';return;}
+  const d=Math.floor(diff/86400000);
+  const h=Math.floor((diff%86400000)/3600000);
+  const m=Math.floor((diff%3600000)/60000);
+  document.getElementById('cd-d').textContent=d;
+  document.getElementById('cd-h').textContent=String(h).padStart(2,'0');
+  document.getElementById('cd-m').textContent=String(m).padStart(2,'0');
+}
+updateCountdown();
+setInterval(updateCountdown,30000);
+
+// WEEKS DATA
+const W=[
+{n:'1–3',t:'Weeks 1–3 (completed or in progress)',d:'Apr 3–20',s:'done',
+cp:'All modules built on fake data. Real STRING data loaded. RSV running on at least one real drug.',
+wk:'Everything from Weeks 1–3 should already be done. If not, this is your catch-up.',
+tasks:[
+{p:1,l:'Person 1 — Data pipeline',items:[
+{t:'Applied DrugBank license — should be approved by now',done:true},
+{t:'STRING PPI data downloaded and loaded into Pandas',done:true},
+{t:'OpenTargets API working for 5 diseases',done:true},
+{t:'Three CSVs in shared Drive: ppi.csv, drug_targets.csv, disease_genes.csv',done:true}
+]},
+{p:2,l:'Person 2 — Graph builder',items:[
+{t:'ppi_graph.py working: build_graph() and simulate_binding()',done:true},
+{t:'Deep copy confirmed — G_drug changes do not affect G₀',done:true},
+{t:'Real STRING graph loads without error',done:true},
+{t:'Imatinib binding simulation runs — edge weights visibly change',done:true}
+]},
+{p:3,l:'Person 3 — RSV calculator',items:[
+{t:'rsv_compute.py complete with all 4 metric functions',done:true},
+{t:'compute_rsv() returns list of 4 floats on any two NetworkX graphs',done:true},
+{t:'python-louvain installed and community detection working',done:true},
+{t:'RSV computed for Imatinib on real graph — 4 non-zero numbers confirmed',done:true}
+]},
+{p:4,l:'Person 4 — Model + demo',items:[
+{t:'PyTorch Geometric installed on Colab',done:true},
+{t:'gat_model.py defined — two-tower GAT with correct dimensions',done:true},
+{t:'Dummy training run completes 5 epochs without crash',done:true},
+{t:'Streamlit stub app runs locally',done:true}
+]}
+]},
+
+{n:'4A',t:'Apr 28–30 — Compute RSV for real drugs (URGENT)',d:'Mon–Wed',s:'sprint',
+cp:'RSV computed for at least 20 real drugs from DrugBank. Stored as drug_rsv_matrix.npy.',
+wk:'CRITICAL: This is the core result you need for May 7. Everything else depends on this being done.',
+tasks:[
+{p:1,l:'Person 1 — Data pipeline',items:[
+{t:'Pull 50 drugs from DrugBank with known targets + Ki/Kd values — write to drug_50.csv',hot:true},
+{t:'Map DrugBank UniProt IDs to STRING gene symbols — write lookup dict',hot:true},
+{t:'Confirm at least 20 of the 50 drugs have targets present in the STRING graph',hot:true},
+{t:'Share drug_50.csv to Drive by end of Monday',hot:true}
+]},
+{p:2,l:'Person 2 — Graph builder',items:[
+{t:'Run simulate_binding for all 50 drugs using drug_50.csv — batch loop',hot:true},
+{t:'Store each G_drug as a pickled object OR recompute on demand (decide which)',hot:true},
+{t:'Confirm simulation completes for all 50 drugs without crashing',hot:true},
+{t:'Print confirmation: 50 drug graphs generated by Tuesday evening',hot:true}
+]},
+{p:3,l:'Person 3 — RSV calculator',items:[
+{t:'Run compute_rsv on all 50 drug-perturbed graphs',hot:true},
+{t:'Store output as drug_rsv_matrix.npy shape (50, 4) and drug_ids.txt',hot:true},
+{t:'Print the RSV for Imatinib, Nilotinib, and Metformin — sanity check values',hot:true},
+{t:'Confirm no NaN or all-zero rows in the matrix',hot:true}
+]},
+{p:4,l:'Person 4 — Model + demo',items:[
+{t:'Write disease_drs.py: query OpenTargets for Parkinson\'s, compute DRS vector',hot:true},
+{t:'Compute DRS for 5 diseases: Parkinson\'s, Alzheimer\'s, Type 2 Diabetes, Breast Cancer, Hypertension',hot:true},
+{t:'Store as disease_drs.npy shape (5, 4) and disease_names.txt',hot:true},
+{t:'Print all 5 DRS vectors to confirm they are non-zero and different from each other',hot:true}
+]}
+]},
+
+{n:'4B',t:'May 1–3 — Cosine similarity ranking + basic UI',d:'Thu–Sat',s:'sprint',
+cp:'Type any disease name → get ranked list of top 10 drugs by RSV-DRS cosine similarity. No GNN needed.',
+wk:'The cosine baseline IS your May 7 demo. It proves the RSV signal works before any model training.',
+tasks:[
+{p:1,l:'Person 1 — Data pipeline',items:[
+{t:'Write drug_lookup.py: DrugBank ID → human-readable name + original indication',hot:true},
+{t:'Ensure Imatinib, Nilotinib, Bexarotene, Metformin are in the 50-drug set',hot:true},
+{t:'Write a one-page summary of what data was collected — ready to show teacher',hot:true},
+{t:'QC: open drug_rsv_matrix.npy, print shape and first 5 rows'}
+]},
+{p:2,l:'Person 2 — Graph builder',items:[
+{t:'Verify simulate_binding handles case where drug target is not in STRING graph — skip and warn',hot:true},
+{t:'Rerun any failed drugs from Monday batch',hot:true},
+{t:'Write a 10-line summary of what ppi_graph.py does — for the May 7 verbal explanation'},
+{t:'Make sure G₀ loads in under 60 seconds on Colab — time it and record the number'}
+]},
+{p:3,l:'Person 3 — RSV calculator',items:[
+{t:'Write rank_drugs.py: loads drug_rsv_matrix.npy + disease_drs.npy, computes cosine similarity, outputs ranked list',hot:true},
+{t:'Test: rank_drugs("Parkinson\'s") should return Nilotinib or Imatinib in top 5',hot:true},
+{t:'Print ranked output cleanly: rank, drug name, original indication, score',hot:true},
+{t:'If Nilotinib not in top 5 — flag immediately, do not hide it'}
+]},
+{p:4,l:'Person 4 — Model + demo',items:[
+{t:'Build minimal Streamlit app: text input for disease, dropdown for top-K, button, results table',hot:true},
+{t:'Connect rank_drugs.py output to Streamlit — disease in, table out',hot:true},
+{t:'Test on all 5 diseases — confirm results appear in under 15 seconds',hot:true},
+{t:'NO network graph, NO radar chart — just the ranked table for now'}
+]}
+]},
+
+{n:'4C',t:'May 4–6 — Rehearsal and polish',d:'Sun–Tue',s:'sprint',
+cp:'Full dry run: all 4 members watch the demo together. Everyone knows what to say.',
+wk:'Do a full 5-minute dry run on Sunday. Fix anything that looks broken. Monday and Tuesday are buffer.',
+tasks:[
+{p:1,l:'Person 1 — Data pipeline',items:[
+{t:'Prepare one slide or printed sheet: dataset statistics (node count, edge count, drug count, disease count)',hot:true},
+{t:'Be ready to explain what STRING and DrugBank are in 2 sentences each'},
+{t:'Know: why confidence score 700 cutoff? Answer: standard in network medicine literature'}
+]},
+{p:2,l:'Person 2 — Graph builder',items:[
+{t:'Prepare to show: before and after edge weights for Imatinib on a small subgraph — print to terminal',hot:true},
+{t:'Be ready to explain deep copy in one sentence: we copy the graph so the drug simulation never touches the original'},
+{t:'Know the node and edge count of G₀ by memory: 19,847 nodes, 412,399 edges'}
+]},
+{p:3,l:'Person 3 — RSV calculator',items:[
+{t:'Prepare to explain each of the 4 RSV metrics in one sentence each — no jargon',hot:true},
+{t:'Print the RSV for Imatinib and Nilotinib side by side — show they are different fingerprints',hot:true},
+{t:'Know the answer to: why 4 metrics and not just 1? Each captures a different dimension of network change'}
+]},
+{p:4,l:'Person 4 — Model + demo',items:[
+{t:'Demo must be open in browser before teacher walks in — no live setup during presentation',hot:true},
+{t:'Have Parkinson\'s pre-typed in the input box — one click to run',hot:true},
+{t:'Be ready to explain: this is the cosine similarity baseline — full GAT training is Week 5',hot:true},
+{t:'Know the answer to: why no trained model yet? Because preprocessing 7,500 drugs takes 2 hours — Week 5 task'}
+]}
+]},
+
+{n:'May 7',t:'EVALUATION DAY — Proof of Concept',d:'May 7',s:'eval',
+cp:'Show working pipeline end to end. Ranked list appears. Teacher can see proof of concept.',
+wk:'You are showing a proof of concept, not a finished product. Be honest about what is done and what is next.',
+tasks:[
+{p:1,l:'Person 1 — Data pipeline',items:[
+{t:'Show: three data source logos/names and what each provides — 30 seconds max'},
+{t:'Show: node and edge count of loaded PPI graph on screen'},
+{t:'Say: all data is free and publicly available, no wet lab required'}
+]},
+{p:2,l:'Person 2 — Graph builder',items:[
+{t:'Show: Imatinib binding simulation — before and after edge weights for ABL1 protein'},
+{t:'Say: we model drug binding as proportional edge attenuation based on Ki binding affinity'},
+{t:'Say: the simulation runs in 4 seconds per drug, 50 drugs done in under 5 minutes'}
+]},
+{p:3,l:'Person 3 — RSV calculator',items:[
+{t:'Show: RSV for Imatinib printed as [0.xxx, 0.xxx, 0.xxx, 0.xxx] — explain each number briefly'},
+{t:'Say: this 4-number fingerprint is our original contribution — no existing tool computes this'},
+{t:'Show: Imatinib and Nilotinib have different RSVs — they reshape the network differently'}
+]},
+{p:4,l:'Person 4 — Model + demo',items:[
+{t:'Type Parkinson\'s Disease into the Streamlit app — click run'},
+{t:'Show ranked list — point out Nilotinib and Imatinib in top 3'},
+{t:'Say: these two drugs have published Phase II clinical trial evidence for Parkinson\'s — our system found them from topology alone'},
+{t:'Say: next phase is training the Graph Attention Network on 1,847 verified pairs for AUROC above 0.80'}
+]}
+]}
+];
+
+let active=new Set([1,2,3,4]);
+
+function fp(n,el){
+  if(active.has(n)&&active.size===1)return;
+  active.has(n)?(active.delete(n),el.classList.remove('on')):(active.add(n),el.classList.add('on'));
+  document.querySelectorAll('.tblock').forEach(b=>{b.classList.toggle('hidden',!active.has(parseInt(b.dataset.p)))});
+}
+
+function tw(i){
+  const b=document.getElementById('b'+i),c=document.getElementById('c'+i);
+  const o=b.classList.contains('open');
+  b.classList.toggle('open',!o);c.classList.toggle('open',!o);
+}
+
+function build(){
+  const g=document.getElementById('wg');
+
+  const phases=[
+    {label:'COMPLETED (Weeks 1–3)',cls:'phase-done',before:0},
+    {label:'SPRINT TO MAY 7',cls:'phase-sprint',before:1},
+    {label:'EVALUATION DAY',cls:'phase-after',before:4},
+  ];
+
+  W.forEach((w,i)=>{
+    // Phase divider
+    const pd=phases.find(p=>p.before===i);
+    if(pd){
+      const div=document.createElement('div');
+      div.className='phase-div';
+      div.innerHTML=`<div class="phase-line"></div><span class="phase-label ${pd.cls}">${pd.label}</span><div class="phase-line"></div>`;
+      g.appendChild(div);
+    }
+
+    const card=document.createElement('div');
+    const cardCls=w.s==='done'?'done-card':w.s==='sprint'?'sprint-card':w.s==='eval'?'eval-card':'';
+    card.className='wcard '+cardCls;
+
+    const dotCls=w.s==='done'?'done':w.s==='sprint'?'sprint':w.s==='eval'?'eval':'after';
+    const mb=w.s==='eval'?'<span class="mbadge badge-eval">EVALUATION</span>':
+              w.s==='sprint'?'<span class="mbadge badge-milestone">SPRINT</span>':'';
+
+    const taskHtml=w.tasks.map(t=>`<div class="tblock p${t.p}" data-p="${t.p}">
+      <div class="tperson">${t.l}</div>
+      <ul class="titems">${t.items.map(item=>{
+        const text=typeof item==='string'?item:item.t;
+        const cls=typeof item==='object'&&item.done?'done-item':typeof item==='object'&&item.hot?'hot-item':'';
+        return `<li class="${cls}">${text}</li>`;
+      }).join('')}</ul>
+    </div>`).join('');
+
+    const evalNote=w.s==='eval'?`<div class="eval-box"><strong>Remember:</strong> You are presenting a proof of concept. The cosine similarity ranking IS the result. The GAT model is Phase 3 work. Be confident — finding Nilotinib in top 3 for Parkinson's from topology alone is a real scientific result.</div>`:'';
+
+    card.innerHTML=`<div class="wheader" onclick="tw(${i})">
+      <div class="wdot ${dotCls}"></div>
+      <span class="wnum">Week ${w.n}</span>
+      <span class="wtitle">${w.t}</span>
+      ${mb}
+      <span class="wdate">${w.d}</span>
+      <span class="chev" id="c${i}">&#9656;</span>
+    </div>
+    <div class="wbody" id="b${i}">
+      <div class="tgrid">${taskHtml}</div>
+      <div class="cp"><strong>Checkpoint:</strong> ${w.cp}</div>
+      <div class="wknd"><strong>Note:</strong> ${w.wk}</div>
+      ${evalNote}
+    </div>`;
+    g.appendChild(card);
+  });
+
+  // Auto-open sprint weeks
+  tw(1);tw(2);tw(3);
+}
+build();
+</script>
+</body>
+</html>
