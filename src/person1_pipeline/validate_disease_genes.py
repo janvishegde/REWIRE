@@ -62,3 +62,18 @@ for disease in disease_df["disease"].unique():
         f"{len(matched_genes):>2}/{len(genes):<2} "
         f"({pct:.1f}%)"
     )
+# ==================================================
+# Save validated disease genes
+# ==================================================
+
+valid_rows = disease_df[
+    disease_df["gene"].isin(ppi_genes)
+]
+
+valid_rows.to_csv(
+    "data/processed/valid_disease_genes.csv",
+    index=False
+)
+
+print("\nSaved:")
+print("data/processed/valid_disease_genes.csv")
