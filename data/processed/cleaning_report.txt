@@ -1,0 +1,185 @@
+REWIRE — Drug Name Cleaning Report
+Generated : 2026-05-08 11:37
+Input     : data/processed/valid_drug_targets.csv
+Output    : data/processed/valid_drug_targets_clean.csv
+
+============================================================
+SUMMARY
+============================================================
+Original rows        :  15,339
+Original unique drugs:   5,580
+Removed rows         :   2,556
+Removed unique drugs :   1,067
+Clean rows           :  12,772
+Clean unique drugs   :   4,509
+Aliases renamed      :      42
+
+============================================================
+REMOVED — by reason
+============================================================
+    375  contains 4+ digit number
+    315  starts with digit
+    258  ends with chemical suffix
+     45  contains substituent prefix
+     24  contains stereo descriptor R/S/E/Z-
+     20  contains phospho-
+     10  inorganic salt descriptor
+      8  contains chemical brackets
+      7  contains CoA (coenzyme fragment)
+      3  contains myo- (inositol chemistry)
+      1  contains stereo numbering like -1(
+      1  contains ring-numbering prefix
+
+============================================================
+REMOVED DRUG NAMES (first 100)
+============================================================
+  1,2,4-Triazole
+  1,2,4-Triazole-Carboxamidine
+  1,2-Benzodiazepine
+  1,2-Dihydroxybenzene
+  1,2-diacyl-sn-glycero-3-phosphoinositol
+  1,3,2-Dioxaborolan-2-Ol
+  1,3-Propanediol
+  1,3-diphenylurea
+  1,4-Butanediol
+  1,4-Dideoxy-O2-Sulfo-Glucuronic Acid
+  1,4-Dioxane
+  1,4-Dithiothreitol
+  1,4-dithio-alpha-D-glucopyranose
+  1,6-Fructose Diphosphate (Linear Form)
+  1,8-Di-Hydroxy-4-Nitro-Anthraquinone
+  1,8-Di-Hydroxy-4-Nitro-Xanthen-9-One
+  1-(1-phenylcyclopentyl)methylamine
+  1-(2,2'-bithiophen-5-yl)methanamine
+  1-(4-thiophen-2-ylphenyl)methanamine
+  1-(biphenyl-4-ylmethyl)-1H-imidazole
+  1-Beta-Ribofuranosyl-1,3-Diazepinone
+  1-Deaza-Adenosine
+  1-Deoxy-1-Thio-Heptaethylene Glycol
+  1-Dodecanol
+  1-Ethyl-Pyrrolidine-2,5-Dione
+  1-Guanidinium-7-Aminoheptane
+  1-Hydroxy-1-Thio-Glycerol
+  1-Hydroxy-2-Amino-3-Cyclohexylpropane
+  1-Hydroxyamine-2-Isobutylmalonic Acid
+  1-Methyl-2-Oxy-5,5-Dimethyl Pyrrolidine
+  1-Methylhistidine
+  1-Methylimidazole
+  1-Testosterone
+  1-[4-(hydroxymethyl)phenyl]guanidine
+  1-benzylimidazole
+  1-biphenyl-2-ylmethanamine
+  1-deoxymannojirimycin
+  1-hydroxy-2-isopropylguanidine
+  1-naphthaleneacetic acid
+  10-Propargyl-5,8-Dideazafolic Acid
+  10-formyl-5,8,10-trideazafolic acid
+  10-hydroxycamptothecin
+  12-Bromododecanoic Acid
+  12-Hydroxydodecanoic Acid
+  12-Phenylheme
+  13-Acetylphorbol
+  13-deoxydoxorubicin
+  16,17-Androstene-3-Ol
+  16-Bromoepiandrosterone
+  17alpha-Estriol
+  18-methoxycoronaridine
+  1D-myo-inositol 1,4,5-trisphosphate
+  1alpha-Hydroxyvitamin D5
+  1h-Benoximidazole-2-Carboxylic Acid
+  2',3'-Dideoxyadenosine triphosphate
+  2',3'-Dideoxythymidine-5'-Monophosphate
+  2'-Deoxyguanosine-5'-Diphosphate
+  2'-Deoxyguanosine-5'-Triphosphate
+  2'-Deoxyuridine
+  2'-Deoxyuridine 3'-Monophosphate
+  2'-Monophosphoadenosine-5'-Diphosphate
+  2'-O-Acetyl Adenosine-5-Diphosphoribose
+  2'-cytidylic acid
+  2(S)-Amino-6-Boronohexanoic Acid
+  2,2-Dimethylbutyrate
+  2,3,-Dihydroxybenzoylserine
+  2,3,4,5,6-Pentafluorobenzyl Alcohol
+  2,3,5,6-Tetrafluoro-4-Methoxy-Benzamide
+  2,3-Difluorobenzyl Alcohol
+  2,3-Dihydroxy-Benzoic Acid
+  2,4-Diamino-5-phenyl-6-ethylpyrimidine
+  2,4-Dihydroxy-Trans Cinnamic Acid
+  2,4-thiazolidinedione
+  2,5-Anhydroglucitol-1,6-Biphosphate
+  2,5-Dimethoxy-4-ethylamphetamine
+  2,5-Dimethoxy-4-ethylthioamphetamine
+  2,5-Dimethoxyamphetamine
+  2,5-di-tert-butylhydroquinone
+  2,6-Diamino-Hexanoic Acid Amide
+  2,6-Difluorobenzenesulfonamide
+  2,6-dicarboxynaphthalene
+  2-(1H-pyrazol-3-yl)-1H-benzimidazole
+  2-(N-morpholino)ethanesulfonic acid
+  2-(Oxalyl-Amino)-Benzoic Acid
+  2-(Sec-Butyl)Thiazole
+  2-(cyclohexylamino)benzoic acid
+  2-Amino-1H-benzimidazol-5-ol
+  2-Amino-3-Oxo-4-Sulfo-Butyric Acid
+  2-Amino-6-Chloropyrazine
+  2-Amino-N,3,3-Trimethylbutanamide
+  2-Aminobenzyl alcohol
+  2-Aminoethanimidic Acid
+  2-Aminopropanedioic Acid
+  2-Aminothiazoline
+  2-Benzyl-3-Iodopropanoic Acid
+  2-Bromoacetyl Group
+  2-Carboxyethylphosphonic Acid
+  2-Chlorodideoxyadenosine
+  2-Chlorophenol
+  2-Cyclopropylmethylenepropanal
+
+============================================================
+ALIASES APPLIED
+============================================================
+  'Acetylsalicylic acid'                        → 'Aspirin'
+  'Acetylsalicylate'                            → 'Aspirin'
+  'Paracetamol'                                 → 'Acetaminophen'
+  'Adrenaline'                                  → 'Epinephrine'
+  'Noradrenaline'                               → 'Norepinephrine'
+  'Thyroxine'                                   → 'Levothyroxine'
+  'Folic acid'                                  → 'Folate'
+  'Vitamin D3'                                  → 'Cholecalciferol'
+  'Vitamin C'                                   → 'Ascorbic acid'
+  'Retinol'                                     → 'Vitamin A'
+  'Hydrocortisone'                              → 'Cortisol'
+  'Niacin'                                      → 'Nicotinic acid'
+  'Riboflavin'                                  → 'Vitamin B2'
+  'Cyanocobalamin'                              → 'Vitamin B12'
+  'Pyridoxine'                                  → 'Vitamin B6'
+  'Thiamine'                                    → 'Vitamin B1'
+  'Mecobalamin'                                 → 'Methylcobalamin'
+  'Immunoglobulin G'                            → 'IgG'
+  'Dextrose'                                    → 'Glucose'
+  'Ferrous sulfate'                             → 'Iron sulfate'
+  'L-Dopa'                                      → 'Levodopa'
+  'L-DOPA'                                      → 'Levodopa'
+  '(R)-Atenolol'                                → 'Atenolol'
+  '(S)-Atenolol'                                → 'Atenolol'
+  '(S)-Metoprolol'                              → 'Metoprolol'
+  '(R,S)-Metoprolol'                            → 'Metoprolol'
+  'dl-Propranolol'                              → 'Propranolol'
+  '(S)-Propranolol'                             → 'Propranolol'
+  '(6R)-Folinic acid'                           → 'Leucovorin'
+  '5-Fluorouracil'                              → 'Fluorouracil'
+  'all-trans retinoic acid'                     → 'Tretinoin'
+  'All-trans retinoic acid'                     → 'Tretinoin'
+  '9-cis Retinoic Acid'                         → 'Alitretinoin'
+  '13-cis Retinoic Acid'                        → 'Isotretinoin'
+  'Methylprednisolone acetate'                  → 'Methylprednisolone'
+  'Prednisolone acetate'                        → 'Prednisolone'
+  'Dexamethasone acetate'                       → 'Dexamethasone'
+  'Testosterone propionate'                     → 'Testosterone'
+  'Estradiol valerate'                          → 'Estradiol'
+  'Morphine sulfate'                            → 'Morphine'
+  'Codeine phosphate'                           → 'Codeine'
+  'Ampicillin sodium'                           → 'Ampicillin'
+  'Penicillin G'                                → 'Benzylpenicillin'
+  'Epinephrine bitartrate'                      → 'Epinephrine'
+  'Carbidopa-Levodopa'                          → 'Levodopa'
+  'Amoxicillin trihydrate'                      → 'Amoxicillin'
