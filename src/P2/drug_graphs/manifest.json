@@ -1,0 +1,502 @@
+[
+  {
+    "drug_name": "Allopurinol",
+    "pkl_file": "allopurinol.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Amlodipine",
+    "pkl_file": "amlodipine.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Anastrozole",
+    "pkl_file": "anastrozole.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Atorvastatin",
+    "pkl_file": "atorvastatin.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Axitinib",
+    "pkl_file": "axitinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Bexarotene",
+    "pkl_file": "bexarotene.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Bortezomib",
+    "pkl_file": "bortezomib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Celecoxib",
+    "pkl_file": "celecoxib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Cisplatin",
+    "pkl_file": "cisplatin.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Crizotinib",
+    "pkl_file": "crizotinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Cyclophosphamide",
+    "pkl_file": "cyclophosphamide.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Dasatinib",
+    "pkl_file": "dasatinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Diclofenac",
+    "pkl_file": "diclofenac.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Donepezil",
+    "pkl_file": "donepezil.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Erlotinib",
+    "pkl_file": "erlotinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Etoposide",
+    "pkl_file": "etoposide.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Fluoxetine",
+    "pkl_file": "fluoxetine.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Galantamine",
+    "pkl_file": "galantamine.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Gefitinib",
+    "pkl_file": "gefitinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Haloperidol",
+    "pkl_file": "haloperidol.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Ibuprofen",
+    "pkl_file": "ibuprofen.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Imatinib",
+    "pkl_file": "imatinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Lapatinib",
+    "pkl_file": "lapatinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Letrozole",
+    "pkl_file": "letrozole.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Levodopa",
+    "pkl_file": "levodopa.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Losartan",
+    "pkl_file": "losartan.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Memantine",
+    "pkl_file": "memantine.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Metformin",
+    "pkl_file": "metformin.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Methotrexate",
+    "pkl_file": "methotrexate.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Nilotinib",
+    "pkl_file": "nilotinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Olanzapine",
+    "pkl_file": "olanzapine.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Osimertinib",
+    "pkl_file": "osimertinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Paroxetine",
+    "pkl_file": "paroxetine.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Pazopanib",
+    "pkl_file": "pazopanib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Pioglitazone",
+    "pkl_file": "pioglitazone.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Ponatinib",
+    "pkl_file": "ponatinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Propranolol",
+    "pkl_file": "propranolol.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Regorafenib",
+    "pkl_file": "regorafenib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Riluzole",
+    "pkl_file": "riluzole.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Risperidone",
+    "pkl_file": "risperidone.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Rosuvastatin",
+    "pkl_file": "rosuvastatin.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Selegiline",
+    "pkl_file": "selegiline.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Sertraline",
+    "pkl_file": "sertraline.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Simvastatin",
+    "pkl_file": "simvastatin.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Sorafenib",
+    "pkl_file": "sorafenib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Sunitinib",
+    "pkl_file": "sunitinib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Tamoxifen",
+    "pkl_file": "tamoxifen.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Valsartan",
+    "pkl_file": "valsartan.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Vemurafenib",
+    "pkl_file": "vemurafenib.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  },
+  {
+    "drug_name": "Verapamil",
+    "pkl_file": "verapamil.pkl",
+    "status": "ok",
+    "n_targets": 1,
+    "n_failed_targets": 0,
+    "nodes": 16201,
+    "edges": 236930,
+    "error": null
+  }
+]

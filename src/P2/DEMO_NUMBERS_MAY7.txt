@@ -1,0 +1,11 @@
+REWIRE May-7 demo numbers (Person-2)
+
+PPI graph (G0) loaded from: src/P2/ppi_genes.csv
+Nodes: 16,201
+Edges: 236,930
+
+Verified by:
+- src/P2/ppi_graph.py build_graph() logging output
+- src/P2/verify_drug_graphs.py summary output
+
+Note: The sprint tracker text (19,847 nodes / 412,000 edges) is a placeholder and does NOT match this repo’s current filtered dataset.

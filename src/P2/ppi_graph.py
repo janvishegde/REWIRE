@@ -82,6 +82,9 @@ def _validate_deep_copy(original_graph: nx.Graph, copied_graph: nx.Graph):
         
         # Assert that the original graph's weight is unchanged
         assert original_graph[node1][node2]['weight'] == original_weight, "Deep copy failed: Original graph was modified!"
+
+        # Restore the copied graph so validation does not contaminate results.
+        copied_graph[node1][node2]['weight'] = original_weight
         logging.info("Deep copy validation successful.")
     except (IndexError, KeyError):
         logging.warning("Could not validate deep copy (graph may be too small or empty).")
