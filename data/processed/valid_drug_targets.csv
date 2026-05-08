@@ -1,94 +1,4 @@
 drug_name,gene_symbol,action
-(+)-2-(4-biphenyl)propionic acid,PTGS1,inhibitor
-(+)-Rutamarin alcohol,GAPDHS,unknown
-(1R)-menthyl hexyl phosphonate group,BCHE,inhibitor
-"(1R,2S)-2-Phenylcyclopropanaminium",PRSS1,unknown
-(1S)-menthyl hexyl phosphonate group,BCHE,inhibitor
-(2R)-2-benzyl-3-nitropropanoic acid,CPA1,unknown
-(2S)-2-(1H-indol-3-yl)hexanoic acid,SKP1,unknown
-(2S)-2-(1H-indol-3-yl)pentanoic acid,SKP1,unknown
-(2s)-Pyrrolidin-2-Ylmethylamine,DPP4,inhibitor
-(3-Chloro-4-Propoxy-Phenyl)-Acetic Acid,PTGS1,inhibitor
-(3r)-1-Acetyl-3-Methylpiperidine,PPIA,inhibitor
-(4-fluorophenyl)(pyridin-4-yl)methanone,LTA4H,inhibitor
-"(4R)-limonene 1α,2α-epoxide",LCN9,unknown
-"(4R,5R)-1,2-dithiane-4,5-diol",NFKB1,inhibitor
-"(4R,5R)-1,2-dithiane-4,5-diol",NFKB2,inhibitor
-"(4R,5R)-1,2-dithiane-4,5-diol",REL,inhibitor
-"(4R,5R)-1,2-dithiane-4,5-diol",RELA,inhibitor
-"(4R,5R)-1,2-dithiane-4,5-diol",RELB,inhibitor
-(4e)-4-Aminohex-4-Enoic Acid,ABAT,inhibitor
-(4s)-5-Fluoro-L-Leucine,UBB,unknown
-(6R)-Folinic acid,FTCD,unknown
-(Hydroxyethyloxy)Tri(Ethyloxy)Octane,CLPS,unknown
-(Hydroxyethyloxy)Tri(Ethyloxy)Octane,PNLIP,inhibitor
-(Hydroxyethyloxy)Tri(Ethyloxy)Octane,RHO,unknown
-(R)-1-Para-Nitro-Phenyl-2-Azido-Ethanol,LGALS9,unknown
-(R)-3-hydroxydecanoyl-CoA,HSD17B4,unknown
-(R)-3-hydroxytetradecanoic acid,LY96,unknown
-(R)-3-hydroxytetradecanoic acid,TLR4,inhibitor
-(R)-Atenolol,LTF,unknown
-(R)-Atenolol,PLA2G2E,unknown
-(R)-Bicalutamide,AR,unknown
-(R)-N-(1-Methyl-Hexyl)-Formamide,ADH1C,unknown
-(R)-N-methyl-N-2-propynyl-1-indanamine,MAOB,inhibitor
-(R)-Propylene glycol,LYZ,unknown
-(R)-Rolipram,PDE4A,inhibitor
-(R)-Rolipram,PDE4B,inhibitor
-(R)-Rolipram,PDE4D,unknown
-(R)-minalrestat,AKR1B1,unknown
-(R)-tacrine(10)-hupyridone,ACHE,inhibitor
-"(R,R)-2,3-Butanediol",UBE2D2,unknown
-(Rp)-cAMPS,PRKAR1A,unknown
-(S)-3-phenyllactic acid,CPA1,unknown
-(S)-3-phenyllactic acid,RPL10L,unknown
-(S)-3-phenyllactic acid,RPL11,unknown
-(S)-3-phenyllactic acid,RPL13A,unknown
-(S)-3-phenyllactic acid,RPL15,unknown
-(S)-3-phenyllactic acid,RPL19,unknown
-(S)-3-phenyllactic acid,RPL23,unknown
-(S)-3-phenyllactic acid,RPL23A,unknown
-(S)-3-phenyllactic acid,RPL26L1,unknown
-(S)-3-phenyllactic acid,RPL3,unknown
-(S)-3-phenyllactic acid,RPL37,unknown
-(S)-3-phenyllactic acid,RPL8,unknown
-(S)-3-phenyllactic acid,RSL24D1,unknown
-(S)-3-phenyllactic acid,SNU13,unknown
-(S)-4-hydroxymandelonitrile,LCTL,unknown
-(S)-AMPA,GRIA1,inhibitor
-(S)-AMPA,GRIA2,unknown
-(S)-Aspartimide,LYZ,unknown
-(S)-DES-ME-AMPA,GRIA2,unknown
-(S)-Hmg-Coa,HMGCR,unknown
-(S)-Indapamide,CA2,unknown
-(S)-Rolipram,PDE4A,inhibitor
-(S)-Rolipram,PDE4B,inhibitor
-(S)-Rolipram,PDE4D,unknown
-(S)-alpha-methyl-4-carboxyphenylglycine,GRM1,antagonist
-(S)-alpha-methyl-4-carboxyphenylglycine,GRM2,antagonist
-(S)-alpha-methyl-4-carboxyphenylglycine,GRM3,antagonist
-(S)-alpha-methyl-4-carboxyphenylglycine,GRM5,antagonist
-(S)-blebbistatin,MYH14,unknown
-(S)-camphor,TRPA1,inhibitor
-(S)-camphor,TRPM8,activator
-(S)-camphor,TRPV1,agonist;activator
-(S)-camphor,TRPV3,agonist;activator
-(S)-carazolol,ADRB2,unknown
-(S)-econazole,CYP51A1,unknown
-(S)-famoxadone,CYC1,unknown
-(S)-famoxadone,MT-CYB,unknown
-(S)-famoxadone,UQCR10,unknown
-(S)-famoxadone,UQCR11,unknown
-(S)-famoxadone,UQCRB,unknown
-(S)-famoxadone,UQCRC1,unknown
-(S)-famoxadone,UQCRC2,unknown
-(S)-famoxadone,UQCRFS1,unknown
-(S)-famoxadone,UQCRH,unknown
-(S)-famoxadone,UQCRQ,unknown
-(S)-tacrine(10)-hupyridone,ACHE,inhibitor
-(S)-wiskostatin,WAS,unknown
-"(S,R)-fidarestat",AKR1B1,inhibitor
-(South)-Methanocarba-Thymidine,TK1,inhibitor
 "1,2,4-Triazole",CA2,inhibitor
 "1,2,4-Triazole-Carboxamidine",NOS3,inhibitor
 "1,2-Benzodiazepine",GABRG3,ligand
@@ -144,13 +54,10 @@ drug_name,gene_symbol,action
 1-Testosterone,AR,agonist
 1-[4-(hydroxymethyl)phenyl]guanidine,PRSS8,unknown
 1-benzylimidazole,CYP11B1,inhibitor
-1-benzylimidazole,QPCT,unknown
 1-biphenyl-2-ylmethanamine,DPP4,inhibitor
 1-deoxymannojirimycin,MAN2A1,unknown
 1-hydroxy-2-isopropylguanidine,NOS1,inhibitor
 1-naphthaleneacetic acid,SKP1,unknown
-"10-Propargyl-5,8-Dideazafolic Acid",DHRS4L1,unknown
-"10-Propargyl-5,8-Dideazafolic Acid",NQO2,inhibitor
 "10-Propargyl-5,8-Dideazafolic Acid",TYMS,unknown
 "10-formyl-5,8,10-trideazafolic acid",GART,inhibitor
 10-hydroxycamptothecin,TOP1,inhibitor
@@ -195,7 +102,6 @@ drug_name,gene_symbol,action
 "2,3,5,6-Tetrafluoro-4-Methoxy-Benzamide",LGALS3,inhibitor
 "2,3-Difluorobenzyl Alcohol",ADH1C,unknown
 "2,3-Dihydroxy-Benzoic Acid",LCN2,unknown
-"2,4,6-Triaminoquinazoline",DHRS4L1,unknown
 "2,4-Diamino-5-phenyl-6-ethylpyrimidine",TYMS,unknown
 "2,4-Dihydroxy-Trans Cinnamic Acid",CTRB1,unknown
 "2,4-thiazolidinedione",PPARG,agonist
@@ -221,7 +127,6 @@ drug_name,gene_symbol,action
 2-(N-morpholino)ethanesulfonic acid,CMA1,inhibitor
 2-(N-morpholino)ethanesulfonic acid,GSTP1,unknown
 2-(N-morpholino)ethanesulfonic acid,HSD11B1,inhibitor
-2-(N-morpholino)ethanesulfonic acid,IRGC,unknown
 2-(N-morpholino)ethanesulfonic acid,L3MBTL1,unknown
 2-(N-morpholino)ethanesulfonic acid,PDF,inhibitor
 2-(N-morpholino)ethanesulfonic acid,PRDX6,unknown
@@ -326,7 +231,6 @@ drug_name,gene_symbol,action
 "3,5-Dinitrocatechol",COMT,inhibitor
 "3,6,9,12,15-Pentaoxaheptadecane",ACHE,inhibitor
 "3,6-dihydroxy-xanthene-9-propionic acid",GSR,inhibitor
-3-(10-methyl-9-anthryl)propanoic acid,IGHG1,unknown
 3-(4-nitrophenyl)-1H-pyrazole,HPGDS,unknown
 3-(Benzyloxy)Pyridin-2-Amine,LTA4H,inhibitor
 3-(Benzyloxy)Pyridin-2-Amine,MAPK14,inhibitor
@@ -344,19 +248,15 @@ drug_name,gene_symbol,action
 3-Fluoro-L-tyrosine,SOD2,unknown
 3-Hydroxybutyryl-Coenzyme A,HADH,unknown
 3-Indolebutyric Acid,B2M,unknown
-3-Indolebutyric Acid,TRAC,unknown
-3-Indolebutyric Acid,TRBC1,unknown
 3-Iodo-Tyrosine,TH,inhibitor
 3-Mercuri-4-Aminobenzenesulfonamide,CA2,inhibitor
 3-Methoxybenzamide,PARP1,inhibitor
 3-Methylfentanyl,OPRD1,agonist
-3-Methylfentanyl,OPRK1,agonist
 3-Methylfentanyl,OPRM1,agonist
 3-Methylphenylalanine,CTSB,unknown
 3-Methylpyridine,MMP13,inhibitor
 3-Methylpyridine,MMP3,inhibitor
 3-Methylthiofentanyl,OPRD1,agonist
-3-Methylthiofentanyl,OPRK1,agonist
 3-Methylthiofentanyl,OPRM1,agonist
 3-Oxiran-2ylalanine,MAT1A,unknown
 "3-Phenyl-1,2-Propandiol",REN,inhibitor
@@ -583,7 +483,6 @@ drug_name,gene_symbol,action
 8-chlorotheophylline,ADORA2A,antagonist
 8-iodo-guanine,PNP,inhibitor
 9(S)-HODE,PPARG,inhibitor
-"9-(4-Hydroxyphenyl)-2,7-Phenanthroline",MAPK10,inhibitor
 9-(4-hydroxybutyl)-N2-phenylguanine,TK1,inhibitor
 9-Deazaguanine,HPRT1,unknown
 9-Deazahypoxanthine,PNP,inhibitor
@@ -605,13 +504,11 @@ ABT-510,CXCL8,unknown
 ABT-510,FGF2,unknown
 ABT-510,HGF,unknown
 ABT-510,THBS1,modulator
-ABT-510,VEGFA,unknown
 ABT-639,CACNA1H,modulator
 ABT-737,BCL2,inhibitor
 ABX-1431,MGLL,inhibitor
 AC-(D)Phe-pro-borolys-OH,F2,inhibitor
 AC-430,JAK2,modulator
-ADL 10-0101,OPRK1,unknown
 ADL-5859,OPRD1,agonist
 ADL5859,OPRD1,unknown
 ADP-597,GPR119,agonist
@@ -958,7 +855,6 @@ Adapalene,RXRB,agonist
 Adapalene,RXRG,agonist
 Adapalene,TLR2,antagonist
 Adavosertib,WEE1,inhibitor
-Ademetionine,AMD1,cofactor
 Ademetionine,AS3MT,unknown
 Ademetionine,CBS,activator
 Ademetionine,CMTR1,unknown
@@ -1035,15 +931,12 @@ Adoprazine,DRD2,modulator
 Adoprazine,HTR1A,modulator
 Adriforant,HRH4,antagonist
 Aeruginosin 98-B,PRSS1,unknown
-Aetiocholanolone,HSD17B11,unknown
-Aetiocholanolone,IGHG2,unknown
 Aetiocholanolone,SULT2A1,unknown
 Afamelanotide,MC1R,agonist
 Afamelanotide,MC4R,inhibitor
 Afatinib,EGFR,inhibitor
 Afatinib,ERBB2,inhibitor
 Afatinib,ERBB4,inhibitor
-Afegostat,GBA1,inhibitor
 Aficamten,MYBPC3,inhibitor
 Aficamten,MYH7,inhibitor
 Afimetoran,TLR7,antagonist;inhibitor
@@ -1115,7 +1008,6 @@ Aleplasinin,SERPINB2,inhibitor
 Aleplasinin,SERPINE1,inhibitor
 Alfacalcidol,CYP27B1,unknown
 Alfacalcidol,RXRA,unknown
-Alfacalcidol,VDR,agonist
 Alfentanil,OPRM1,agonist
 Alfuzosin,ADRA1A,antagonist
 Alfuzosin,ADRA1B,antagonist
@@ -1220,7 +1112,6 @@ Alvelestat,ELANE,inhibitor
 Alverine,HTR1A,antagonist
 Alvespimycin,HSP90AA1,inhibitor
 Alvimopan,OPRD1,antagonist
-Alvimopan,OPRK1,antagonist
 Alvimopan,OPRM1,antagonist
 Alvocidib,CDK1,unknown
 Alvocidib,CDK2,inhibitor
@@ -1313,7 +1204,6 @@ Amisulpride,DRD3,antagonist
 Amisulpride,HTR2A,antagonist
 Amisulpride,HTR7,antagonist
 Amisulpride,OPRD1,agonist
-Amisulpride,OPRK1,agonist
 Amisulpride,OPRM1,agonist
 Amitifadine,DRD2,unknown
 Amitifadine,SLC6A2,inhibitor
@@ -1341,7 +1231,6 @@ Amitriptyline,KCNQ3,inhibitor
 Amitriptyline,NTRK1,agonist;activator
 Amitriptyline,NTRK2,agonist
 Amitriptyline,OPRD1,agonist
-Amitriptyline,OPRK1,agonist
 Amitriptyline,OPRM1,binder
 Amitriptyline,SIGMAR1,agonist
 Amitriptyline,SLC6A2,inhibitor
@@ -1412,7 +1301,6 @@ Amphetamine,SLC6A3,negative modulator
 Amphetamine,SLC6A4,binder
 Amphetamine,TAAR1,agonist
 Ampicillin,SLC15A1,unknown
-Ampicillin,SLC15A2,unknown
 Ampiroxicam,PTGS1,modulator
 Ampiroxicam,PTGS2,modulator
 Ampreloxetine,SLC6A2,modulator
@@ -1509,7 +1397,6 @@ Antrafenine,PTGS2,inhibitor
 Antroquinonol,DNMT1,inhibitor
 Apabetalone,BRD4,modulator
 Apadenoson,ADORA2A,agonist
-Apadoline,OPRK1,agonist
 Apafant,PTAFR,modulator
 Apalutamide,AR,antagonist
 Apalutamide,GABRQ,antagonist
@@ -1552,7 +1439,6 @@ Apratastat,MMP1,inhibitor
 Apratastat,MMP13,modulator
 Apremilast,CDK4,inhibitor
 Apremilast,CDK6,inhibitor
-Apremilast,PDE4,inhibitor
 Aprepitant,TACR1,antagonist
 Apricoxib,PTGS2,inhibitor
 Aprindine,CALM1,inhibitor
@@ -1649,7 +1535,6 @@ Aripiprazole,HTR5A,ligand
 Aripiprazole,HTR6,antagonist
 Aripiprazole,HTR7,antagonist;partial agonist
 Aripiprazole,OPRD1,ligand
-Aripiprazole,OPRK1,ligand
 Aripiprazole,OPRM1,ligand
 Aripiprazole,SLC6A3,modulator
 Aripiprazole,SLC6A4,modulator
@@ -1730,10 +1615,8 @@ Artenimol,HSPB1,ligand
 Artenimol,IQGAP1,ligand
 Artenimol,KHSRP,ligand
 Artenimol,LDHA,ligand
-Artenimol,LDHB,ligand
 Artenimol,LGALS1,ligand
 Artenimol,MAP4,ligand
-Artenimol,MDH1,ligand
 Artenimol,MYH9,ligand
 Artenimol,NPEPPS,ligand
 Artenimol,NPM1,ligand
@@ -1828,7 +1711,6 @@ Asenapine,HTR5A,antagonist
 Asenapine,HTR6,antagonist
 Asenapine,HTR7,antagonist
 Asiatic acid,PYGM,inhibitor
-Asimadoline,OPRK1,agonist
 Asivatrep,TRPV1,antagonist
 Asnuciclib,CDK1,inhibitor
 Asnuciclib,CDK2,inhibitor
@@ -1880,16 +1762,13 @@ Atecegatran metoxil,F2,inhibitor
 Atenolol,ADRB1,antagonist
 Atenolol,ADRB2,antagonist
 Atibeprone,MAOB,modulator
-Aticaprant,OPRK1,antagonist
 Atiprimod,IL6,unknown
 Atiprimod,STAT3,inhibitor
 Atiprimod,TNF,unknown
 Atl146e,ADORA2A,unknown
-Atocalcitol,VDR,agonist
 Atogepant,CALCRL,antagonist
 Atomoxetine,GRIN3B,blocker
 Atomoxetine,KCNJ3,inhibitor
-Atomoxetine,OPRK1,partial agonist
 Atomoxetine,SLC6A2,inhibitor
 Atomoxetine,SLC6A4,inhibitor
 Atopaxar,F2R,antagonist
@@ -2000,8 +1879,6 @@ B-nonylglucoside,PNLIP,inhibitor
 B-nonylglucoside,RHO,unknown
 BF-1,HTR2B,unknown
 BHV-1310,ASGR1,binder
-BHV-1310,IGHG2,degradation
-BHV-1310,IGHG4,degradation
 BI 2536,PLK1,inhibitor
 BI-671800,PTGDR2,antagonist
 BIA,COMT,inhibitor
@@ -2049,7 +1926,6 @@ BPH-608,FDPS,inhibitor
 BQ-123,EDNRA,antagonist
 BQ-788,EDNRB,antagonist
 BRD-810,MCL1,inhibitor
-BTRX-246040,OPRL1,modulator
 BX-528,CPB1,unknown
 Bacitracin,A2M,inhibitor
 Bacitracin,IDE,inhibitor
@@ -2132,7 +2008,6 @@ Beclomethasone dipropionate,ESRRB,modulator
 Beclomethasone dipropionate,ESRRG,modulator
 Beclomethasone dipropionate,NR3C1,agonist
 Becocalcidiol,MED1,unknown
-Becocalcidiol,VDR,unknown
 Bedoradrine,ADRB2,agonist
 Befetupitant,TACR1,antagonist
 Befiradol,HTR1A,agonist
@@ -2247,7 +2122,6 @@ Benzyl benzoate,LIPE,modulator
 Benzylamine,PRSS1,unknown
 Benzylamine,PRSS2,unknown
 Benzylpenicillin,SLC15A1,substrate;inhibitor
-Benzylpenicillin,SLC15A2,substrate;inhibitor
 Benzylpenicillin,SLC22A8,substrate;inhibitor
 Benzylpenicilloyl polylysine,FCER1A,agonist
 Benzylpenicilloyl polylysine,FCER1G,agonist
@@ -2289,7 +2163,6 @@ Beta-D-Glucose,GNPDA1,unknown
 Beta-D-Glucose,HK1,unknown
 Beta-D-Glucose,IFNB1,unknown
 Beta-D-Glucose,KRTAP5-2,unknown
-Beta-D-Glucose,KRTAP5-3,unknown
 Beta-D-Glucose,LCTL,unknown
 Beta-D-Glucose,LGALS2,unknown
 Beta-D-Glucose,LGALS7,unknown
@@ -2394,7 +2267,6 @@ Biotin,PCCA,cofactor
 Biotin,PCCB,cofactor
 Bioymifi,TNFRSF10B,binder
 Biperiden,CHRM1,antagonist
-Biphenylalanine,IGHG1,unknown
 Birabresib,BRD2,modulator
 Birabresib,BRD4,modulator
 Biricodar,ABCB1,modulator
@@ -2638,8 +2510,6 @@ Bupranolol,ADRB1,antagonist
 Bupranolol,ADRB2,antagonist
 Bupranolol,ADRB3,antagonist
 Buprenorphine,OPRD1,antagonist
-Buprenorphine,OPRK1,antagonist
-Buprenorphine,OPRL1,agonist
 Buprenorphine,OPRM1,partial agonist
 Bupropion,CHRNA3,antagonist
 Bupropion,HTR3A,negative modulator
@@ -2692,7 +2562,6 @@ Butobarbital,GABRA6,potentiator
 Butobarbital,GRIA2,antagonist
 Butobarbital,GRIK2,antagonist
 Butorphanol,OPRD1,agonist
-Butorphanol,OPRK1,agonist
 Butorphanol,OPRM1,antagonist
 Butriptyline,HRH1,antagonist
 Butriptyline,HTR2A,antagonist
@@ -2703,7 +2572,6 @@ Butylscopolamine,CHRM2,antagonist
 Butylscopolamine,CHRM3,antagonist
 Butylscopolamine,CHRM5,modulator
 Butyrfentanyl,OPRD1,agonist
-Butyrfentanyl,OPRK1,agonist
 Butyrfentanyl,OPRM1,agonist
 Butyric Acid,BCHE,inhibitor
 Butyric Acid,HDAC1,inhibitor
@@ -2717,7 +2585,6 @@ CAN-508,CDK2,unknown
 CB-5083,VCP,inhibitor
 CBP-501,MAPKAPK2,inhibitor
 CBP-501,MARK3,inhibitor
-CC-401,MAPK10,modulator
 CC-401,MAPK8,modulator
 CC-401,MAPK9,modulator
 CCT-018159,HSP90AA1,inhibitor
@@ -2732,7 +2599,6 @@ CDC-801,PDE4D,inhibitor
 CDP323,ITGA4,unknown
 CE-224535,P2RX7,antagonist
 CE-326597,CCKAR,agonist
-CEP-1347,MAP3K9,inhibitor
 CEP-1347,MAPK12,unknown
 CEP-37440,PTK2,modulator
 CFG-920,CYP17A1,inhibitor
@@ -2794,7 +2660,6 @@ CP-744809,AKR1B1,inhibitor
 CP-96345,TACR1,inhibitor
 CPG-52852,TLR7,agonist
 CPP-115 free base,ABAT,inhibitor
-CR665,OPRK1,agonist
 CRA-028129,CTSS,unknown
 CRA-9334,PRSS1,unknown
 CRA_10433,PRSS1,unknown
@@ -2913,10 +2778,7 @@ Caffeine,PIK3CB,inhibitor
 Caffeine,PIK3CD,inhibitor
 Caffeine,PRKDC,inhibitor
 Caffeine,RYR1,activator
-Calcifediol,VDR,agonist
-Calcipotriol,VDR,antagonist
 Calcitriol,HOXA10,upregulator
-Calcitriol,VDR,agonist
 Calcium,ALPP,unknown
 Calcium,AOC1,unknown
 Calcium,ATP2C1,agonist
@@ -2945,7 +2807,6 @@ Calcium Phosphate,CALM3,agonist
 Calcium Phosphate,CALR,ligand
 Calcium Phosphate,CALR3,ligand
 Calcium Phosphate,CANX,ligand
-Calcium Phosphate,CAPS,ligand
 Calcium Phosphate,CASQ1,ligand
 Calcium Phosphate,CASQ2,ligand
 Calcium Phosphate,CASR,agonist
@@ -2982,7 +2843,6 @@ Calcium citrate,CALM3,agonist
 Calcium citrate,CALR,ligand
 Calcium citrate,CALR3,ligand
 Calcium citrate,CANX,ligand
-Calcium citrate,CAPS,ligand
 Calcium citrate,CASQ1,ligand
 Calcium citrate,CASQ2,ligand
 Calcium citrate,CASR,agonist
@@ -3017,7 +2877,6 @@ Calcium phosphate dihydrate,CALM3,unknown
 Calcium phosphate dihydrate,CALR,unknown
 Calcium phosphate dihydrate,CALR3,unknown
 Calcium phosphate dihydrate,CANX,unknown
-Calcium phosphate dihydrate,CAPS,unknown
 Calcium phosphate dihydrate,CASQ1,unknown
 Calcium phosphate dihydrate,CASQ2,unknown
 Calcium phosphate dihydrate,CASR,unknown
@@ -3093,10 +2952,8 @@ Cannabidiol,CYP17A1,inhibitor
 Cannabidiol,GLRA1,allosteric modulator
 Cannabidiol,GLRA3,potentiator
 Cannabidiol,GLRB,allosteric modulator
-Cannabidiol,GPR12,inverse agonist
 Cannabidiol,GPR18,partial agonist
 Cannabidiol,GPR55,antagonist
-Cannabidiol,GPX1,stimulator
 Cannabidiol,GSR,stimulator
 Cannabidiol,HMGCR,stimulator
 Cannabidiol,HTR1A,agonist
@@ -3136,7 +2993,6 @@ Capric acid,FURIN,unknown
 Capric acid,GLTP,unknown
 Capric acid,PPARG,ligand
 Capric dimethyl amine oxide,DHODH,unknown
-Capric dimethyl amine oxide,PNLIPRP2,unknown
 Capromorelin,GHSR,agonist
 Caprylic acid,PPARA,unknown
 Caprylic alcohol,GJA1,inhibitor
@@ -3172,7 +3028,6 @@ Carbimazole,TPO,inhibitor
 Carbinoxamine,HRH1,antagonist
 Carbocisteine,KEAP1,modulator
 Carbocisteine,NFE2L2,activator
-Carbocisteine,PLCXD3,inhibitor
 Carbocisteine,ST3GAL5,inducer
 Carbon monoxide,MB,inhibitor
 Carboprost tromethamine,PTGER1,agonist
@@ -3187,7 +3042,6 @@ Carboxymycobactin T,LCN2,unknown
 Cardarine,PPARA,agonist
 Cardarine,PPARD,agonist
 Carfentanil,OPRD1,agonist
-Carfentanil,OPRK1,agonist
 Carfentanil,OPRM1,agonist
 Carfilzomib,PSMB1,inhibitor
 Carfilzomib,PSMB10,inhibitor
@@ -3196,7 +3050,6 @@ Carfilzomib,PSMB5,inhibitor
 Carfilzomib,PSMB8,inhibitor
 Carfilzomib,PSMB9,inhibitor
 Carglumic acid,CPS1,allosteric modulator
-Caricotamide,NQO2,inhibitor
 Cariporide,SLC9A1,inhibitor
 Cariporide,SLC9A3,inhibitor
 Cariprazine,ADRA1A,antagonist
@@ -3241,7 +3094,6 @@ Carvedilol,NDUFC2,inhibitor
 Carvedilol,NPPB,other
 Carvedilol,SELE,inhibitor
 Carvedilol,VCAM1,inhibitor
-Carvedilol,VEGFA,inhibitor
 Caryophyllene,CNR2,agonist
 Carzenide,CA1,inhibitor
 Carzenide,CA12,inhibitor
@@ -3249,7 +3101,6 @@ Carzenide,CA14,inhibitor
 Carzenide,CA2,inhibitor
 Carzenide,CA6,inhibitor
 Carzenide,CA9,inhibitor
-Casimiroin,NQO2,unknown
 Casopitant,CYP3A4,unknown
 Casopitant,TACR1,antagonist
 Cebranopadol,OPRM1,modulator
@@ -3261,7 +3112,6 @@ Cefazolin,PON1,inhibitor
 Cefdinir,MPO,inhibitor
 Cefotaxime,ALB,binder
 Cefotaxime,SLC15A1,inhibitor
-Cefotaxime,SLC15A2,inhibitor
 Cefotaxime,SLC22A11,unknown
 Cefotaxime,SLC22A6,inhibitor
 Cefotaxime,SLC22A7,inhibitor
@@ -3345,7 +3195,6 @@ Chlorothiazide,CA1,inhibitor
 Chlorothiazide,CA2,inhibitor
 Chlorothiazide,SLC12A3,inhibitor
 Chlorotrianisene,ESR1,agonist
-Chloroxine,OPRK1,inhibitor
 Chlorpheniramine,HRH1,antagonist
 Chlorpheniramine,SLC6A2,inhibitor
 Chlorpheniramine,SLC6A3,inhibitor
@@ -3395,12 +3244,10 @@ Chlortetracycline,PNLIP,inhibitor
 Chlorthalidone,CA1,inhibitor
 Chlorthalidone,SLC12A1,inhibitor
 Chlorzoxazone,KCNMA1,inhibitor
-Cholecalciferol,VDR,agonist
 Cholesterol,CLEC4E,ligand
 Cholesterol,NR1I3,unknown
 Cholesterol,PCYT1B,activator
 Cholesterol,RORA,unknown
-Cholesterol,VDR,unknown
 Cholesterol sulfate,RORA,unknown
 Cholic Acid,ADH1C,unknown
 Cholic Acid,CES1,inhibitor
@@ -3440,7 +3287,6 @@ Choline salicylate,PLD2,product of
 Chondroitin sulfate,BDNF,unknown
 Chondroitin sulfate,CCL2,unknown
 Chondroitin sulfate,GDNF,unknown
-Chondroitin sulfate,VEGFA,unknown
 Chromanol,AR,inhibitor
 Chromic chloride,INSR,activator
 Chromic citrate,CYB5A,unknown
@@ -3479,7 +3325,6 @@ Ciclopirox,ATP1A1,binder
 Ciforadenant,ADORA2A,antagonist
 Ciglitazone,PPARG,agonist
 Cilansetron,HTR3A,modulator
-Cilastatin,DPEP1,inhibitor
 Cilazapril,ACE,inhibitor
 Cilazaprilat,ACE,unknown
 Cilnidipine,CACNA1A,antagonist
@@ -3576,7 +3421,6 @@ Citrulline,NOS1,unknown
 Citrulline,NOS2,unknown
 Citrulline,NOS3,unknown
 Citrulline,OTC,unknown
-Citrulline,PADI1,unknown
 Citrulline,PADI2,unknown
 Citrulline,PADI3,unknown
 Citrulline,PADI4,unknown
@@ -3616,7 +3460,6 @@ Clinofibrate,PPARA,unknown
 Clinofibrate,PPARD,unknown
 Clinofibrate,PPARG,unknown
 Clinprost,PTGIR,modulator
-Clioquinol,OPRK1,inhibitor
 Clobazam,GABRA1,antagonist
 Clobazam,GABRG3,ligand
 Clobazam,GABRQ,positive allosteric modulator
@@ -3737,7 +3580,6 @@ Cocaine,SLC6A2,inhibitor
 Cocaine,SLC6A3,inhibitor
 Cocaine,SLC6A4,inhibitor
 Codeine,OPRD1,agonist
-Codeine,OPRK1,agonist
 Codeine,OPRM1,agonist;regulator
 Coenzyme A,ACAT2,unknown
 Coenzyme A,CRAT,inhibitor
@@ -3856,9 +3698,6 @@ Copper,HTT,unknown
 Copper,IAPP,unknown
 Copper,IDH3A,unknown
 Copper,IGFALS,unknown
-Copper,IGHG1,unknown
-Copper,IGHG4,unknown
-Copper,IGKV3-20,unknown
 Copper,IGLL1,unknown
 Copper,ITIH2,unknown
 Copper,KNG1,unknown
@@ -3879,7 +3718,6 @@ Copper,PDIA3,unknown
 Copper,PEBP1,unknown
 Copper,PGAM1,unknown
 Copper,PGK1,unknown
-Copper,PGLYRP2,unknown
 Copper,PKM,unknown
 Copper,PLG,unknown
 Copper,PON1,unknown
@@ -4008,13 +3846,11 @@ Curcumin,NOS2,inhibitor
 Curcumin,PPARG,modulator
 Curcumin,PTGS1,inhibitor
 Curcumin,PTGS2,inhibitor
-Curcumin,VDR,modulator
 Curcumin,XDH,inhibitor
 Curcumin sulfate,ABCC5,unknown
 Curcumin sulfate,CBR1,unknown
 Curcumin sulfate,GSTP1,unknown
 Curcumin sulfate,PPARG,unknown
-Curcumin sulfate,VDR,unknown
 Cutamesine,SIGMAR1,agonist
 Cyamemazine,HTR1A,antagonist
 Cyamemazine,HTR2A,antagonist
@@ -4122,7 +3958,6 @@ D-Aspartic Acid,GRIN2A,agonist
 D-Aspartic Acid,GRIN2B,agonist
 D-Cysteine,CPA1,unknown
 D-Eritadenine,AHCY,unknown
-D-JNKI-1,MAPK10,modulator
 D-JNKI-1,MAPK8,modulator
 D-JNKI-1,MAPK9,modulator
 D-Malic acid,CS,unknown
@@ -4141,8 +3976,6 @@ D-alpha-Tocopherol acetate,ALOX5,unknown
 D-alpha-Tocopherol acetate,NR1I2,unknown
 D-alpha-Tocopherol acetate,PRKCA,unknown
 D-alpha-Tocopherol acetate,PRKCB,unknown
-D-alpha-Tocopherol acetate,SEC14L2,unknown
-D-alpha-Tocopherol acetate,SEC14L3,unknown
 D-arginine,CKM,unknown
 D-erythrose 4-phosphate,GPI,unknown
 D-glucitol 6-phosphate,GPI,unknown
@@ -4179,7 +4012,6 @@ DPCPX,ADORA2B,inhibitor
 DPCPX,ADORA3,inhibitor
 DPCPX,NT5E,inhibitor
 DPDPE,OPRD1,inhibitor
-DPDPE,OPRK1,inhibitor
 DPDPE,OPRM1,inhibitor
 DPI-221,OPRD1,unknown
 DPI59,SRC,inhibitor
@@ -4191,7 +4023,6 @@ Dabigatran,F2,inhibitor
 Dabigatran etexilate,F2,inhibitor
 Dabrafenib,BRAF,inhibitor
 Dabrafenib,LIMK1,inhibitor
-Dabrafenib,NEK11,inhibitor
 Dabrafenib,RAF1,inhibitor
 Dabrafenib,SIK1,inhibitor
 Dabuzalgron,ADRA1D,agonist
@@ -4236,7 +4067,6 @@ Dalfampridine,KCND2,antagonist
 Dalfampridine,KCND3,antagonist
 Dalteparin,SELP,inhibitor
 Dalteparin,SERPINC1,potentiator
-Dalteparin,VEGFA,inhibitor
 Daltroban,TBXA2R,inhibitor
 Danaparoid,SERPINC1,positive allosteric modulator
 Danavorexton,HCRTR2,agonist
@@ -4244,7 +4074,6 @@ Danazol,AR,agonist
 Danazol,CCL2,inhibitor
 Danazol,ESR1,agonist
 Danazol,GNRHR,negative modulator
-Danazol,GNRHR2,negative modulator
 Danazol,PGR,agonist
 Danicopan,CFD,inhibitor
 Daniquidone,TOP1,modulator
@@ -4252,7 +4081,6 @@ Daniquidone,TOP2A,modulator
 Daniquidone,TOP2B,modulator
 Danirixin,CXCR2,modulator
 Dansylamide,CA2,inhibitor
-Dansyllysine,IGHA2,unknown
 Dantrolene,RYR1,antagonist
 Danusertib,AURKA,inhibitor
 Danusertib,AURKB,inhibitor
@@ -4383,7 +4211,6 @@ Denfivontinib,FLT3,inhibitor
 Denfivontinib,MERTK,inhibitor
 Denibulin,FLT1,unknown
 Denibulin,FLT4,unknown
-Denibulin,VEGFA,unknown
 Denifanstat,FASN,inhibitor
 Denopamine,DRD2,modulator
 Denufosol,P2RY2,agonist
@@ -4552,7 +4379,6 @@ Dextromethorphan,CHRNB4,antagonist
 Dextromethorphan,CYP19A1,inhibitor
 Dextromethorphan,GRIN3A,antagonist
 Dextromethorphan,OPRD1,agonist
-Dextromethorphan,OPRK1,agonist
 Dextromethorphan,OPRM1,agonist;regulator
 Dextromethorphan,PGRMC1,binder
 Dextromethorphan,RAC2,inhibitor
@@ -4561,14 +4387,12 @@ Dextromethorphan,SLC6A2,inhibitor
 Dextromethorphan,SLC6A4,inhibitor
 Dextropropoxyphene,GRIN3B,antagonist
 Dextropropoxyphene,OPRD1,agonist
-Dextropropoxyphene,OPRK1,antagonist
 Dextropropoxyphene,OPRM1,agonist
 Dextrothyroxine,THRA,agonist
 Dextrothyroxine,THRB,agonist
 Dextrothyroxine,TPO,unknown
 Dexverapamil,ABCB1,inhibitor
 Dezapelisib,PIK3CD,inhibitor
-Dezocine,OPRK1,antagonist
 Dezocine,OPRM1,agonist
 Di-Stearoyl-3-Sn-Phosphatidylcholine,BPI,unknown
 Di-Stearoyl-3-Sn-Phosphatidylcholine,SLC25A4,inhibitor
@@ -4584,7 +4408,6 @@ Diacerein,NR1H2,inhibitor
 Diacerein,NR1H3,inhibitor
 Diamorphine,CES1,unknown
 Diamorphine,OPRD1,agonist
-Diamorphine,OPRK1,agonist
 Diamorphine,OPRM1,agonist
 Dianicline,CHRNA4,modulator
 Dianicline,CHRNB2,modulator
@@ -4619,7 +4442,6 @@ Dicyclomine,CHRM1,antagonist
 Dicyclomine,CHRM2,antagonist
 Dicyclomine,CHRM3,antagonist
 Didanosine,PNP,substrate
-Didesmethylrocaglamide,PHB1,inhibitor
 Didesmethylrocaglamide,PHB2,inhibitor
 Didox,RRM1,inhibitor
 Didox,RRM2,inhibitor
@@ -4646,14 +4468,12 @@ Diethylstilbestrol,NR1I2,unknown
 Diethylstilbestrol,SHBG,unknown
 Diethyltryptamine,HTR6,inhibitor
 Difamilast,PDE4D,inhibitor
-Difelikefalin,OPRK1,agonist
 Difenoxin,OPRM1,antagonist
 Diflomotecan,TOP1,inhibitor
 Diflorasone,NR3C1,agonist
 Diflorasone,PLA2G1B,inhibitor
 Diflunisal,PTGS1,inhibitor
 Diflunisal,PTGS2,inhibitor
-Difluocortolone,ANXA3,inducer
 Difluocortolone,NR3C1,binder
 Difluprednate,ANXA1,agonist
 Difluprednate,NR3C1,agonist
@@ -4711,12 +4531,10 @@ Dihydrolipoic Acid,DLAT,unknown
 Dihydrolipoic Acid,GCSH,unknown
 Dihydrolipoic Acid,PDK3,unknown
 Dihydromorphine,OPRD1,agonist
-Dihydromorphine,OPRK1,agonist
 Dihydromorphine,OPRM1,agonist
 Dihydromorphine,POMC,agonist
 Dihydromorphine,TRIM13,agonist
 Dihydroquinidine barbiturate,GABRA1,potentiator
-Dihydrotachysterol,VDR,agonist
 Dihydroxyacetone phosphate,ALDOA,unknown
 Dihydroxyacetone phosphate,ALDOB,unknown
 Dihydroxyacetone phosphate,TPI1,unknown
@@ -4733,7 +4551,6 @@ Diltiazem,CACNG1,blocker
 Dimemorfan,SIGMAR1,agonist
 Dimenhydrinate,HRH1,antagonist
 Dimepheptanol,OPRD1,inhibitor
-Dimepheptanol,OPRK1,inhibitor
 Dimepheptanol,OPRM1,inhibitor
 Dimetacrine,ACHE,antagonist
 Dimethyl Propionate Ester Heme,CYB5A,unknown
@@ -4806,7 +4623,6 @@ Dipivefrin,ADRB2,agonist
 Dipivefrin,BCHE,substrate
 Dipraglurant,GRM5,modulator
 Diprenorphine,OPRD1,antagonist
-Diprenorphine,OPRK1,antagonist
 Diprenorphine,OPRM1,antagonist
 Diprenorphine,TRIM13,unknown
 Dipyridamole,ADA,inhibitor
@@ -4862,7 +4678,6 @@ Dodecyl-Alpha-D-Maltoside,RARG,inhibitor
 Dodecyldimethylamine N-oxide,CFL1,unknown
 Dodecyldimethylamine N-oxide,DHODH,unknown
 Dodecyldimethylamine N-oxide,DSTN,unknown
-Dodecyldimethylamine N-oxide,IGHV3-23,unknown
 Dodecyldimethylamine N-oxide,IGKV1D-33,unknown
 Dodecyldimethylamine N-oxide,MAOB,ligand
 Dodecyldimethylamine N-oxide,NFE2L1,unknown
@@ -4980,7 +4795,6 @@ Doxepin,HTR6,binder
 Doxepin,KCNH2,inhibitor
 Doxepin,SLC6A2,inhibitor
 Doxepin,SLC6A4,inhibitor
-Doxercalciferol,VDR,suppressor
 Doxofylline,ADORA2A,antagonist
 Doxofylline,ADRB2,agonist
 Doxofylline,PDE2A,inhibitor
@@ -5064,7 +4878,6 @@ Dyclonine,SCN10A,inhibitor
 Dyclonine,SCN5A,blocker
 Dydrogesterone,PGR,agonist
 Dynorphin,OPRD1,inhibitor
-Dynorphin,OPRK1,inhibitor
 Dynorphin,OPRM1,inhibitor
 Dyphylline,ADORA1,antagonist
 Dyphylline,ADORA2A,antagonist
@@ -5108,7 +4921,6 @@ Ebselen,EPHX2,inhibitor
 Ebselen,KDM4A,inhibitor
 Ecabapide,ADRA2C,modulator
 Ecabet,NOXO1,antagonist
-Ecalcidene,VDR,modulator
 Echinacoside,AR,agonist
 Echinacoside,GHSR,agonist
 Echothiophate,ACHE,modulator
@@ -5167,7 +4979,6 @@ Elbimilast,PDE4A,inhibitor
 Elbimilast,PDE4B,inhibitor
 Elbimilast,PDE4D,inhibitor
 Eldacimibe,CES1,modulator
-Eldecalcitol,VDR,unknown
 Elenbecestat,BACE1,inhibitor
 Eletriptan,HTR1A,partial agonist
 Eletriptan,HTR1B,agonist
@@ -5208,7 +5019,6 @@ Ellagic acid,SYK,inhibitor
 Ellipticine,TOP2A,inhibitor
 Ellipticine,TOP2B,inhibitor
 Elobixibat,SLC10A2,modulator
-Elocalcitol,VDR,agonist
 Elopiprazole,DRD2,modulator
 Elopiprazole,HTR1A,modulator
 Elraglusib,GSK3B,inhibitor
@@ -5227,7 +5037,6 @@ Eltoprazine,HTR2C,antagonist
 Eltrombopag,MPL,agonist
 Elubrixin,CXCR2,antagonist
 Eluxadoline,OPRD1,antagonist
-Eluxadoline,OPRK1,agonist
 Eluxadoline,OPRM1,agonist
 Elzovantinib,CSF1R,inhibitor
 Elzovantinib,MET,inhibitor
@@ -5248,8 +5057,6 @@ Emricasan,CASP3,unknown
 Emricasan,CASP7,unknown
 Emrusolmin,SNCA,inhibitor
 Emvododstat,ALOX5,inhibitor
-Emvododstat,VEGFA,modulator
-Enadoline,OPRK1,agonist
 Enalapril,ACE,inhibitor
 Enalaprilat,ACE,inhibitor
 Enalaprilat,BDKRB1,activator
@@ -5268,7 +5075,6 @@ Encorafenib,CCND1,inhibitor
 Encorafenib,LIMK1,inhibitor
 Encorafenib,LIMK2,inhibitor
 Encorafenib,MAP2K4,inhibitor
-Encorafenib,MAPK10,inhibitor
 Encorafenib,MAPK8,inhibitor
 Encorafenib,MAPK9,inhibitor
 Encorafenib,RAF1,inhibitor
@@ -5363,7 +5169,6 @@ Epicept NP-1,HRH1,unknown
 Epicept NP-1,HTR2A,unknown
 Epicept NP-1,HTR2B,unknown
 Epicept NP-1,HTR2C,unknown
-Epicept NP-1,OPRL1,unknown
 Epicept NP-1,OPRM1,unknown
 Epicriptine,DRD4,agonist
 Epigallocatechin gallate,AHR,unknown
@@ -5438,7 +5243,6 @@ Erdafitinib,PDGFRB,substrate
 Erdafitinib,RET,substrate
 Erdosteine,CELA1,modulator
 Ergocalciferol,CACNA1I,inducer
-Ergocalciferol,VDR,agonist
 Ergoloid mesylate,ADRA2C,antagonist;agonist
 Ergoloid mesylate,ADRB3,antagonist;agonist
 Ergoloid mesylate,DRD4,antagonist;agonist
@@ -5669,7 +5473,6 @@ Ethanol,L1CAM,unknown
 Ethanol,SLC29A1,unknown
 Ethanol,SLC29A2,unknown
 Ethanol,VCAM1,unknown
-Ethanolamine,ANXA3,unknown
 Ethanolamine oleate,F12,activator
 Ethchlorvynol,GABRA1,antagonist
 Ethchlorvynol,GABRB2,antagonist
@@ -5709,10 +5512,6 @@ Etidronic acid,PTPRS,inhibitor
 Etidronic acid,SLC25A4,inhibitor
 Etidronic acid,SLC25A5,inhibitor
 Etidronic acid,SLC25A6,inhibitor
-Etiocholanedione,IGHG1,unknown
-Etiocholanedione,IGHG2,unknown
-Etiocholanedione,IGKC,unknown
-Etiocholanedione,IGKV2-30,unknown
 Etiprednol dicloacetate,IL1B,unknown
 Etiprednol dicloacetate,NR3C1,modulator
 Etirinotecan pegol,TOP1,inhibitor
@@ -5732,7 +5531,6 @@ Etomidate,GABRG3,modulator
 Etomidate,GABRQ,positive allosteric modulator
 Etomoxir,CPT1B,modulator
 Etonitazene,OPRD1,inhibitor
-Etonitazene,OPRK1,inhibitor
 Etonitazene,OPRM1,inhibitor
 Etonogestrel,PGR,agonist
 Etoperidone,ADRA1D,antagonist
@@ -5747,8 +5545,6 @@ Etoposide toniribate,TOP2A,modulator
 Etoposide toniribate,TOP2B,modulator
 Etoricoxib,PTGS2,inhibitor
 Etorphine,OPRD1,agonist
-Etorphine,OPRK1,agonist
-Etorphine,OPRL1,agonist
 Etorphine,OPRM1,agonist
 Etorphine,POMC,unknown
 Etorphine,TRIM13,agonist
@@ -5838,7 +5634,6 @@ Fadraciclib,CDK2,inhibitor
 Fadraciclib,CDK9,inhibitor
 Fadrozole,CYP11B1,inhibitor
 Fadrozole,CYP19A1,inhibitor
-Falecalcitriol,VDR,agonist
 Falnidamol,EGFR,antagonist
 Famitinib,FLT1,inhibitor
 Famitinib,FLT3,inhibitor
@@ -5872,7 +5667,6 @@ Fasudil,ROCK1,inhibitor
 Fasudil,ROCK2,unknown
 FavId,CSF3R,unknown
 Febuxostat,XDH,inhibitor
-Fedotozine,OPRK1,agonist
 Fedovapagon,AVPR2,inhibitor
 Fedratinib,FLT3,inhibitor
 Fedratinib,JAK1,inhibitor
@@ -5941,7 +5735,6 @@ Fenoxaprop-ethyl,NOS2,unknown
 Fenoxaprop-ethyl,NOS3,stimulator
 Fentanyl,ABCB1,inhibitor
 Fentanyl,OPRD1,agonist
-Fentanyl,OPRK1,agonist
 Fentanyl,OPRM1,agonist
 Ferric cation,TFRC,agonist
 Ferric derisomaltose,HBA1,binder
@@ -6042,7 +5835,6 @@ Ferulic acid,CA4,inhibitor
 Ferulic acid,CA6,inhibitor
 Ferulic acid,CA9,inhibitor
 Ferulic acid,MAOB,inhibitor
-Feruloyl Coenzyme A,COMTD1,unknown
 Fesoterodine,CHRM1,antagonist
 Fesoterodine,CHRM2,antagonist
 Fesoterodine,CHRM3,antagonist
@@ -6106,7 +5898,6 @@ Flavin adenine dinucleotide,MAOB,inhibitor
 Flavin adenine dinucleotide,NDUFA9,cofactor
 Flavin adenine dinucleotide,NOS1,inhibitor
 Flavin adenine dinucleotide,NQO1,inhibitor
-Flavin adenine dinucleotide,NQO2,inhibitor
 Flavin adenine dinucleotide,POR,unknown
 Flavin adenine dinucleotide,TXNRD1,inhibitor
 Flavin adenine dinucleotide,XDH,inhibitor
@@ -6226,7 +6017,6 @@ Flunitrazepam,GABRQ,positive allosteric modulator
 Flunitrazepam,TSPO,agonist
 Fluocinolone acetonide,ANXA1,inducer
 Fluocinolone acetonide,ANXA2,inducer
-Fluocinolone acetonide,ANXA3,inducer
 Fluocinolone acetonide,ANXA4,inducer
 Fluocinolone acetonide,ANXA5,inducer
 Fluocinolone acetonide,NR3C1,agonist
@@ -6236,9 +6026,7 @@ Fluocinonide,ESRRB,modulator
 Fluocinonide,ESRRG,modulator
 Fluocinonide,NR3C1,agonist
 Fluocinonide,SMO,agonist
-Fluorescein,IGKV2-30,other
 Fluorescein,SLC22A8,inhibitor
-Fluorescin,IGHG1,unknown
 Fluoro-Willardiine,GRIA1,agonist
 Fluoro-Willardiine,GRIA2,agonist
 Fluoro-Willardiine,GRIA3,agonist
@@ -6270,7 +6058,6 @@ Flupentixol,DRD3,antagonist
 Flupentixol,DRD4,antagonist
 Flupentixol,HTR2A,antagonist
 Flupentixol,HTR2C,antagonist
-Fluperamide,OPRL1,inhibitor
 Fluperamide,OPRM1,inhibitor
 Fluperlapine,HTR6,antagonist
 Fluperlapine,HTR7,antagonist
@@ -6400,17 +6187,14 @@ Fostamatinib,CAMK2G,inhibitor
 Fostamatinib,CAMKK1,inhibitor
 Fostamatinib,CAMKK2,inhibitor
 Fostamatinib,CASK,inhibitor
-Fostamatinib,CDC42BPG,inhibitor
 Fostamatinib,CDK1,inhibitor
 Fostamatinib,CDK15,inhibitor
 Fostamatinib,CDK16,inhibitor
 Fostamatinib,CDK17,inhibitor
 Fostamatinib,CDK4,inhibitor
 Fostamatinib,CDKL1,inhibitor
-Fostamatinib,CDKL2,inhibitor
 Fostamatinib,CHEK1,inhibitor
 Fostamatinib,CHEK2,inhibitor
-Fostamatinib,CILK1,inhibitor
 Fostamatinib,CIT,inhibitor
 Fostamatinib,CLASP1,inhibitor
 Fostamatinib,CLK1,inhibitor
@@ -6431,7 +6215,6 @@ Fostamatinib,DAPK1,inhibitor
 Fostamatinib,DAPK2,inhibitor
 Fostamatinib,DAPK3,inhibitor
 Fostamatinib,DCLK1,inhibitor
-Fostamatinib,DCLK2,inhibitor
 Fostamatinib,DCLK3,inhibitor
 Fostamatinib,DDR1,inhibitor
 Fostamatinib,DDR2,inhibitor
@@ -6503,20 +6286,16 @@ Fostamatinib,MAP3K10,inhibitor
 Fostamatinib,MAP3K11,inhibitor
 Fostamatinib,MAP3K12,inhibitor
 Fostamatinib,MAP3K13,inhibitor
-Fostamatinib,MAP3K15,inhibitor
-Fostamatinib,MAP3K19,inhibitor
 Fostamatinib,MAP3K2,inhibitor
 Fostamatinib,MAP3K20,inhibitor
 Fostamatinib,MAP3K3,inhibitor
 Fostamatinib,MAP3K4,inhibitor
 Fostamatinib,MAP3K6,inhibitor
-Fostamatinib,MAP3K9,inhibitor
 Fostamatinib,MAP4K1,inhibitor
 Fostamatinib,MAP4K2,inhibitor
 Fostamatinib,MAP4K3,inhibitor
 Fostamatinib,MAP4K4,inhibitor
 Fostamatinib,MAP4K5,inhibitor
-Fostamatinib,MAPK10,inhibitor
 Fostamatinib,MAPK13,inhibitor
 Fostamatinib,MAPK14,inhibitor
 Fostamatinib,MAPK15,inhibitor
@@ -6545,18 +6324,14 @@ Fostamatinib,MYLK3,inhibitor
 Fostamatinib,MYLK4,inhibitor
 Fostamatinib,MYO3A,inhibitor
 Fostamatinib,NEK1,inhibitor
-Fostamatinib,NEK11,inhibitor
 Fostamatinib,NEK2,inhibitor
 Fostamatinib,NEK3,inhibitor
 Fostamatinib,NEK4,inhibitor
-Fostamatinib,NEK5,inhibitor
 Fostamatinib,NEK9,inhibitor
-Fostamatinib,NIM1K,inhibitor
 Fostamatinib,NTRK1,inhibitor
 Fostamatinib,NTRK2,inhibitor
 Fostamatinib,NTRK3,inhibitor
 Fostamatinib,NUAK1,inhibitor
-Fostamatinib,NUAK2,inhibitor
 Fostamatinib,OXSR1,inhibitor
 Fostamatinib,PAK1,inhibitor
 Fostamatinib,PAK2,inhibitor
@@ -6596,7 +6371,6 @@ Fostamatinib,PRKCI,inhibitor
 Fostamatinib,PRKCQ,inhibitor
 Fostamatinib,PRKD1,inhibitor
 Fostamatinib,PRKG2,inhibitor
-Fostamatinib,PRP4K,inhibitor
 Fostamatinib,PTK2,inhibitor
 Fostamatinib,PTK2B,inhibitor
 Fostamatinib,PTK6,inhibitor
@@ -6613,8 +6387,6 @@ Fostamatinib,ROS1,inhibitor
 Fostamatinib,RPS6KA1,inhibitor
 Fostamatinib,RPS6KA3,inhibitor
 Fostamatinib,RPS6KA6,inhibitor
-Fostamatinib,SBK1,inhibitor
-Fostamatinib,SBK3,inhibitor
 Fostamatinib,SGK3,inhibitor
 Fostamatinib,SIK1,inhibitor
 Fostamatinib,SIK2,inhibitor
@@ -6626,13 +6398,11 @@ Fostamatinib,SNRK,inhibitor
 Fostamatinib,SRC,inhibitor
 Fostamatinib,SRMS,inhibitor
 Fostamatinib,STK10,inhibitor
-Fostamatinib,STK16,inhibitor
 Fostamatinib,STK17A,inhibitor
 Fostamatinib,STK17B,inhibitor
 Fostamatinib,STK24,inhibitor
 Fostamatinib,STK26,inhibitor
 Fostamatinib,STK3,inhibitor
-Fostamatinib,STK32A,inhibitor
 Fostamatinib,STK33,inhibitor
 Fostamatinib,STK35,inhibitor
 Fostamatinib,STK36,inhibitor
@@ -6653,7 +6423,6 @@ Fostamatinib,TIE1,inhibitor
 Fostamatinib,TLK1,inhibitor
 Fostamatinib,TLK2,inhibitor
 Fostamatinib,TNIK,inhibitor
-Fostamatinib,TNK1,inhibitor
 Fostamatinib,TNK2,inhibitor
 Fostamatinib,TNNI3K,inhibitor
 Fostamatinib,TSSK1B,inhibitor
@@ -6905,8 +6674,6 @@ Gestrinone,PGR,antagonist;agonist
 Gestrinone,SHBG,antagonist
 Gevotroline,SIGMAR1,modulator
 Ghavamiol,MAN2A1,unknown
-Gibberellic acid,AADACL2,unknown
-Gibberellin A4,AADACL2,unknown
 Gilteritinib,ALK,inhibitor
 Gilteritinib,AXL,inhibitor
 Gilteritinib,FLT3,inhibitor
@@ -6931,7 +6698,6 @@ Glasdegib,SMO,inhibitor
 Glenvastatin,HMGCR,inhibitor
 Glesatinib,AXL,modulator
 Gliclazide,ABCC8,binder
-Gliclazide,VEGFA,other/unknown
 Glimepiride,ABCC8,inducer
 Glimepiride,ABCC9,blocker
 Glimepiride,KCNJ1,inhibitor
@@ -6958,7 +6724,6 @@ Glutamic acid,ALDH18A1,unknown
 Glutamic acid,ASNS,unknown
 Glutamic acid,BCAT1,unknown
 Glutamic acid,BCAT2,unknown
-Glutamic acid,CPQ,unknown
 Glutamic acid,DNPEP,unknown
 Glutamic acid,EARS2,unknown
 Glutamic acid,ENPEP,unknown
@@ -7009,10 +6774,8 @@ Glutamic acid,SLC1A1,unknown
 Glutamic acid,SLC1A2,unknown
 Glutamic acid,SLC1A3,unknown
 Glutamic acid,SLC1A6,unknown
-Glutamic acid,SLC1A7,unknown
 Glutamic acid,SLC7A11,unknown
 Glutamic acid,TAT,unknown
-Glutamine t-butyl ester,QPCT,unknown
 Glutaric Acid,SLC22A8,inhibitor
 Glutathione,AKR1B1,unknown
 Glutathione,CYP3A4,unknown
@@ -7021,7 +6784,6 @@ Glutathione,GGT1,unknown
 Glutathione,GLO1,unknown
 Glutathione,GLRX,unknown
 Glutathione,GLRX2,unknown
-Glutathione,GPX1,cofactor
 Glutathione,GPX2,cofactor
 Glutathione,GPX3,cofactor
 Glutathione,GPX4,cofactor
@@ -7044,7 +6806,6 @@ Glutathione,GSTM5,unknown
 Glutathione,GSTO1,unknown
 Glutathione,GSTO2,unknown
 Glutathione,GSTP1,unknown
-Glutathione,GSTT1,unknown
 Glutathione,GSTZ1,unknown
 Glutathione,HAGH,unknown
 Glutathione,HPGDS,unknown
@@ -7102,7 +6863,6 @@ Glycine,GLRA3,ligand
 Glycine,GLRB,ligand
 Glycine,GLYAT,substrate
 Glycine,GLYATL1,substrate
-Glycine,GLYATL2,substrate
 Glycine,GNMT,substrate
 Glycine,GPR18,substrate
 Glycine,GRIN2A,antagonist
@@ -7184,7 +6944,6 @@ Guanosine-5'-Diphosphate,ARF4,unknown
 Guanosine-5'-Diphosphate,ARF6,unknown
 Guanosine-5'-Diphosphate,ARL1,unknown
 Guanosine-5'-Diphosphate,ARL3,unknown
-Guanosine-5'-Diphosphate,ARL5A,unknown
 Guanosine-5'-Diphosphate,ARL5B,unknown
 Guanosine-5'-Diphosphate,CDC42,unknown
 Guanosine-5'-Diphosphate,EEF1A1,unknown
@@ -7196,7 +6955,6 @@ Guanosine-5'-Diphosphate,GNAI1,unknown
 Guanosine-5'-Diphosphate,GNAT1,unknown
 Guanosine-5'-Diphosphate,GSPT1,unknown
 Guanosine-5'-Diphosphate,HRAS,unknown
-Guanosine-5'-Diphosphate,IRGC,unknown
 Guanosine-5'-Diphosphate,NME1,unknown
 Guanosine-5'-Diphosphate,NME2,unknown
 Guanosine-5'-Diphosphate,RAB11A,unknown
@@ -7310,7 +7068,6 @@ Haloxyfop-P,ACACB,unknown
 Harmaline,HNMT,inhibitor
 Harmine,DYRK1A,inhibitor
 Harmine,DYRK2,inhibitor
-Harmine,DYRK3,inhibitor
 Harmine,MAOA,inhibitor
 Hemi-Babim,F2,inhibitor
 Hemi-Babim,PRSS1,unknown
@@ -7432,7 +7189,6 @@ Hyaluronic acid,CD44,binder
 Hyaluronic acid,HABP2,binder
 Hyaluronic acid,HABP4,binder
 Hyaluronic acid,HAPLN1,binder
-Hyaluronic acid,HAPLN3,binder
 Hyaluronic acid,HMMR,binder
 Hyaluronic acid,ICAM1,inhibitor;binder
 Hyaluronic acid,IMPG2,binder
@@ -7495,7 +7251,6 @@ Hydroflumethiazide,SLC12A1,inhibitor
 Hydrogen peroxide,PTPN1,inhibitor
 Hydromethylthionine mesylate,MAPT,inhibitor
 Hydromorphone,OPRD1,partial agonist
-Hydromorphone,OPRK1,agonist
 Hydromorphone,OPRM1,agonist
 Hydroquinone,CYSLTR1,activator
 Hydroquinone,ITGA2B,antagonist
@@ -7645,7 +7400,6 @@ Idoxifene,ESR1,modulator
 Idoxuridine,TK1,inhibitor
 Idraparinux,F10,inhibitor
 Idrapril,ACE,inhibitor
-Idronoxil,ENOX2,unknown
 Idronoxil,SPHK1,modulator
 Idronoxil,XIAP,modulator
 Idroxioleic acid,SGMS1,modulator
@@ -7851,7 +7605,6 @@ Indoramin,ADRA2B,inhibitor
 Indoramin,ADRA2C,inhibitor
 Indotecan,TOP1,inhibitor
 Indoximod,IDO1,inhibitor
-Inecalcitol,VDR,agonist
 Infigratinib,FGFR1,inhibitor
 Infigratinib,FGFR2,inhibitor
 Infigratinib,FGFR3,inhibitor
@@ -8000,7 +7753,6 @@ Isopropyl alcohol,TNF,inhibitor
 Isoquercetin,ACE,inhibitor
 Isoquercetin,AKR1B1,inhibitor
 Isorhamnetin,CYP1B1,inhibitor
-Isosorbide,GUCY1B2,activator
 Isosorbide dinitrate,NPR1,agonist
 Isosorbide mononitrate,GUCY1A2,activator
 Isospaglumic acid,GRM3,agonist
@@ -8065,7 +7817,6 @@ JNJ-42165279,FAAH,inhibitor
 JNJ-54175446,P2RX7,antagonist
 JQ1,BRD4,inhibitor
 JQ1,BRDT,inhibitor
-JTC-801 free base,OPRL1,antagonist
 Jaspisamide A,ACTA1,unknown
 K-00546,ABL2,unknown
 K-00546,CAMK4,unknown
@@ -8129,7 +7880,6 @@ Ketamine,HTR2C,antagonist
 Ketamine,HTR3A,potentiator
 Ketamine,NOS1,inhibitor
 Ketamine,OPRD1,binder
-Ketamine,OPRK1,agonist
 Ketamine,OPRM1,binder
 Ketamine,SLC6A2,inhibitor
 Ketamine,TACR1,antagonist
@@ -8138,7 +7888,6 @@ Ketazolam,GABRG3,ligand
 Ketazolam,GABRQ,positive allosteric modulator
 Ketobemidone,GRIN3B,antagonist
 Ketobemidone,OPRD1,agonist
-Ketobemidone,OPRK1,agonist
 Ketobemidone,OPRM1,agonist
 Ketoconazole,AR,binder
 Ketoconazole,CYP17A1,inhibitor
@@ -8187,7 +7936,6 @@ L-homoarginine,NOS3,inhibitor
 L-methionine (R)-S-oxide,APP,inhibitor
 L-methionine (S)-S-oxide,RAB5A,unknown
 L-thioproline,ANXA5,unknown
-L-tyrosinamide,BPHL,unknown
 L-tyrosinamide,NPY,unknown
 LAX-101,CASP1,unknown
 LAX-101,PLD1,unknown
@@ -8277,7 +8025,6 @@ Lamotrigine,GRIA1,inhibitor
 Lamotrigine,HRH1,antagonist
 Lamotrigine,HTR2A,inhibitor
 Lamotrigine,HTR3A,inhibitor
-Lamotrigine,OPRK1,inhibitor
 Lamotrigine,SCN11A,blocker
 Lamotrigine,SCN9A,inhibitor
 Landiolol,ADRB1,antagonist
@@ -8457,7 +8204,6 @@ Levoketoconazole,CYP11B2,inhibitor
 Levoketoconazole,CYP17A1,inhibitor
 Levoketoconazole,CYP51A1,inhibitor
 Levomenthol,CACNA1A,antagonist
-Levomenthol,OPRK1,agonist
 Levomenthol,TRPA1,inhibitor;inducer
 Levomenthol,TRPM8,inducer
 Levomenthol,TRPV3,inducer
@@ -8475,7 +8221,6 @@ Levonorgestrel,SHBG,inhibitor;binder
 Levonorgestrel,SRD5A1,inhibitor
 Levopropoxyphene,OPRM1,modulator
 Levorphanol,OPRD1,agonist
-Levorphanol,OPRK1,agonist
 Levorphanol,OPRM1,agonist
 Levosalbutamol,ADRB2,agonist
 Levosimendan,KCNJ11,inducer
@@ -8487,7 +8232,6 @@ Levothyroxine,ITGAV,binder
 Levothyroxine,ITGB3,binder
 Levothyroxine,THRA,agonist
 Levothyroxine,THRB,agonist
-Lexacalcitol,VDR,agonist
 Lexibulin,TUBA1A,unknown
 Lexibulin,TUBA1B,unknown
 Lexibulin,TUBA1C,unknown
@@ -8635,7 +8379,6 @@ Lobeline,CHRNA9,unknown
 Lobeline,SLC18A2,inhibitor
 Locnartecan,TOP1,inhibitor
 Lofentanil,OPRD1,inhibitor
-Lofentanil,OPRK1,inhibitor
 Lofentanil,OPRM1,inhibitor
 Lofexidine,ADRA1A,agonist
 Lofexidine,ADRA2A,agonist
@@ -8664,7 +8407,6 @@ Loperamide,CACNA1A,blocker
 Loperamide,CALM3,inhibitor
 Loperamide,KCNH2,blocker
 Loperamide,OPRD1,agonist
-Loperamide,OPRK1,agonist
 Loperamide,OPRM1,agonist
 Loperamide,POMC,modulator
 Loprazolam,GABRG3,ligand
@@ -8776,7 +8518,6 @@ Lumichrome,BLVRB,unknown
 Lumiracoxib,PTGS1,inhibitor
 Lumiracoxib,PTGS2,inhibitor
 Lunacalcipol,CYP24A1,unknown
-Lunacalcipol,VDR,unknown
 Lupeol,ELANE,inhibitor
 Lupeol,TOP2A,inhibitor
 Lupeol,TOP2B,inhibitor
@@ -8971,7 +8712,6 @@ Marimastat,MMP23B,inhibitor
 Marimastat,MMP24,inhibitor
 Marimastat,MMP25,inhibitor
 Marimastat,MMP26,inhibitor
-Marimastat,MMP27,inhibitor
 Marimastat,MMP28,inhibitor
 Marimastat,MMP3,antagonist
 Marimastat,MMP7,antagonist
@@ -9072,7 +8812,6 @@ Melatonin,ESR1,antagonist
 Melatonin,MPO,inhibitor
 Melatonin,MTNR1A,agonist
 Melatonin,MTNR1B,agonist
-Melatonin,NQO2,inhibitor
 Melatonin,RORB,agonist
 Melogliptin,DPP4,inhibitor
 Meloxicam,PTGS1,inhibitor
@@ -9091,7 +8830,6 @@ Menadione,F2,activator
 Menadione,F9,activator
 Menadione,GGCX,cofactor
 Menadione,NQO1,unknown
-Menadione,NQO2,unknown
 Menadione,PROC,activator
 Menadione,PROS1,activator
 Menadione,VKORC1,cofactor
@@ -9108,7 +8846,6 @@ Meperidine,GRIN2A,antagonist
 Meperidine,GRIN2B,antagonist
 Meperidine,GRIN2C,antagonist
 Meperidine,GRIN2D,antagonist
-Meperidine,OPRK1,agonist
 Meperidine,OPRM1,agonist
 Meperidine,SLC6A2,inhibitor
 Meperidine,SLC6A3,inhibitor
@@ -9309,14 +9046,11 @@ Methyl alpha-D-mannoside,MBL2,unknown
 Methyl aminolevulinate,FECH,activator
 Methyl beta-L-fucopyranoside,MBL2,unknown
 Methyl isocyanate,TRPA1,activator
-Methyl nonanoate,IGHG1,unknown
 Methyl nonanoate,LCN2,unknown
 Methyl salicylate,TRPA1,activator
 Methyldopa,ADRA2A,agonist
 Methyldopa,DDC,inhibitor
 Methyldopa,DRD2,agonist
-Methylecgonine,IGHG2,unknown
-Methylecgonine,IGKC,unknown
 Methylene blue,GUCY1A2,inhibitor
 Methylene blue,MAOA,inhibitor
 Methylene blue,NOS1,inhibitor
@@ -9325,7 +9059,6 @@ Methylergometrine,HTR2B,agonist
 Methylethylamine,MB,unknown
 Methylinositol,APP,inhibitor
 Methylnaltrexone,MC4R,agonist
-Methylnaltrexone,OPRK1,antagonist
 Methylnaltrexone,OPRM1,antagonist
 Methylparaben,TRPA1,activator
 Methylphenidate,HTR1A,agonist
@@ -9417,7 +9150,6 @@ Mianserin,HTR2B,binder
 Mianserin,HTR2C,antagonist
 Mianserin,HTR6,binder
 Mianserin,HTR7,antagonist
-Mianserin,OPRK1,agonist
 Mianserin,SLC6A2,inhibitor
 Mianserin,SLC6A3,binder
 Mianserin,SLC6A4,inhibitor
@@ -9523,7 +9255,6 @@ Minocycline,IL1B,modulator
 Minocycline,MAPK9,inhibitor
 Minocycline,MMP9,inhibitor
 Minocycline,NOS2,inhibitor
-Minocycline,VEGFA,inhibitor
 Minodronic acid,FDPS,inhibitor
 Minodronic acid,GGPS1,inhibitor
 Minoxidil,KCNJ1,inducer
@@ -9543,7 +9274,6 @@ Mirtazapine,ADRA2A,antagonist
 Mirtazapine,HRH1,antagonist
 Mirtazapine,HTR2A,antagonist
 Mirtazapine,HTR2C,antagonist
-Mirtazapine,OPRK1,agonist
 Misoprostol,PTGER1,agonist
 Misoprostol,PTGER2,agonist
 Misoprostol,PTGER3,agonist
@@ -9559,7 +9289,6 @@ Mitiperstat,MPO,inhibitor
 Mito-4509,APP,unknown
 Mitoflaxone,VWF,inhibitor
 Mitoglitazone,INSR,modulator
-Mitoguazone,AMD1,inhibitor
 Mitonafide,TOP2A,modulator
 Mitonafide,TOP2B,modulator
 Mitotane,AR,antagonist
@@ -9628,10 +9357,8 @@ Morniflumate,PTGS2,modulator
 Morniflumate,TBXA2R,unknown
 Morphine,LY96,activator
 Morphine,OPRD1,agonist
-Morphine,OPRK1,agonist
 Morphine,OPRM1,agonist
 Morphine glucuronide,OPRD1,unknown
-Morphine glucuronide,OPRK1,unknown
 Morphine glucuronide,OPRM1,agonist
 Mosapride,HTR4,agonist
 Motesanib,KDR,inhibitor
@@ -9796,8 +9523,6 @@ N-acetyl-D-glucosamine-6-phosphate,GNPDA1,unknown
 N-acetyl-N'-beta-D-glucopyranosyl urea,PYGM,inhibitor
 N-acetyl-alpha-D-glucosamine,ACE,inhibitor
 N-acetyl-alpha-D-glucosamine,ACHE,inhibitor
-N-acetyl-alpha-D-glucosamine,GBA1,inhibitor
-N-acetyl-alpha-D-glucosamine,IGHG1,unknown
 N-acetyl-alpha-D-glucosamine,SIGLEC7,unknown
 N-acetyl-alpha-neuraminic acid,AZGP1,unknown
 N-acetyl-alpha-neuraminic acid,CES1,inhibitor
@@ -9806,12 +9531,10 @@ N-acetyl-alpha-neuraminic acid,REG1A,unknown
 N-acetyl-alpha-neuraminic acid,SELE,inhibitor
 N-acetyl-alpha-neuraminic acid,SELP,inhibitor
 N-acetyl-alpha-neuraminic acid,SIGLEC1,unknown
-N-acetylhistamine,QPCT,unknown
 N-acetylserotonin,MTNR1A,inhibitor
 N-acetylserotonin,SPR,unknown
 N-beta-D-glucopyranosylacetamide,PYGL,unknown
 N-beta-D-glucopyranosylacetamide,PYGM,inhibitor
-N-cyclohexyltaurine,EN2,unknown
 N-cyclohexyltaurine,SULT2B1,unknown
 N-omega-nitro-L-arginine methyl ester,NOS3,inhibitor
 N-omega-propyl-L-arginine,NOS1,unknown
@@ -9853,8 +9576,6 @@ NADH,BDH1,unknown
 NADH,BLVRA,unknown
 NADH,BLVRB,unknown
 NADH,CDO1,unknown
-NADH,COXFA4,unknown
-NADH,COXFA4L2,unknown
 NADH,CYB5R3,unknown
 NADH,CYP17A1,unknown
 NADH,CYP4A11,unknown
@@ -9865,7 +9586,6 @@ NADH,DLD,unknown
 NADH,EHHADH,unknown
 NADH,GAPDH,unknown
 NADH,GAPDHS,unknown
-NADH,GFUS,unknown
 NADH,GLUD1,unknown
 NADH,GLUD2,unknown
 NADH,GPD1,unknown
@@ -9897,9 +9617,7 @@ NADH,IMPDH2,unknown
 NADH,LDHA,unknown
 NADH,LDHAL6A,unknown
 NADH,LDHAL6B,unknown
-NADH,LDHB,unknown
 NADH,LDHC,unknown
-NADH,MDH1,unknown
 NADH,MDH2,unknown
 NADH,ME1,unknown
 NADH,ME2,unknown
@@ -9951,7 +9669,6 @@ NADH,NDUFV1,unknown
 NADH,NDUFV2,unknown
 NADH,NDUFV3,unknown
 NADH,NNT,unknown
-NADH,NQO2,unknown
 NADH,NSDHL,unknown
 NADH,OGDH,unknown
 NADH,PDHA1,unknown
@@ -9973,13 +9690,11 @@ NCX 1015,NR3C1,modulator
 NCX 701,PTGS1,modulator
 NCX 701,PTGS2,modulator
 NCX 950,ADRB2,unknown
-ND1251,OPRL1,agonist
 ND1251,SMPD4,inhibitor
 ND7001,PDE2A,unknown
 NF-kappaB Decoy,NFKB1,inhibitor
 NGD-4715,MCHR1,antagonist
 NGX267,CHRM1,agonist
-NM-3,VEGFA,inhibitor
 NM-3,VEGFB,inhibitor
 NM-3,VEGFC,inhibitor
 NM-3,VEGFD,inhibitor
@@ -9988,7 +9703,6 @@ NN344,INSR,unknown
 NOX-700,NFKB1,unknown
 NOX-700,NFKB2,unknown
 NP-50301,ESR1,unknown
-NP-51,MAPK10,inhibitor
 NP-51,MAPK8,inhibitor
 NP-51,MAPK9,inhibitor
 NP-G2-044,FSCN1,inhibitor
@@ -10032,10 +9746,8 @@ Nabiximols,FAAH,inhibitor;inducer
 Nabiximols,GLRA1,unknown
 Nabiximols,GLRA3,unknown
 Nabiximols,GLRB,unknown
-Nabiximols,GPR12,inverse agonist
 Nabiximols,GPR18,unknown
 Nabiximols,GPR55,unknown
-Nabiximols,GPX1,stimulator
 Nabiximols,GSR,stimulator
 Nabiximols,HMGCR,stimulator
 Nabiximols,HTR1A,unknown
@@ -10082,32 +9794,25 @@ Nafamostat,KLK1,inhibitor
 Nafamostat,PRSS1,inhibitor
 Nafamostat,TNF,other/unknown
 Nafarelin,GNRHR,agonist
-Nafarelin,GNRHR2,agonist
 Nafoxidine,ESR1,inhibitor
 Nafoxidine,ESR2,inhibitor
 Naftifine,SQLE,inhibitor
 Naftopidil,ADRA1A,inhibitor
 Nalbuphine,OPRD1,antagonist
-Nalbuphine,OPRK1,agonist
 Nalbuphine,OPRM1,antagonist
 Naldemedine,OPRD1,antagonist
-Naldemedine,OPRK1,antagonist
 Naldemedine,OPRM1,antagonist
 Nalidixic acid,TOP2A,inhibitor
 Nalidixic acid,TOP2B,inhibitor
 Nalmefene,OPRD1,antagonist
-Nalmefene,OPRK1,partial agonist
 Nalmefene,OPRM1,antagonist
-Nalorphine,OPRK1,agonist
 Naloxegol,OPRM1,antagonist
 Naloxone,CES1,binder
 Naloxone,ESR1,antagonist
 Naloxone,OPRD1,antagonist
-Naloxone,OPRK1,antagonist
 Naloxone,OPRM1,antagonist
 Naloxone,TLR4,inhibitor
 Naltrexone,OPRD1,antagonist
-Naltrexone,OPRK1,antagonist
 Naltrexone,OPRM1,antagonist
 Naltrexone,SIGMAR1,antagonist
 Naluzotan,HTR1A,agonist
@@ -10155,7 +9860,6 @@ Naronapride,HTR4,agonist
 Nastorazepide,CCKBR,modulator
 Nateglinide,ABCC8,inhibitor
 Nateglinide,PPARG,agonist
-Navacaprant,OPRK1,antagonist
 Navarixin,CXCR1,antagonist
 Navarixin,CXCR2,modulator
 Navarixin,MADCAM1,other/unknown
@@ -10348,7 +10052,6 @@ Nipecotic acid,SLC6A11,inhibitor
 Niperotidine,HRH2,antagonist
 Niraparib,PARP1,inhibitor
 Niraparib,PARP2,inhibitor
-Niravoline,OPRK1,modulator
 Niraxostat,XDH,inhibitor
 Nirogacestat,APH1A,modulator
 Nirogacestat,APH1B,modulator
@@ -10387,7 +10090,6 @@ Nitric Oxide,GUCY1A1,stimulator
 Nitric Oxide,GUCY1A2,inducer
 Nitric Oxide,GUCY1B1,stimulator
 Nitric Oxide,IDO1,inhibitor
-Nitric Oxide,MT1A,disruptor
 Nitric Oxide,NOS3,product of
 Nitrilotriacetic acid,LTF,inhibitor
 Nitroarginine,NOS1,inhibitor
@@ -10520,7 +10222,6 @@ ORG-25935,SLC6A9,inhibitor
 ORG-31710,PGR,modulator
 ORG-34517,NR3C1,antagonist
 ORM-12741,ADRA2C,antagonist
-ORP-101,OPRK1,inhibitor
 ORP-101,OPRM1,inhibitor
 OSI-027,MTOR,inhibitor
 OSI-461,PDE5A,unknown
@@ -10689,7 +10390,6 @@ Onvansertib,PLK1,inhibitor
 Opaganib,SPHK2,inhibitor
 Opicapone,COMT,inhibitor
 Opium,OPRD1,agonist
-Opium,OPRK1,agonist
 Opium,OPRM1,agonist
 Opnurasib,KRAS,inhibitor
 Orantinib,AURKA,inhibitor
@@ -10717,7 +10417,6 @@ Ornithine,OAT,unknown
 Ornithine,OAZ1,unknown
 Ornithine,OTC,unknown
 Ornithine,SLC25A15,unknown
-Ornithine,SLC25A2,unknown
 Ornithine,SLC7A1,unknown
 Ornithine,SLC7A2,unknown
 Orotic acid,DHODH,unknown
@@ -10749,7 +10448,6 @@ Ouabain,ATP1A3,inhibitor
 Ovalicin,METAP1,unknown
 Ovalicin,METAP2,unknown
 Oxacillin,SLC15A1,binder
-Oxacillin,SLC15A2,binder
 Oxalic Acid,SRC,inhibitor
 Oxaloacetate Ion,CS,unknown
 Oxaloacetate Ion,SPR,unknown
@@ -10757,7 +10455,6 @@ Oxametacin,PTGS1,inhibitor
 Oxametacin,PTGS2,inhibitor
 Oxamic Acid,ABAT,inhibitor
 Oxamic Acid,LDHA,unknown
-Oxamic Acid,LDHB,unknown
 Oxandrolone,AR,agonist
 Oxaprozin,PTGS1,inhibitor
 Oxaprozin,PTGS2,inhibitor
@@ -10795,11 +10492,9 @@ Oxybutynin,CHRM1,antagonist
 Oxybutynin,CHRM2,antagonist
 Oxybutynin,CHRM3,antagonist
 Oxycodegol,OPRD1,agonist
-Oxycodegol,OPRK1,agonist
 Oxycodegol,OPRM1,agonist
 Oxycodone,CACNA1B,inhibitor
 Oxycodone,OPRD1,agonist
-Oxycodone,OPRK1,agonist
 Oxycodone,OPRM1,agonist
 Oxygen,MT-CO1,agonist;activator
 Oxygen,NOX1,agonist;activator
@@ -11061,7 +10756,6 @@ Parecoxib,LTF,inhibitor
 Parecoxib,PTGS2,inhibitor
 Pargyline,MAOA,inhibitor
 Pargyline,MAOB,inhibitor
-Paricalcitol,VDR,agonist
 Paromomycin,RPL10L,inhibitor
 Paromomycin,RPSA,inhibitor
 Paroxetine,ADRA1D,binder
@@ -11151,7 +10845,6 @@ Pentagastrin,CCKBR,agonist
 Pentaglyme,PFN2,unknown
 Pentamidine,TPSAB1,inhibitor
 Pentamidine,TRDMT1,other
-Pentazocine,OPRK1,agonist
 Pentazocine,OPRM1,antagonist
 Pentazocine,SIGMAR1,agonist
 Pentobarbital,CHRNA4,antagonist
@@ -11180,7 +10873,6 @@ Pentoxifylline,ADORA2A,agonist
 Pentoxifylline,NT5E,inhibitor
 Pentoxifylline,TNF,other/unknown
 Pentoxyverine,KCNH2,inhibitor
-Pentoxyverine,OPRK1,agonist
 Pentoxyverine,OPRM1,antagonist
 Pentoxyverine,SCN9A,inhibitor
 Pentoxyverine,SIGMAR1,agonist
@@ -11250,7 +10942,6 @@ Phenacemide,SCN1A,inhibitor
 Phenacetin,IMPDH1,inhibitor
 Phenacetin,PTGS1,inhibitor
 Phenazocine,OPRD1,inhibitor
-Phenazocine,OPRK1,inhibitor
 Phenazocine,OPRM1,inhibitor
 Phenazopyridine,SCN1A,inhibitor
 Phencyclidine,GRIN1,inhibitor
@@ -11263,7 +10954,6 @@ Phendimetrazine,ADRA1B,agonist
 Phendimetrazine,SLC6A2,negative modulator
 Phenelzine,ABAT,inhibitor
 Phenelzine,AOC3,inhibitor
-Phenelzine,GAD65,inhibitor
 Phenelzine,GPT,inhibitor
 Phenelzine,GPT2,inhibitor
 Phenelzine,MAOA,antagonist
@@ -11422,11 +11112,9 @@ Phenytoin,SCN8A,inhibitor
 Phloretin,SLC23A1,inhibitor
 Phlorizin,SLC5A1,inhibitor
 Pholcodine,OPRD1,antagonist
-Pholcodine,OPRK1,antagonist
 Pholcodine,OPRM1,antagonist
 Phorbol 12-myristate 13-acetate diester,KCNJ5,inhibitor
 Phorbol 12-myristate 13-acetate diester,KCNT1,activator
-Phorbol 12-myristate 13-acetate diester,KCNT2,inhibitor
 Phorbol 12-myristate 13-acetate diester,TRPV4,activator
 Phosphatidyl ethanol,NR5A1,unknown
 Phosphatidyl serine,ATP8A1,unknown
@@ -11510,11 +11198,8 @@ Pidolic acid,AMY2A,inhibitor
 Pidolic acid,AMY2B,unknown
 Pidolic acid,CCL8,unknown
 Pidolic acid,HCRT,unknown
-Pidolic acid,IGLC1,unknown
-Pidolic acid,IGLV2-8,unknown
 Pidolic acid,KRTAP5-2,unknown
 Pidolic acid,TFF2,unknown
-Pidolic acid,VEGFA,unknown
 Piflufolastat F 18,FOLH1,binder
 Pilaralisib,PIK3CA,unknown
 Pilaralisib,PIK3CG,modulator
@@ -11697,7 +11382,6 @@ Potassium chloride,SLC12A2,unknown
 Potassium chloride,SLC12A4,unknown
 Potassium chloride,SLC12A5,unknown
 Potassium chloride,SLC12A6,unknown
-Potassium chloride,SLC12A7,unknown
 Potassium nitrate,KCNH2,agonist
 Potassium perchlorate,SLC5A5,inhibitor
 Potassium sulfate,ATP1A1,unknown
@@ -11810,7 +11494,6 @@ Prifelone,PTGS2,inhibitor
 Prifinium,CHRM5,modulator
 Prilocaine,SCN5A,inhibitor
 Primaquine,KRT7,other/unknown
-Primaquine,NQO2,inhibitor
 Primidone,CHRNA4,antagonist
 Primidone,CHRNA7,antagonist
 Primidone,GABRA1,potentiator
@@ -11874,7 +11557,6 @@ Progesterone,ESR1,agonist;inhibitor;downregulator
 Progesterone,ESR2,agonist;downregulator
 Progesterone,NR3C1,partial agonist
 Progesterone,NR3C2,antagonist;agonist
-Progesterone,OPRK1,activator;potentiator
 Progesterone,ORM1,binder
 Progesterone,PGR,agonist
 Progesterone,SHBG,binder;potentiator
@@ -11887,12 +11569,10 @@ Proline,P3H2,unknown
 Proline,P3H3,unknown
 Proline,P4HA1,unknown
 Proline,P4HA2,unknown
-Proline,P5CR2,unknown
 Proline,PARS2,unknown
 Proline,PLPBP,unknown
 Proline,PPIA,binder
 Proline,PPIB,binder
-Proline,PPIC,unknown
 Proline,PPIF,unknown
 Proline,PPIG,unknown
 Proline,PPIH,unknown
@@ -12036,11 +11716,9 @@ Purvalanol A,RPS6KA1,unknown
 Purvalanol A,SRC,unknown
 Putrescine,ADRB1,unknown
 Putrescine,ADRB2,unknown
-Putrescine,AMD1,inhibitor
 Putrescine,ODC1,inhibitor
 Pyrantel,CHRM1,antagonist;agonist
 Pyrantel,GPR35,unknown
-Pyrazolanthrone,MAPK10,inhibitor
 Pyrazolanthrone,MAPK8,inhibitor
 Pyrazolanthrone,MAPK8IP1,unknown
 Pyrazolanthrone,MAPK9,inhibitor
@@ -12070,7 +11748,6 @@ Pyridoxal phosphate,DDC,cofactor
 Pyridoxal phosphate,F2,inhibitor
 Pyridoxal phosphate,GAD1,cofactor
 Pyridoxal phosphate,GAD2,cofactor
-Pyridoxal phosphate,GAD65,cofactor
 Pyridoxal phosphate,GADL1,cofactor
 Pyridoxal phosphate,GCAT,cofactor
 Pyridoxal phosphate,GLDC,cofactor
@@ -12079,7 +11756,6 @@ Pyridoxal phosphate,GOT2,cofactor
 Pyridoxal phosphate,GPT,cofactor
 Pyridoxal phosphate,GPT2,cofactor
 Pyridoxal phosphate,HDC,cofactor
-Pyridoxal phosphate,IGSF10,cofactor
 Pyridoxal phosphate,KYAT1,cofactor
 Pyridoxal phosphate,KYAT3,cofactor
 Pyridoxal phosphate,KYNU,cofactor
@@ -12135,8 +11811,6 @@ Pyruvic acid,SLC16A1,unknown
 Pyruvic acid,SLC16A2,unknown
 Pyruvic acid,SLC16A3,unknown
 Pyruvic acid,SLC16A4,unknown
-Pyruvic acid,SLC16A5,unknown
-Pyruvic acid,SLC16A6,unknown
 Pyruvic acid,SLC16A7,unknown
 Pyruvic acid,SLC16A8,unknown
 QAV-680,PTGDR2,antagonist
@@ -12167,7 +11841,6 @@ Quercetin,HSP90AA1,unknown
 Quercetin,HSPA2,unknown
 Quercetin,LPCAT1,inhibitor
 Quercetin,LPCAT2,inhibitor
-Quercetin,NQO2,inhibitor
 Quercetin,NR1I2,activator
 Quercetin,PIK3CG,unknown
 Quercetin,PIM1,unknown
@@ -12428,7 +12101,6 @@ Relugolix,GNRHR,antagonist
 Remeglurant,GRM5,modulator
 Remibrutinib,BTK,inhibitor
 Remifentanil,OPRD1,agonist
-Remifentanil,OPRK1,agonist
 Remifentanil,OPRM1,agonist
 Remikiren,REN,inhibitor
 Remimazolam,GABRG3,ligand
@@ -12485,7 +12157,6 @@ Resveratrol,ITGB3,unknown
 Resveratrol,KHSRP,unknown
 Resveratrol,MTNR1A,unknown
 Resveratrol,MTNR1B,unknown
-Resveratrol,NQO2,unknown
 Resveratrol,NR1I2,unknown
 Resveratrol,NR1I3,unknown
 Resveratrol,PI4K2B,unknown
@@ -12592,7 +12263,6 @@ Risperidone,HTR1D,antagonist
 Risperidone,HTR2A,antagonist
 Risperidone,HTR2C,antagonist
 Risperidone,HTR7,antagonist
-Risuteganib,VEGFA,modulator
 Risuteganib,VEGFB,modulator
 Risuteganib,VEGFC,modulator
 Risuteganib,VEGFD,modulator
@@ -12636,7 +12306,6 @@ Robalzotan,HTR1A,antagonist
 Roblitinib,FGFR4,antagonist
 Rocaglamide,NFKB1,inhibitor
 Rocaglamide,NFKB2,inhibitor
-Rocaglamide,PHB1,inhibitor
 Rocaglamide,PHB2,inhibitor
 Rocaglamide,REL,inhibitor
 Rocaglamide,RELA,inhibitor
@@ -12777,7 +12446,6 @@ S-Hexylglutathione,GLO1,unknown
 S-Hexylglutathione,GSTA1,ligand
 S-Hexylglutathione,GSTM4,unknown
 S-Hexylglutathione,GSTP1,unknown
-S-Hexylglutathione,GSTT2,unknown
 S-Hexylglutathione,HPGDS,inhibitor
 S-Hydroxycysteine,ACAT2,unknown
 S-Hydroxycysteine,C3,inhibitor
@@ -12794,7 +12462,6 @@ S-Methyl glutathione,GSTM2,unknown
 S-Methylcysteine,CTSD,inhibitor
 S-Methylcysteine,MGMT,inhibitor
 S-P-Nitrobenzyloxycarbonylglutathione,GLO1,unknown
-S-adenosyl-L-homocysteine,COMTD1,unknown
 S-adenosyl-L-homocysteine,DNMT3B,inhibitor
 S-adenosyl-L-homocysteine,DPH5,unknown
 S-adenosyl-L-homocysteine,GAMT,unknown
@@ -12845,7 +12512,6 @@ SD118,IL1R1,unknown
 SD118,TNF,unknown
 SEL120-34A free base,CDK19,inhibitor
 SEL120-34A free base,CDK8,inhibitor
-SER-100,OPRL1,agonist
 SF1126,MTOR,unknown
 SF1126,PIK3CG,modulator
 SF1126,PIK3R1,unknown
@@ -12866,7 +12532,6 @@ SN-38,TOP1,inhibitor
 SNS-032,CDK2,inhibitor
 SNS-032,CDK7,inhibitor
 SNS-032,CDK9,inhibitor
-SNS-032,VEGFA,unknown
 SNS-314,AURKA,inhibitor
 SNS-314,AURKB,inhibitor
 SNS-314,AURKC,inhibitor
@@ -12939,12 +12604,10 @@ Salsalate,PTGS1,inhibitor
 Salsalate,PTGS2,inhibitor
 Salvianolic acid B,IGFBP3,inhibitor
 Salvinorin A,OPRD1,inhibitor
-Salvinorin A,OPRK1,inhibitor
 Salvinorin A,OPRM1,inhibitor
 Samelisant,HRH3,antagonist
 Sameridine,OPRM1,modulator
 Samidorphan,OPRD1,partial agonist
-Samidorphan,OPRK1,partial agonist
 Samidorphan,OPRM1,antagonist;inhibitor
 Sampatrilat,MME,modulator
 Samuraciclib,CDK7,inhibitor
@@ -12961,7 +12624,6 @@ Saracatinib,ABL1,modulator
 Saracatinib,SRC,modulator
 Saralasin,AGTR1,inhibitor
 Saralasin,AGTR2,inhibitor
-Sardomozide,AMD1,inhibitor
 Sardomozide,NR3C1,antagonist
 Saredutant,TACR2,antagonist
 Saripidem,GABRG3,modulator
@@ -13056,7 +12718,6 @@ Semaxanib,RET,inhibitor
 Semparatide,PTH2R,modulator
 Senicapoc,KCNN4,modulator
 Sennosides,AQP3,inhibitor
-Seocalcitol,VDR,inhibitor
 Sepiapterin,PAH,binder
 Seproxetine,SLC6A2,inhibitor
 Seproxetine,SLC6A3,inhibitor
@@ -13155,7 +12816,6 @@ Simurosertib,CDC7,inhibitor
 Simvastatin,HDAC2,inhibitor
 Simvastatin,HMGCR,inhibitor
 Simvastatin,ITGAL,inhibitory allosteric modulator
-Sinapoyl coenzyme A,COMTD1,unknown
 Sinitrodil,PDE5A,modulator
 Sipatrigine,CACNA1D,inhibitor
 Sipatrigine,SCN10A,inhibitor
@@ -13296,7 +12956,6 @@ Spiperone,HTR1A,inhibitor
 Spiperone,HTR2A,inhibitor
 Spiperone,HTR6,inhibitor
 Spiperone,HTR7,inhibitor
-Spiradoline,OPRK1,agonist
 Spiramide,HTR2A,antagonist
 Spiramide,HTR2B,antagonist
 Spiramide,HTR2C,antagonist
@@ -13313,7 +12972,6 @@ Spironolactone,NR3C2,antagonist
 Spironolactone,PGR,agonist
 Squalamine,FGF2,modulator
 Squalamine,PDGFA,inhibitor
-Squalamine,VEGFA,modulator
 Squalamine,VEGFB,modulator
 Squalamine,VEGFC,modulator
 Squalamine,VEGFD,modulator
@@ -13354,7 +13012,6 @@ Stearic acid,PPARA,unknown
 Stiripentol,GABRG3,modulator
 Stiripentol,GABRQ,agonist;positive allosteric modulator
 Stiripentol,LDHA,inhibitor
-Stiripentol,LDHB,inhibitor
 Streptomycin,PADI4,inhibitor
 Streptozocin,OGA,inhibitor
 Streptozocin,SLC2A2,ligand
@@ -13380,7 +13037,6 @@ Sucrose,TAS1R2,unknown
 Sucrosofate,FGF1,inhibitor
 Sucrosofate,FGFR2,ligand
 Sufentanil,OPRD1,agonist
-Sufentanil,OPRK1,binder
 Sufentanil,OPRM1,agonist
 Sufugolix,GNRHR,inhibitor
 Sulamserod,KCNA5,blocker
@@ -13494,7 +13150,6 @@ TG-100801,CSK,unknown
 TG-100801,FLT1,unknown
 TG-100801,FLT4,unknown
 TG-100801,KDR,unknown
-TG-100801,VEGFA,inhibitor
 TG-100801,VEGFB,inhibitor
 TG-100801,VEGFC,inhibitor
 TG-100801,VEGFD,inhibitor
@@ -13608,11 +13263,9 @@ Tanespimycin,HSP90AB1,unknown
 Tannic acid,ANO1,blocker
 Tanogitran,F10,inhibitor
 Tanomastat,MMP2,inhibitor
-Tanzisertib,MAPK10,modulator
 Tanzisertib,MAPK8,modulator
 Tanzisertib,MAPK9,modulator
 Tapentadol,OPRD1,agonist
-Tapentadol,OPRK1,agonist
 Tapentadol,OPRM1,agonist
 Tapentadol,SLC6A2,inhibitor
 Tapentadol,SLC6A4,inhibitor
@@ -13825,7 +13478,6 @@ Tetrabromo-2-Benzotriazole,PRKCA,inhibitor
 Tetrabromo-2-Benzotriazole,ROCK1,inhibitor
 Tetrabromo-2-Benzotriazole,RPS6KB1,inhibitor
 Tetrabromo-2-Benzotriazole,SGK1,inhibitor
-Tetrabutylammonium Ion,IGKC,unknown
 Tetracaine,RYR1,modulator
 Tetracaine,RYR2,modulator
 Tetracaine,SCN10A,inhibitor
@@ -13846,7 +13498,6 @@ Tetraethylammonium,KCNN2,blocker
 Tetraethylammonium,KCNN3,blocker
 Tetraethylammonium,KCNQ3,blocker
 Tetraethylammonium,KCNT1,blocker
-Tetraethylammonium,KCNT2,blocker
 Tetraethylammonium,SLC47A1,modulator
 Tetraferric tricitrate decahydrate,TFRC,ligand
 Tetrafluoroaluminate Ion,ATP2A1,unknown
@@ -13912,7 +13563,6 @@ Theobromine,PDE4B,inhibitor
 Theophylline,ADORA1,antagonist
 Theophylline,ADORA2A,antagonist
 Theophylline,ADORA2B,antagonist
-Theophylline,CPNE1,binder
 Theophylline,HDAC2,activator
 Theophylline,NT5E,inhibitor
 Theophylline,PARP1,inhibitor
@@ -14067,7 +13717,6 @@ Tirbanibulin,SRC,inhibitor
 Tirbanibulin,TUBB,inhibitor
 Tirofiban,ITGA2B,antagonist
 Tirofiban,ITGB3,antagonist
-Tisocalcitate,VDR,inhibitor
 Titanium dioxide,MARCO,unknown
 Tivantinib,MET,inhibitor
 Tivozanib,FLT1,inhibitor
@@ -14184,7 +13833,6 @@ Tramadol,CHRNA7,antagonist
 Tramadol,GRIN3B,inhibitor
 Tramadol,HTR2C,antagonist
 Tramadol,OPRD1,agonist
-Tramadol,OPRK1,agonist
 Tramadol,OPRM1,agonist
 Tramadol,SCN2A,inhibitor
 Tramadol,SLC6A2,inhibitor
@@ -14210,7 +13858,6 @@ Trapidil,PDE6B,inhibitor
 Trapidil,PDGFRB,antagonist
 Travoprost,PTGFR,agonist
 Traxoprodil,GRIN2B,antagonist
-Trazeolide,IGKC,unknown
 Trazodone,ADRA1A,antagonist
 Trazodone,ADRA2A,antagonist
 Trazodone,HRH1,antagonist
@@ -14233,7 +13880,6 @@ Treprostinil,PPARD,agonist
 Treprostinil,PTGDR,agonist
 Treprostinil,PTGER2,agonist
 Treprostinil,PTGIR,agonist
-Tretazicar,NQO2,inhibitor
 Tretinoin,ALDH1A1,substrate
 Tretinoin,ALDH1A2,substrate
 Tretinoin,CRABP1,binder
@@ -14244,7 +13890,6 @@ Tretinoin,PDK4,upregulator
 Tretinoin,RARA,agonist
 Tretinoin,RARB,agonist
 Tretinoin,RARG,agonist
-Tretinoin,RARRES1,agonist
 Tretinoin,RBP4,binder
 Tretinoin,RXRA,agonist
 Tretinoin,RXRB,agonist
@@ -14400,7 +14045,6 @@ Troglitazone,SLC29A1,inhibitor
 Trolamine salicylate,PTGS1,inhibitor
 Trolamine salicylate,PTGS2,inhibitor
 Troleandomycin,NR1I2,activator
-Tromethamine,AMD1,inhibitor
 Tromethamine,APP,inhibitor
 Tropicamide,CHRM1,antagonist
 Tropicamide,CHRM2,antagonist
@@ -14566,7 +14210,6 @@ Ursolic acid,PYGM,inhibitor
 Usistapide,MTTP,inhibitor
 Usmarapride,HTR4,agonist
 Utibapril,ACE,inhibitor
-V1003,OPRK1,unknown
 V1003,OPRM1,unknown
 V24343,CNR1,unknown
 VEGFR 2 Kinase inhibitor I,KDR,inhibitor
@@ -14638,7 +14281,6 @@ Vandetanib,KDR,inhibitor
 Vandetanib,PTK6,inhibitor
 Vandetanib,RET,inhibitor
 Vandetanib,TEK,inhibitor
-Vandetanib,VEGFA,inhibitor
 Vanoxerine,KCNH7,blocker
 Vanoxerine,SLC6A3,antagonist
 Vanzacaftor,CFTR,positive allosteric modulator
@@ -14659,7 +14301,6 @@ Variolin B,CCNA2,unknown
 Variolin B,CDK2,unknown
 Varlitinib,EGFR,modulator
 Varlitinib,ERBB2,modulator
-Varoglutamstat,QPCT,inhibitor
 Vasoactive intestinal peptide,VIPR1,antagonist
 Vatalanib,EGFR,inhibitor
 Vatalanib,FLT1,inhibitor
@@ -14668,7 +14309,6 @@ Vatalanib,KDR,inhibitor
 Vebreltinib,MET,inhibitor
 Vecabrutinib,BTK,inhibitor
 Vecuronium,CHRNA2,antagonist
-Veglin,VEGFA,unknown
 Veliflapon,ALOX5AP,inhibitor
 Veliparib,PARP1,unknown
 Veliparib,PARP2,unknown
@@ -14776,13 +14416,11 @@ Vitamin A,PTGDS,ligand
 Vitamin A,RDH11,substrate
 Vitamin A,RDH12,substrate
 Vitamin A,RDH13,substrate
-Vitamin A,RDH14,substrate
 Vitamin A,RDH5,substrate
 Vitamin A,RDH8,substrate
 Vitamin A,RETSAT,substrate
 Vitamin A,RXRG,binder
 Vitamin D,GC,unknown
-Vitamin D,VDR,unknown
 Vitamin E,ALOX5,unknown
 Vitamin E,DGKA,unknown
 Vitamin E,NR1I2,unknown
@@ -14790,9 +14428,6 @@ Vitamin E,PPP2CA,unknown
 Vitamin E,PPP2CB,unknown
 Vitamin E,PRKCA,unknown
 Vitamin E,PRKCB,unknown
-Vitamin E,SEC14L2,unknown
-Vitamin E,SEC14L3,unknown
-Vitamin E,SEC14L4,unknown
 Vixotrigine,SCN9A,inhibitor
 Voacamine,ABCB1,inhibitor
 Voclosporin,CAMLG,binder
@@ -15061,7 +14696,6 @@ Zinc,CP,unknown
 Zinc,CPN1,unknown
 Zinc,CPN2,unknown
 Zinc,DAND5,cofactor
-Zinc,DCD,unknown
 Zinc,DSP,unknown
 Zinc,EEF1A1,unknown
 Zinc,ENO1,unknown
@@ -15083,11 +14717,6 @@ Zinc,HDAC8,cofactor
 Zinc,HPR,unknown
 Zinc,HRNR,unknown
 Zinc,IGFALS,unknown
-Zinc,IGHA1,unknown
-Zinc,IGHM,unknown
-Zinc,IGKV1-17,unknown
-Zinc,IGKV3-20,unknown
-Zinc,IGLV3-21,unknown
 Zinc,IL3,unknown
 Zinc,INS,unknown
 Zinc,ITIH1,unknown
@@ -15110,7 +14739,6 @@ Zinc,MDM2,unknown
 Zinc,MGMT,unknown
 Zinc,MMP9,unknown
 Zinc,MPG,unknown
-Zinc,MT1A,unknown
 Zinc,MT2A,unknown
 Zinc,MT3,unknown
 Zinc,NME1,unknown
@@ -15119,7 +14747,6 @@ Zinc,P4HB,unknown
 Zinc,PARP1,unknown
 Zinc,PDCD6,unknown
 Zinc,PDIA3,unknown
-Zinc,PGLYRP2,unknown
 Zinc,PON1,unknown
 Zinc,PRDX1,unknown
 Zinc,PSPH,unknown
@@ -15186,7 +14813,6 @@ Zinc acetate,CP,unknown
 Zinc acetate,CPN1,unknown
 Zinc acetate,CPN2,unknown
 Zinc acetate,DAND5,unknown
-Zinc acetate,DCD,unknown
 Zinc acetate,DSP,unknown
 Zinc acetate,EEF1A1,unknown
 Zinc acetate,ENO1,unknown
@@ -15208,11 +14834,6 @@ Zinc acetate,HDAC8,unknown
 Zinc acetate,HPR,unknown
 Zinc acetate,HRNR,unknown
 Zinc acetate,IGFALS,unknown
-Zinc acetate,IGHA1,unknown
-Zinc acetate,IGHM,unknown
-Zinc acetate,IGKV1-17,unknown
-Zinc acetate,IGKV3-20,unknown
-Zinc acetate,IGLV3-21,unknown
 Zinc acetate,IL3,unknown
 Zinc acetate,INS,unknown
 Zinc acetate,ITIH1,unknown
@@ -15235,7 +14856,6 @@ Zinc acetate,MDM2,unknown
 Zinc acetate,MGMT,unknown
 Zinc acetate,MMP9,unknown
 Zinc acetate,MPG,unknown
-Zinc acetate,MT1A,unknown
 Zinc acetate,MT2A,unknown
 Zinc acetate,MT3,unknown
 Zinc acetate,NME1,unknown
@@ -15244,7 +14864,6 @@ Zinc acetate,P4HB,unknown
 Zinc acetate,PARP1,unknown
 Zinc acetate,PDCD6,unknown
 Zinc acetate,PDIA3,unknown
-Zinc acetate,PGLYRP2,unknown
 Zinc acetate,PON1,unknown
 Zinc acetate,PRDX1,unknown
 Zinc acetate,PSPH,unknown
@@ -15301,7 +14920,6 @@ Zinc chloride,CLU,inducer
 Zinc chloride,CP,ligand
 Zinc chloride,CPN1,cofactor
 Zinc chloride,CPN2,cofactor
-Zinc chloride,DCD,stabilization
 Zinc chloride,EEF1A1,binder
 Zinc chloride,ENO1,binder
 Zinc chloride,ESR1,binder
@@ -15333,7 +14951,6 @@ Zinc chloride,MDM2,binder
 Zinc chloride,MGMT,stabilization
 Zinc chloride,MMP9,binder
 Zinc chloride,MPG,cofactor
-Zinc chloride,MT1A,binder
 Zinc chloride,MT2A,cofactor
 Zinc chloride,MT3,cofactor
 Zinc chloride,NME1,inhibitor
@@ -15341,7 +14958,6 @@ Zinc chloride,ORM2,binder
 Zinc chloride,P4HB,binder
 Zinc chloride,PARP1,component of
 Zinc chloride,PDIA3,binder
-Zinc chloride,PGLYRP2,binder
 Zinc chloride,PON1,inducer
 Zinc chloride,PRDX1,binder
 Zinc chloride,PSPH,binder
@@ -15399,7 +15015,6 @@ Zinc protoporphyrin,CYCS,unknown
 "Zinc sulfate, unspecified form",CP,ligand
 "Zinc sulfate, unspecified form",CPN1,cofactor
 "Zinc sulfate, unspecified form",CPN2,cofactor
-"Zinc sulfate, unspecified form",DCD,stabilization
 "Zinc sulfate, unspecified form",EEF1A1,binder
 "Zinc sulfate, unspecified form",ENO1,binder
 "Zinc sulfate, unspecified form",ESR1,binder
@@ -15431,7 +15046,6 @@ Zinc protoporphyrin,CYCS,unknown
 "Zinc sulfate, unspecified form",MGMT,stabilization
 "Zinc sulfate, unspecified form",MMP9,binder
 "Zinc sulfate, unspecified form",MPG,cofactor
-"Zinc sulfate, unspecified form",MT1A,binder
 "Zinc sulfate, unspecified form",MT2A,cofactor
 "Zinc sulfate, unspecified form",MT3,cofactor
 "Zinc sulfate, unspecified form",NME1,inhibitor
@@ -15439,7 +15053,6 @@ Zinc protoporphyrin,CYCS,unknown
 "Zinc sulfate, unspecified form",P4HB,binder
 "Zinc sulfate, unspecified form",PARP1,component of
 "Zinc sulfate, unspecified form",PDIA3,binder
-"Zinc sulfate, unspecified form",PGLYRP2,binder
 "Zinc sulfate, unspecified form",PON1,inducer
 "Zinc sulfate, unspecified form",PRDX1,binder
 "Zinc sulfate, unspecified form",PSPH,binder
@@ -15524,7 +15137,6 @@ Zonampanel anhydrous,GRIA1,inhibitor
 Zongertinib,ERBB2,inhibitor
 Zonisamide,CA1,inhibitor
 Zonisamide,CA10,inhibitor
-Zonisamide,CA11,inhibitor
 Zonisamide,CA12,inhibitor
 Zonisamide,CA13,inhibitor
 Zonisamide,CA14,inhibitor
@@ -15607,7 +15219,6 @@ alpha-Hydroxylinoleic acid,PPARA,agonist
 alpha-Hydroxylinoleic acid,PPARD,agonist
 alpha-Hydroxylinoleic acid,PPARG,agonist
 alpha-Ketoisovalerate,BCAT2,unknown
-alpha-L-fucose,IGHG1,unknown
 alpha-L-methyl-fucose,MBL2,unknown
 alpha-Linolenic acid,ELOVL2,substrate
 alpha-Linolenic acid,ELOVL5,substrate
@@ -15630,8 +15241,6 @@ alpha-Tocopherol succinate,DGKZ,unknown
 alpha-Tocopherol succinate,NR1I2,unknown
 alpha-Tocopherol succinate,PRKCA,unknown
 alpha-Tocopherol succinate,PRKCB,unknown
-alpha-Tocopherol succinate,SEC14L2,unknown
-alpha-Tocopherol succinate,SEC14L3,unknown
 alpha-maltotriose,AMY2B,unknown
 beta-2-Thienyl-L-alanine,PAH,unknown
 beta-Alanine,SLC6A11,blocker
@@ -15708,7 +15317,6 @@ p-Coumaric acid,CA2,inhibitor
 p-Coumaric acid,CA4,inhibitor
 p-Coumaric acid,CA6,inhibitor
 p-Coumaric acid,CA9,inhibitor
-p-Coumaric acid,PTGR1,unknown
 p-Cumylphenol,ESRRG,unknown
 p-Hydroxymercuribenzoic acid,CA2,inhibitor
 p-Toluenesulfonamide,CA12,inhibitor
@@ -15718,7 +15326,6 @@ p-Toluenesulfonamide,CA9,inhibitor
 p-Toluenesulfonic acid,CTSH,unknown
 p-Toluenesulfonic acid,LYZ,unknown
 scyllo-inositol,CDIPT,inhibitor
-scyllo-inositol,GBA1,unknown
 selonabant,CNR1,antagonist
 sn-glycero-3-phosphoethanolamine,ANXA5,unknown
 sn-glycerol 3-phosphate,ALDOB,unknown

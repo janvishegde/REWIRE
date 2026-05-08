@@ -177,7 +177,8 @@ def simulate_drug_binding(
     if not targets_in_graph:
         return G.copy()  # drug has no network presence → unchanged graph
 
-    G_sim = G.copy()
+    import copy
+    G_sim = copy.deepcopy(G)
 
     # Collect 1-hop neighbors (excluding the target nodes themselves)
     neighbors_1hop = set()
@@ -280,8 +281,7 @@ def compute_graph_features(
         SG, k=k_samples, weight="weight", normalized=True, seed=42
     )
     clustering      = nx.clustering(SG, weight="weight")
-    closeness       = nx.closeness_centrality(SG, distance="weight")
-
+    closeness = nx.closeness_centrality(SG)
     def _mean_for_targets(metric_dict):
         vals = [metric_dict.get(t, 0.0) for t in valid_targets]
         return float(np.mean(vals)) if vals else 0.0

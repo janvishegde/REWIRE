@@ -89,13 +89,15 @@ def parse_small_molecule_drugs(file_path: str) -> pd.DataFrame:
             tag = child.tag
 
             if tag.endswith("drugbank-id") and child.attrib.get("primary") == "true":
-                # Prefer the primary ID  (e.g. DB00619 for Imatinib)
                 drug_id = child.text or ""
 
-            elif tag.endswith("name") and not drug_name:
-                drug_name = (child.text or "").strip()
+        # ONLY grab the DIRECT top-level <name> tag
+        name_elem = elem.find("{http://www.drugbank.ca}name")
 
-        # Fallback: grab first drugbank-id if primary flag wasn't set
+        if name_elem is not None:
+            drug_name = (name_elem.text or "").strip()
+        else:
+            drug_name = ""        # Fallback: grab first drugbank-id if primary flag wasn't set
         if not drug_id:
             for child in elem:
                 if child.tag.endswith("drugbank-id"):
@@ -110,26 +112,50 @@ def parse_small_molecule_drugs(file_path: str) -> pd.DataFrame:
                 continue
 
             for target in child:
-                gene_symbol  = ""
-                organism     = ""
+
+                gene_symbol = ""
+                organism    = ""
+                action      = "unknown"
 
                 for sub in target:
 
+                    # ── Organism ───────────────────────────────────────
                     if sub.tag.endswith("organism"):
                         organism = (sub.text or "").strip()
 
+                    # ── Target gene ────────────────────────────────────
                     elif sub.tag.endswith("polypeptide"):
+
                         for poly in sub:
                             if poly.tag.endswith("gene-name"):
-                                gene_symbol = (poly.text or "").strip().upper()
+                                gene_symbol = (
+                                    poly.text or ""
+                                ).strip().upper()
 
-                # ── HUMAN + NON-EMPTY GENE FILTER ────────────────────────
+                    # ── Drug action / mechanism ───────────────────────
+                    elif sub.tag.endswith("actions"):
+
+                        action_list = []
+
+                        for act in sub:
+
+                            if act.tag.endswith("action") and act.text:
+                                action_list.append(
+                                    act.text.strip().lower()
+                                )
+
+                        if action_list:
+                            action = ";".join(action_list)
+
+                 # ── HUMAN + NON-EMPTY GENE FILTER ─────────────────────
                 if organism == "Humans" and gene_symbol:
-                    records.append({
+
+                     records.append({
                         "drug_name":   drug_name,
                         "gene_symbol": gene_symbol,
+                        "action":      action,
                     })
-                    drug_had_valid_target = True
+                     drug_had_valid_target = True
 
         if not drug_had_valid_target:
             total_skip += 1
@@ -154,28 +180,65 @@ def parse_small_molecule_drugs(file_path: str) -> pd.DataFrame:
 # ── Post-processing ───────────────────────────────────────────────────────────
 def clean_and_save(df: pd.DataFrame, output_path: str) -> pd.DataFrame:
     """
-    Deduplicate, sort, run sanity checks, and write CSV.
+    Deduplicate, clean, sort, run sanity checks, and write CSV.
     """
-    # Drop exact duplicates (same drug + same gene appearing twice)
-    df = df.drop_duplicates(subset=["drug_name", "gene_symbol"]).reset_index(drop=True)
 
-    # Sort for reproducibility and readability
-    df = df.sort_values(["drug_name", "gene_symbol"]).reset_index(drop=True)
+    # ── Remove blank names/genes ─────────────────────────────────────────
+    df = df.dropna(subset=["drug_name", "gene_symbol","action"])
 
-    # ── Sanity: confirm must-have drugs are present ───────────────────────
+    df["drug_name"] = df["drug_name"].astype(str).str.strip()
+    df["gene_symbol"] = df["gene_symbol"].astype(str).str.strip()
+
+    df = df[
+        (df["drug_name"] != "") &
+        (df["gene_symbol"] != "")
+    ]
+
+    # ── Remove chemistry-style entries for cleaner demos ────────────────
+    # Keeps canonical drugs like Imatinib, Metformin, Gefitinib
+    # Removes ugly structure-only compounds starting with "("
+    # Remove overly chemical-looking names
+    df = df[
+        df["drug_name"].str.len() < 40
+    ]
+
+    # Remove long ALLCAPS chemistry names
+    df = df[
+         ~df["drug_name"].str.contains(
+            r"[A-Z]{8,}",
+            regex=True,
+            na=False
+        )
+    ]
+
+    # ── Drop exact duplicates ────────────────────────────────────────────
+    df = df.drop_duplicates(
+        subset=["drug_name", "gene_symbol"]
+    ).reset_index(drop=True)
+
+    # ── Sort for readability/reproducibility ────────────────────────────
+    df = df.sort_values(
+        ["drug_name", "gene_symbol"]
+    ).reset_index(drop=True)
+
+    # ── Sanity check ─────────────────────────────────────────────────────
     drugs_found = set(df["drug_name"].unique())
+
     print("\n── Must-have drug check ─────────────────────────────")
+
     for drug in sorted(MUST_HAVE):
         status = "✅ FOUND" if drug in drugs_found else "❌ MISSING"
         print(f"  {status}  {drug}")
 
-    # ── Quick summary ─────────────────────────────────────────────────────
+    # ── Quick summary ────────────────────────────────────────────────────
     print(f"\n── Output summary ───────────────────────────────────")
     print(f"  Unique drugs   : {df['drug_name'].nunique():,}")
     print(f"  Unique genes   : {df['gene_symbol'].nunique():,}")
     print(f"  Total rows     : {len(df):,}")
 
+    # ── Save CSV ─────────────────────────────────────────────────────────
     df.to_csv(output_path, index=False)
+
     print(f"\n  Saved → {output_path}")
 
     return df
