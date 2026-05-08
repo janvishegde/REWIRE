@@ -112,26 +112,50 @@ def parse_small_molecule_drugs(file_path: str) -> pd.DataFrame:
                 continue
 
             for target in child:
-                gene_symbol  = ""
-                organism     = ""
+
+                gene_symbol = ""
+                organism    = ""
+                action      = "unknown"
 
                 for sub in target:
 
+                    # ── Organism ───────────────────────────────────────
                     if sub.tag.endswith("organism"):
                         organism = (sub.text or "").strip()
 
+                    # ── Target gene ────────────────────────────────────
                     elif sub.tag.endswith("polypeptide"):
+
                         for poly in sub:
                             if poly.tag.endswith("gene-name"):
-                                gene_symbol = (poly.text or "").strip().upper()
+                                gene_symbol = (
+                                    poly.text or ""
+                                ).strip().upper()
 
-                # ── HUMAN + NON-EMPTY GENE FILTER ────────────────────────
+                    # ── Drug action / mechanism ───────────────────────
+                    elif sub.tag.endswith("actions"):
+
+                        action_list = []
+
+                        for act in sub:
+
+                            if act.tag.endswith("action") and act.text:
+                                action_list.append(
+                                    act.text.strip().lower()
+                                )
+
+                        if action_list:
+                            action = ";".join(action_list)
+
+                 # ── HUMAN + NON-EMPTY GENE FILTER ─────────────────────
                 if organism == "Humans" and gene_symbol:
-                    records.append({
+
+                     records.append({
                         "drug_name":   drug_name,
                         "gene_symbol": gene_symbol,
+                        "action":      action,
                     })
-                    drug_had_valid_target = True
+                     drug_had_valid_target = True
 
         if not drug_had_valid_target:
             total_skip += 1
@@ -160,7 +184,7 @@ def clean_and_save(df: pd.DataFrame, output_path: str) -> pd.DataFrame:
     """
 
     # ── Remove blank names/genes ─────────────────────────────────────────
-    df = df.dropna(subset=["drug_name", "gene_symbol"])
+    df = df.dropna(subset=["drug_name", "gene_symbol","action"])
 
     df["drug_name"] = df["drug_name"].astype(str).str.strip()
     df["gene_symbol"] = df["gene_symbol"].astype(str).str.strip()
